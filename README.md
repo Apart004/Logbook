@@ -1,68 +1,29 @@
-# 📔 Engineering Logbook
-Welcome to my daily engineering journal. This repository tracks my hands-on progression through security operations, infrastructure deployment, scripting, and system administration.
+# June 7, 2026
+Focus: Threat Intel Platform, Wazuh Lab, TryHackMe, GATE Prep
+
+## Advanced Threat Intelligence Platform (TIP)
+Upgraded the Elasticsearch sync pipeline by adding `severity` and `blocked_status` enrichment fields to the enforcement logs. This automates severity classification for blocked indicators and adds tracking to differentiate active blocks from rollbacks. Rebuilt the `enforcement_logs` index, ran a full re-sync, and verified that Kibana is cleanly pulling the new threat context. 
+Takeaway: Telemetry is useless without immediate analyst context for prioritization.
 
 ---
 
-# 📅 June 7, 2026
-
-## 🛡️ Advanced Threat Intelligence Platform (TIP)
-
-Continued development of the **Finance & Banking Threat Intelligence Platform (TIP) & Dynamic Policy Enforcer**, focusing on improving threat visibility and analyst decision-making.
-
-### 🔧 Enhancements Implemented
-- Added **Severity Classification** to enforcement logs:
-  - 🔴 Critical (Score ≥ 9)
-  - 🟠 High (Score ≥ 8)
-  - 🟡 Medium
-
-- Added **Blocked Status Tracking**:
-  - Blocked
-  - Rolled Back
-
-### ⚙️ Elasticsearch & Kibana Operations
-- Rebuilt the `enforcement_logs` Elasticsearch index to apply schema updates.
-- Performed a complete re-synchronization of enforcement data.
-- Verified all enforcement records were successfully indexed.
-- Confirmed enriched threat data was displayed correctly in Kibana dashboards.
-
-### 🎯 Why It Matters
-These enhancements provide SOC analysts with richer context, faster prioritization of threats, and improved visibility into enforcement actions and rollback decisions.
+## Wazuh SOC Homelab
+Ran a health check on the Wazuh environment (services, endpoints, dashboard connectivity). To test the logging pipeline, I dropped into the Threat Hunting module and generated live Windows security events by creating a few temporary user accounts. Confirmed that the account-management logs successfully routed from the endpoint, got processed/indexed, and popped up on the SIEM dashboard.
+Takeaway: Don't trust a SIEM works until you manually detonate events and trace them to the dashboard.
 
 ---
 
-## 🏢 Wazuh SOC Homelab
-
-Continued hands-on work within my self-hosted **Wazuh-Based SOC Homelab**.
-
-### 🔍 Security Monitoring Activities
-- Verified Wazuh Manager, Indexer, and Dashboard services.
-- Validated endpoint connectivity and SIEM health.
-- Explored the Threat Hunting module.
-- Generated Windows security events by creating a temporary user account.
-- Monitored account-management events collected by the Wazuh Agent.
-- Investigated event ingestion and dashboard visibility.
-
-### 🎯 Why It Matters
-Successfully validated the complete monitoring pipeline from endpoint event generation to centralized SIEM analysis, simulating a real SOC investigation workflow.
+## TryHackMe — Computer Types
+Finished the "Computer Types" room, looking at the structural differences between workstations, servers, embedded systems, and IoT devices. 
+Takeaway: You can't defend an enterprise network if you don't understand the distinct attack surfaces of its hardware assets.
 
 ---
 
-## 🎓 TryHackMe
-
-### ✅ Computer Types Room Completed
-
-Studied:
-- Workstations and desktops
-- Enterprise servers
-- Mobile and embedded devices
-- Cloud computing platforms
-- Specialized computing systems
-
-### 🎯 Why It Matters
-Strengthened foundational knowledge of the different computing environments that security teams monitor, defend, and investigate in enterprise networks.
+## GATE CSE 2027 Preparation
+Locked down my official subject sequence, daily study strategy, and long-term timeline leading up to the exam. The goal here is a balanced, daily grind through core CS theory that integrates smoothly with my active coding and cybersecurity lab work rather than trying to cram it all at the last minute.
+Takeaway: Consistency beats intensity. 
 
 ---
 
-## 🚀 Daily Outcome
-
-Today's work improved **threat intelligence enrichment**, **SIEM visibility**, and **SOC investigation capabilities** while reinforcing core knowledge of enterprise computing systems and cybersecurity operations.
+## Daily Outcome
+Enriched TIP log metadata in Elasticsearch, verified end-to-end endpoint monitoring in Wazuh, cleared the THM hardware basics lab, and finalized the GATE 2027 study roadmap. Passed today's update to the main logbook branch.
