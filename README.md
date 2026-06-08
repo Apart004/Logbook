@@ -1,29 +1,39 @@
-# June 7, 2026
-Focus: Threat Intel Platform, Wazuh Lab, TryHackMe, GATE Prep
+# 🛠️ Engineering Logbook & Proof of Work
 
-## Advanced Threat Intelligence Platform (TIP)
-Upgraded the Elasticsearch sync pipeline by adding `severity` and `blocked_status` enrichment fields to the enforcement logs. This automates severity classification for blocked indicators and adds tracking to differentiate active blocks from rollbacks. Rebuilt the `enforcement_logs` index, ran a full re-sync, and verified that Kibana is cleanly pulling the new threat context. 
-Takeaway: Telemetry is useless without immediate analyst context for prioritization.
+Welcome to my active technical journal. This repository tracks my hands-on progression across security infrastructure deployment, full-stack intelligence tooling, automation scripting, and rigorous academic computer science theory.
 
 ---
 
-## Wazuh SOC Homelab
-Ran a health check on the Wazuh environment (services, endpoints, dashboard connectivity). To test the logging pipeline, I dropped into the Threat Hunting module and generated live Windows security events by creating a few temporary user accounts. Confirmed that the account-management logs successfully routed from the endpoint, got processed/indexed, and popped up on the SIEM dashboard.
-Takeaway: Don't trust a SIEM works until you manually detonate events and trace them to the dashboard.
+## 🚀 Active Engineering Projects
+Click on any project below to see the development history, command logs, and structural milestones for that specific build.
+
+* [🛡️ Threat Intelligence Platform (TIP)](./projects/threat_intel.md) — Elasticsearch index configuration, data pipelines, telemetry enrichment, and automation scripts (`rollback.py`).
+* [🏢 Wazuh SOC Homelab](./projects/wazuh_soc.md) — Endpoint security telemetry monitoring, custom rulesets, alert routing, and live event detonation.
 
 ---
 
-## TryHackMe — Computer Types
-Finished the "Computer Types" room, looking at the structural differences between workstations, servers, embedded systems, and IoT devices. 
-Takeaway: You can't defend an enterprise network if you don't understand the distinct attack surfaces of its hardware assets.
+## 🎯 Continuous Learning Tracks
+Click on a track below to view labs cleared and theoretical engineering milestones.
+
+* [🥷 TryHackMe Labs](./tracks/tryhackme.md) — Infrastructure exploitation, network enumeration, privilege escalation, and Linux fundamental labs.
+* [📚 GATE CSE 2027 Prep](./tracks/gate_cse.md) — Theoretical engineering core: Computer Organization, Systems Architecture, C Programming Theory, and Algorithms.
 
 ---
 
-## GATE CSE 2027 Preparation
-Locked down my official subject sequence, daily study strategy, and long-term timeline leading up to the exam. The goal here is a balanced, daily grind through core CS theory that integrates smoothly with my active coding and cybersecurity lab work rather than trying to cram it all at the last minute.
-Takeaway: Consistency beats intensity. 
+## 📅 Chronological Log Archives
+To trace my day-to-day consistency and check what I executed on any specific date, navigate through the timeline matrix tables below.
+
+### 2026 Tracking Matrix
+| Quarter 1 (Q1) | Quarter 2 (Q2) | Quarter 3 (Q3) | Quarter 4 (Q4) |
+| :--- | :--- | :--- | :--- |
+| ❄️ Jan (Empty) | 🌱 Apr (Empty) | ☀️ Jul (Pending) | 🍂 Oct (Pending) |
+| ❄️ Feb (Empty) | 🌱 [May 2026 Logs](./archive/2026_05_may.md) | ☀️ Aug (Pending) | 🍂 Nov (Pending) |
+| ❄️ Mar (Empty) | 🌱 [June 2026 Logs](./archive/2026_06_june.md) | ☀️ Sep (Pending) | 🍂 Dec (Pending) |
 
 ---
 
-## Daily Outcome
-Enriched TIP log metadata in Elasticsearch, verified end-to-end endpoint monitoring in Wazuh, cleared the THM hardware basics lab, and finalized the GATE 2027 study roadmap. Passed today's update to the main logbook branch.
+## 💻 System Baseline Tech Stack
+* **Languages & Automation:** Python, C, C++, Bash
+* **Data Management & Telemetry:** Elasticsearch, Kibana, MongoDB, Lucene Query Syntax
+* **Security Operations:** Wazuh SIEM, Nmap, Iptables/Netfilter, Linux Syscall Utilities
+* **Infrastructure:** Git/GitHub Actions, VirtualBox Virtualization, Linux Server Environments
