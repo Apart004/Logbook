@@ -1,3 +1,10 @@
+# June 9, 2026
+Focus: Real-Time File Integrity Monitoring (FIM) Configuration
+
+-What I did: Troubleshooted missing endpoint event states and configured real-time File Integrity Monitoring (FIM) across the Windows infrastructure. Audited and modified the client-side `ossec.conf` file to inject a custom evaluation rule targeting `C:\Desktop` with active realtime tracking flags enabled. Restarted the underlying agent architecture via administrative PowerShell, validated telemetry syncs, and performed live detonation cycles (creation, modification, structural deletions) to verify zero-latency alert ingestion on the SIEM Threat Hunting dashboard.
+
+-Takeaway: File Integrity Monitoring provides a core behavioral line of defense; mapping precise local directories via agent profiles ensures malicious persistence mechanisms or unexpected system changes are caught at the exact second of entry.
+
 # June 8, 2026
 Focus: Telemetry Validation & Brute-Force Simulation
 
