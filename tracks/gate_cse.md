@@ -1,3 +1,16 @@
+# June 10, 2026
+Focus: 1D and 2D Array Structures & Pointer Offsets
+
+-What I did: Mastered contiguous linear allocation patterns by reviewing 1D arrays alongside multidimensional (2D) row-major configurations. Drilled deep into index evaluation mechanics, base address calculation equations, stride length increments, and compile-time boundary constraints while executing structural code examples to map how multi-indices reduce to linear physical offsets.
+-Takeaway: Array brackets ($A[i][j]$) serve as a syntactic abstraction for raw pointer arithmetic, evaluating directly to dynamic target locations based on element size offsets and raw contiguous row length factors ($\*( \*(A + i) + j)$).
+
+# June 9, 2026
+Focus: C Unary Operators & Pointer Architecture
+
+-What I did: Deep-dived into the evaluation mechanics of unary pre/post-increment and decrement operators ($++$, $--$), focusing on operator precedence, sequence points, and compiler-specific side effects. Paired this with a detailed architectural breakdown of pointers, analyzing address-of operators ($\&$), dereferencing ($\*$), memory layouts, pointer arithmetic rules, and how data sizes dictate byte offsets during pointer step increments.
+
+-Takeaway: Post-increment operators evaluate the current expression value before modifying the register variable, whereas pointer arithmetic modifies physical byte steps based strictly on the scaling factor of the data type it references.
+
 # June 8, 2026
 Focus: GATE C Programming Foundation & Lexical Analysis
 
