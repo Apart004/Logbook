@@ -4,6 +4,9 @@ Focus: Windows Administration & Attack Surface Baselines
 -What I did: Completed the "Windows Basics" module on TryHackMe using a Windows Server 2019 lab instance. Explored essential system administration panels, distinguishing between native Settings and legacy Control Panel options, while monitoring live system processes inside Task Manager. Audited underlying security layers including Windows Update status, built-in Windows Security options, and inbound/outbound rules inside Windows Defender Firewall.
 -Takeaway: Securing an enterprise endpoint requires mastery over its default OS monitoring interfaces and local firewall rules to quickly spot abnormal processes or unauthorized network traffic patterns.
 
+### Room Completion Verification
+![TryHackMe Windows Basics Completion Proof](../assets/tracks/thm_windows_basics_complete.png)
+
 # June 10, 2026
 Focus: OS Architecture, Execution Spaces & Resource Control
 
