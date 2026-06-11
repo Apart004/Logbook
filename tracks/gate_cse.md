@@ -1,3 +1,9 @@
+# June 11, 2026
+Focus: Pointer-to-Array Conversions & 2D Matrix Addressing
+
+-What I did: Advanced through core GATE C theory by breaking down the intersection of multidimensional (2D) arrays and pointer decays. Evaluated matrix index offset conversions, analyzing how an array identifier decays into a pointer to its first row vector (e.g., $A$ as type `int (*)[N]`). Solved baseline practice problems to map out multi-dereferencing address calculations and element stride scales ahead of deep-dive pointer question tracking tomorrow.
+-Takeaway: An array name behaves as a constant pointer to its first contiguous block; scaling multidimensional lookups correctly requires mapping how nested dereferences handle array pointer decayed types.
+
 # June 10, 2026
 Focus: 1D and 2D Array Structures & Pointer Offsets
 

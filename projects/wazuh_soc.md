@@ -1,3 +1,9 @@
+# June 11, 2026
+Focus: Active Response Automated Framework & Queue Configuration
+
+-What I did: Configured the Wazuh Active Response engine on the SIEM manager, modifying core parameters to trigger automated defensive scripts for rule alerts matching severity Level 10+. Checked syntax validity with the analysis daemon testing utility, verified active engine queues upon restarting services, and detonated a Level 13 pseudo-privilege escalation alert via `sudo` execution. Observed that while alerting triggers are functional, automated scripts like `host-deny` safely filter out executions missing explicit network tuple dependencies.
+-Takeaway: Automated defense pipelines must be built defensively; ensuring your response triggers validate matching telemetry parameters prevents broken script executions or system service instability.
+
 # June 10, 2026
 Focus: User Account Monitoring & Privilege Escalation Audits
 
