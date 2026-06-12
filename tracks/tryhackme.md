@@ -1,3 +1,9 @@
+# June 12, 2026
+Focus: Data Representation & Positional Numeral Subsystems
+
+-What I did: Cleared the "Intro to Digital Forensics / Base Systems" architectural training module on TryHackMe. Deconstructed numerical representation paradigms across computer hardware and memory registers, mapping the operational dynamics of Decimal (Base-10), Binary (Base-2), Hexadecimal (Base-16), and Octal (Base-8) counting logic. Analyzed low-level telemetry storage allocations—mapping individual bit/byte boundaries (octets) alongside 24-bit Hex RGB color space combinations ($2^{24} \approx 16.7\text{ million}$).
+-Takeaway: Forensic log parsing and network packet analysis require deep agility with base systems, as malicious binaries, protocols, and data structures hide within native hex streams or raw byte signatures.
+
 # June 11, 2026
 Focus: Windows Administration & Attack Surface Baselines
 

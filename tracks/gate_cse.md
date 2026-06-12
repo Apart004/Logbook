@@ -1,3 +1,9 @@
+# June 12, 2026
+Focus: Operator Precedence, Multi-Level Pointer Tracking & Recursion
+
+-What I did: Solved an advanced set of GATE CSE practice questions centered around C programming core primitives. Audited complex arithmetic and bitwise operator precedence bounds, multidimensional array index evaluations, and pointer dereferencing offsets. Analyzed localized stack frames by tracking primitive variable mutations, tracking address steps, and executing dry-runs of introductory recursive function branches to plot inductive termination baselines.
+-Takeaway: Mastery over the C memory model demands tracking how the compiler builds stack layouts during recursion, alongside exact execution hierarchies dictated by operator precedence.
+
 # June 11, 2026
 Focus: Pointer-to-Array Conversions & 2D Matrix Addressing
 

@@ -1,3 +1,10 @@
+# June 12, 2026
+Focus: AlienVault OTX Threat Intelligence API Framework
+
+-What I did: Initiated an open-source threat intelligence ecosystem on the Wazuh SIEM manager by preparing an isolated workspace environment (`~/threat-intel`). Addressed modern Ubuntu package management constraints by instantiating an active Python virtual environment to host the AlienVault OTX Python SDK (`OTXv2`). Designed an abstract file structure to securely read and parse OTX API credentials without exposure in application code. Conducted live syntax validation testing on an initial Indicator of Compromise (IOC) retrieval script, isolating specific interactive python interpreter syntax errors for refactoring in the next sprint.
+-Takeaway: Threat intelligence feeds are critical for contextual SIEM alerting, but programmatic integrations must prioritize compartmentalized dependencies and credential isolation to avoid credential leakage or dependency hell.
+
+
 # June 11, 2026
 Focus: Active Response Automated Framework & Queue Configuration
 
