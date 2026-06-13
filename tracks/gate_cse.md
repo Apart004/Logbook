@@ -1,3 +1,9 @@
+# June 13, 2026
+Focus: C Structures, Unions & Heterogeneous Data Types
+
+-What I did: Advanced through core GATE C language fundamentals, focusing on user-defined data structures. Audited architectural distinctions between `struct` and `union` specifiers, tracking how memory spaces are allocated sequentially for struct fields versus shared overlaps for union objects. Evaluated complex pointer-to-structure element assignments, compiled array-of-structures examples, and evaluated layout alignment and padding rules enforced by standard compilers.
+-Takeaway: Calculating memory footprints for exam questions requires an exact understanding of memory layout; fields in a struct accumulate contiguous memory addresses whereas a union collapses storage constraints down to the width of its largest internal member.
+
 # June 12, 2026
 Focus: Operator Precedence, Multi-Level Pointer Tracking & Recursion
 

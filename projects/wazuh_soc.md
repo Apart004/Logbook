@@ -1,3 +1,9 @@
+# June 13, 2026
+Focus: AlienVault OTX API Authentication & Threat Feed JSON Parsing
+
+-What I did: Completed Day 14 of the custom Threat Intelligence integration. Stabilized the Ubuntu server's Python virtual environment package dependencies and validated secure HTTPS API communication with the AlienVault Open Threat Exchange (OTX) platform using authenticated configuration headers. Developed a specialized Python data acquisition script using the `Requests` library to query active subscribed pulse endpoints. Successfully fetched and parsed raw JSON data payloads into structured formats, extracting core threat pulse metrics including pulse names, authors, and timestamps for tracking high-profile vulnerabilities (e.g., *ClickFix Evolves with PySoxy Proxying*, *The Gentlemens Leak*).
+-Takeaway: Defensive SIEM engineering requires proactive ingestion; programmatically fetching and flattening unstructured threat intelligence streams into clean JSON schemas is a prerequisite step before executing indicators extraction or database normalization workflows.
+
 # June 12, 2026
 Focus: AlienVault OTX Threat Intelligence API Framework
 

@@ -1,3 +1,9 @@
+# June 13, 2026
+Focus: Text Encoding Architectures, Code Points & Serialization Standards
+
+-What I did: Completed the "Data Encoding" architectural training module on TryHackMe. Audited the legacy structural boundaries of 7-bit ASCII systems and analyzed how the modern Unicode consortium abstracts character representation by mapping global, universal code points to cross-linguistic alphabets, technical symbols, and emoji sets. Dissected the byte-serialization mechanics, performance trade-offs, and storage overhead discrepancies between variable-width ($UTF-8$, $UTF-16$) and fixed-width ($UTF-32$) data streams inside network buffers.
+-Takeaway: Protocol analysis and deep packet inspections require a granular understanding of serialization wrappers; defensive engineers must distinguish between raw binary markers and encoded unicode arrays to prevent buffer misinterpretations or bypass vulnerabilities.
+
 # June 12, 2026
 Focus: Data Representation & Positional Numeral Subsystems
 
