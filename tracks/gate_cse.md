@@ -1,3 +1,9 @@
+# June 14, 2026
+Focus: Propositional Logic Foundations & Truth Tables
+
+-What I did: Commenced the Discrete Mathematics syllabus section, focusing on Mathematical Logic. Audited core theory covering declarative propositions, truth values, and structural logical connectives (Conjunction, Disjunction, Negation, Implication, and Biconditional). Mapped out truth table constructions for compounding logic expressions and evaluated conditional operator dependencies ($p \rightarrow q$) to track state transitions and truth preservation criteria.
+-Takeaway: Propositional logic forms the foundational bed for digital logic design and formal verification in computer science; parsing complex conditionals correctly requires strict reliance on formal truth functional tables rather than conversational language interpretations.
+
 # June 13, 2026
 Focus: C Structures, Unions & Heterogeneous Data Types
 

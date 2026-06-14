@@ -1,3 +1,9 @@
+# June 14, 2026
+Focus: The CIA Triad & Core Information Security Pillars
+
+-What I did: Completed the "CIA Triad" fundamental foundational training module on TryHackMe. Deep-dived into the baseline pillars of data security: Confidentiality (preventing unauthorized data exposure via mechanisms like encryption and access controls), Integrity (guaranteeing data remains unmodified and authentic using hashing and digital signatures), and Availability (ensuring consistent system and data uptime via redundancy and fault tolerance). Analyzed real-world breach scenarios to identify which specific pillars were compromised during tactical attack vectors.
+-Takeaway: Every security policy, architectural constraint, and defensive control engineered across an enterprise infrastructure is explicitly designed to uphold one or more pillars of the CIA Triad; balancing these three constraints is the primary objective of information security frameworks.
+
 # June 13, 2026
 Focus: Text Encoding Architectures, Code Points & Serialization Standards
 
