@@ -1,3 +1,9 @@
+# June 15, 2026
+Focus: InfoSec Principles & CIA Triad Culmination
+
+-What I did: Concluded the foundational review of the CIA Triad architectural module on TryHackMe. Solidified the precise operational parameters of the core security triad: Confidentiality (restricting data telemetry exposure via encryption matrices and rigid ACLs), Integrity (guaranteeing unmitigated data fidelity utilizing cryptographic hashing routines), and Availability (ensuring non-disrupted platform uptime via load balancing and systemic fault tolerance design patterns).
+-Takeaway: Internalizing the strict technical definitions of Confidentiality, Integrity, and Availability establishes the vital, overarching mindset required to model threats and audit modern enterprise networks.
+
 # June 14, 2026
 Focus: The CIA Triad & Core Information Security Pillars
 

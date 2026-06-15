@@ -1,3 +1,9 @@
+# June 15, 2026
+Focus: Static Application Security Testing (SAST) & Pipeline Hardening
+
+-What I did: Advanced the automated DevSecOps infrastructure to Day 4 deployment goals by integrating the Bandit SAST scanner into the GitHub Actions workflow pipeline (`.github/workflows/devsecops-pipeline.yml`). Pin-packaged `bandit==1.7.5` within the codebase `requirements.txt`. Successfully isolated and debugged a breaking `ModuleNotFoundError: No module named 'pbr'` compilation anomaly within the ephemeral runner environment by explicit dependency mapping. Verified that the hardened pipeline automatically audits the `app/` directory for syntax vulnerabilities on every distinct code push. Pushed to remote main trunk via squash-merge Pull Request #4.
+-Takeaway: Incorporating automated linting and static analysis (SAST) directly into active CI runner jobs allows developers to intercept insecure coding patterns, hardcoded secrets, or flawed functions before compilation contexts undergo build steps.
+
 # June 13, 2026
 Focus: Continuous Integration Framework & GitHub Actions Automation
 

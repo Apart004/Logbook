@@ -1,3 +1,9 @@
+# June 15, 2026
+Focus: Propositional Operators, Logical Precedence & Conditional Equivalences
+
+-What I did: Advanced through Discrete Mathematics (Mathematical Logic) structures. Evaluated the strict semantic constraints of conditional statements, distinguishing between "necessary" conditions and "sufficient" conditions inside truth tables ($p \rightarrow q$). Structured propositional variables into complex well-formed formulas (WFFs) and analyzed the explicit operator precedence hierarchy governing logical expressions: Negation ($\neg$), Conjunction ($\wedge$), Disjunction ($\vee$), Exclusive OR ($\oplus$), Conditional ($\rightarrow$), and Biconditional ($\leftrightarrow$). Validated evaluation ordering by resolving structural logic questions.
+-Takeaway: Accurate resolution of compound propositional logic formulas relies completely on applying operator priority boundaries; misinterpreting logical precedence or conditional implications introduces fundamental errors when mapping truth tables or parsing boolean logic blocks.
+
 # June 14, 2026
 Focus: Propositional Logic Foundations & Truth Tables
 
