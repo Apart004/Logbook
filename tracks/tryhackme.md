@@ -1,3 +1,9 @@
+# June 16, 2026
+Focus: Cryptographic Prerequisites & Symmetric Substitution Ciphers
+
+-What I did: Initiated the foundational Cryptography training module on TryHackMe to study data protection frameworks. Evaluated essential security terms including plaintext inputs, ciphertext transformations, key distribution spaces, and mathematical hashing constraints. Completed hands-on practical decoding exercises by manually and programmatically breaking monoalphabetic symmetric substitution ciphers using the modular shifts of the Caesar Cipher technique.
+-Takeaway: Cryptography forms the backbone of data security pipelines; understanding low-level mathematical character shifting and substitution primitives is essential before exploring modern asymmetric frameworks or multi-layered transportation protocols.
+
 # June 15, 2026
 Focus: InfoSec Principles & CIA Triad Culmination
 

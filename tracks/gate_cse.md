@@ -1,3 +1,9 @@
+# June 16, 2026
+Focus: Variable Scoping Mechanics & Modular Function Execution
+
+-What I did: Advanced through the core C programming syllabus for GATE preparation. Conducted a granular architectural review of variable storage scopes, evaluating lifetime boundaries and visibility differences between local block-scoped and global file-scoped variables. Deconstructed procedural functions down to declaration prototypes, initialization states, and physical stack-frame instantiation. Analyzed memory allocation and mutating properties across parameters via distinct parameter passing techniques: Call by Value, Call by Reference, and Call by Address.
+-Takeaway: Masterfully evaluating parameter routing models prevents evaluation logic mistakes on standard compiler tracking puzzles; distinguishing how value copies behave compared to raw pointer arithmetic addresses is critical for optimizing memory and tracking pointer structures.
+
 # June 15, 2026
 Focus: Propositional Operators, Logical Precedence & Conditional Equivalences
 
