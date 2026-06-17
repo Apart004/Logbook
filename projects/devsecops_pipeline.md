@@ -1,3 +1,9 @@
+# June 17, 2026
+Focus: Intentional Vulnerability Injection & SAST Pipeline Validation
+
+-What I did: Concluded Day 5 milestone targets by validating the programmatic error-handling capabilities of the continuous integration security gate. Deliberately injected three critical OWASP-top-10 software vulnerabilities into `app/routes.py`: hardcoded authentication credentials (OWASP A02: Cryptographic Failures), arbitrary command injection vulnerabilities via an un-escaped `subprocess` call running `shell=True`, and unsafe evaluation parameters utilizing `eval()` (OWASP A03: Injection). Configured the automated Bandit SAST engine pipeline step (`.github/workflows/devsecops-pipeline.yml`) to return non-zero exit codes and explicitly break the runner execution block upon encountering high-severity findings. Verified that the pipeline accurately failed, intercepting the vulnerable push before branch merging. Merged via squash-merge Pull Request #6.
+-Takeaway: Security automation tools are only useful if they act as an unpassable barrier; implementing strict structural configurations that crash the pipeline runner on high-risk findings prevents insecure code from shifting into active branches.
+
 # June 16, 2026
 Focus: Documentation Infrastructure & Pipeline Visualization
 

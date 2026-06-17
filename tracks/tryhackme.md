@@ -1,3 +1,9 @@
+# June 17, 2026
+Focus: Hybrid Cryptosystems & Defense-in-Depth Engineering
+
+-What I did: Finalized the foundational Cryptography architectural module on TryHackMe. Deconstructed the real-world execution mechanics of hybrid cryptosystems used in TLS handshakes, analyzing how slow asymmetric primitives (RSA, ECC) are leveraged to negotiate a secure, shared ephemeral key, which is then passed to highly efficient symmetric encryption engines (AES, ChaCha20) for rapid high-volume payload transport. Map-profiled cryptography as a single operational layer within a robust defense-in-depth framework that demands auxiliary monitoring, strong credential patterns, and patch cycles.
+-Takeaway: Cryptography is not a single fix-all solution; it ensures confidentiality and structural data integrity at rest and in transit, but it fails unless it is accompanied by safe key management and deep monitoring practices.
+
 # June 16, 2026
 Focus: Cryptographic Prerequisites & Symmetric Substitution Ciphers
 
