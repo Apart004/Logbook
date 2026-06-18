@@ -1,3 +1,9 @@
+# June 18, 2026
+Focus: Remediation, Software Composition Analysis (SCA) & Multi-Scanner Orchestration
+
+-What I did: Advanced the CI framework to Day 6 milestones by executing code remediation and introducing Software Composition Analysis (SCA). Patched the intentional OWASP flaws inside `app/routes.py` to restore a clean, secure codebase baseline. Integrated the Safety SCA scanner (`safety==2.3.5`) into the GitHub Actions workflow pipeline to inspect third-party dependencies for known CVEs. Isolated and resolved a syntax execution bug with the Bandit scanner configuration by correcting the `--exit-zero` parameter syntax inside `.github/workflows/devsecops-pipeline.yml`. Verified that both SAST (Bandit) and SCA (Safety) security engines run concurrently as mandatory validation gates. Merged via squash-merge Pull Request #7.
+-Takeaway: Shifting security left requires a layered approach; combining Static Application Security Testing (SAST) to evaluate custom source code syntax alongside Software Composition Analysis (SCA) to intercept open-source dependency vulnerabilities creates an airtight defense during integration phases.
+
 # June 17, 2026
 Focus: Intentional Vulnerability Injection & SAST Pipeline Validation
 

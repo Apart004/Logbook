@@ -1,3 +1,9 @@
+# June 18, 2026
+Focus: Offensive Security Intro & Web Application Reconnaissance
+
+-What I did: Completed the "Offensive Security Intro" practical training module on TryHackMe. Adopted an adversarial engineering mindset to study basic web application target surfaces. Initiated sandboxed deployment labs to execute web-based reconnaissance mapping, directory busting to isolate unlinked hidden administrative pages, and simulated a basic web resource exploit sequence to gain unauthorized access to an exposed application admin portal.
+-Takeaway: Effective defense requires an intimate understanding of adversarial methodology; tracking how attackers locate hidden directories and exploit weak administrative interfaces informs better routing isolation, path configurations, and defensive monitoring.
+
 # June 17, 2026
 Focus: Hybrid Cryptosystems & Defense-in-Depth Engineering
 

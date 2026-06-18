@@ -1,4 +1,10 @@
-# June 14, 2026
+# June 18, 2026
+Focus: Propositional Equivalence Laws & Logical Simplifications
+
+-What I did: Conducted an extensive problem-solving session in Discrete Mathematics. Mastered the structural application of Propositional Logic equivalence laws (including De Morgan’s, Distributive, Associative, Idempotent, and Conditional Elimination rules) to programmatically simplify complex logic expressions. Complemented theoretical evaluations by verifying logical equivalence puzzles using both formal algebraic simplification and exhaustive proof-by-cases truth analysis.
+-Takeaway: Utilizing propositional identity laws allows for the compression of massive, multi-variable boolean conditions down to minimal execution terms; this foundational skill is vital for solving GATE logic minimization problems and optimizing runtime source-code conditionals.
+
+# June 17, 2026
 Focus: Mathematical Proof by Cases & Runtime Execution Record Frameworks
 
 -What I did: Advanced through Discrete Mathematics proof strategies by targeting the Proof by Cases (Exhaustive Proof) methodology ($\left(p_1 \vee p_2 \vee \dots \vee p_n\right) \rightarrow q$), solving exhaustive algorithmic validation queries across diverse domain ranges. Correlated these structural logical boundaries with low-level execution semantics in C Programming by diagramming how compilers format memory layers for application records and functional activation records (stack frames) to maintain tracking vectors, state values, and return pointer addresses during runtime execution.
