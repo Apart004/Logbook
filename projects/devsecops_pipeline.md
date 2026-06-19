@@ -1,3 +1,9 @@
+# June 19, 2026
+Focus: Container Security, Trivy Integration & Git Conflict Resolution
+
+-What I did: Advanced the automation infrastructure to Day 7 targets by integrating container image vulnerability scanning. Configured the GitHub Actions runner pipeline (`.github/workflows/devsecops-pipeline.yml`) to automatically build the application Docker container image and pass it to the Aqua Security Trivy scanning engine to audit for `CRITICAL` and `HIGH` severity CVEs. Successfully resolved a complex Git merge conflict within the workflow file by gracefully aborting an unstable rebase state using `git rebase --abort` and resetting the local tracking branch with `git reset --hard origin/main`. Force-pushed the clean, reconciled branch to trigger a successful green pipeline execution. Squash-merged via Pull Request #8.
+-Takeaway: Container images often package outdated, vulnerable base libraries; integrating automated container-native scanning layers like Trivy directly into the CI build stage stops infected base layers from reaching production container registries.
+
 # June 18, 2026
 Focus: Remediation, Software Composition Analysis (SCA) & Multi-Scanner Orchestration
 

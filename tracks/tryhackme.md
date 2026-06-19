@@ -1,3 +1,9 @@
+# June 19, 2026
+Focus: Linux Fundamentals & System Interaction
+
+-What I did: Commenced the "Intro to Linux" module on TryHackMe. Deployed an interactive Linux Virtual Machine instance to interface directly with the bash terminal interface. Practiced core command-line utility configurations for systemic file navigation and process enumeration, tracking absolute environments with `pwd`, investigating user context with `whoami`, listing structural contents with `ls`, changing branch paths with `cd`, and dumping raw output arrays via `cat`.
+-Takeaway: A strong command over Linux system navigation is the absolute foundation for security auditing; defensive engineers must be fully comfortable interacting with raw shells to parse target file structures, analyze logs, and configure services securely.
+
 # June 18, 2026
 Focus: Offensive Security Intro & Web Application Reconnaissance
 

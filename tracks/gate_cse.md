@@ -1,3 +1,9 @@
+# June 19, 2026
+Focus: Function Activation Records, Recursion Architecture & Propositional Minimization
+
+-What I did: Deepened my understanding of runtime execution layouts in C Programming by auditing the layout of Function Activation Records (Stack Frames). Analyzed how local parameters, local variables, return values, and old frame pointer addresses stack up during nested execution states, providing a foundation for parsing structural recursion calls. Concurrently practiced Discrete Mathematics problem sets, utilizing Propositional Logic algebraic simplification identities to minimize complex logical sentences.
+-Takeaway: Understanding how stack frames dynamically push and pop during recursive calls prevents execution confusion when tracking complex code paths; combining this with boolean simplification rules ensures clean structural analysis across both math and programming problems.
+
 # June 18, 2026
 Focus: Propositional Equivalence Laws & Logical Simplifications
 
