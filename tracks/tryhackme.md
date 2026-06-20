@@ -1,3 +1,9 @@
+# June 20, 2026
+Focus: Advanced Linux Querying & Shell I/O Redirection Operators
+
+-What I did: Advanced through "Linux Fundamentals Part 2" on TryHackMe. Shifted to data pipeline manipulation by mastering text-pattern matching via `grep` and multi-parameter file system indexing using `find`. Evaluated structural control flow and stream diversion redirection operators, utilizing `&` for background process spawning, `&&` for conditional string execution chaining, `>` for destructive standard output overwriting, and `>>` for persistent, non-destructive file appending loops.
+-Takeaway: Command-line fluency requires mastering stream redirection and text-filtering tools; utilizing operators like `grep` and `>>` allows a security engineer to automate log analysis and script custom collection pipelines smoothly.
+
 # June 19, 2026
 Focus: Linux Fundamentals & System Interaction
 

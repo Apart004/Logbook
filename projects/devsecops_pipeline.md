@@ -1,3 +1,9 @@
+# June 20, 2026
+Focus: Supply-Chain Hardening, Vulnerability Risk Acceptance & Multi-Scanner Consolidation
+
+-What I did: Reached Day 8 DevSecOps milestones by hardening the software supply chain and finalizing vulnerability remediation patterns. Mitigated upstream pipeline failure anomalies by explicitly pinning static package revisions and environmental compile wheels (e.g., `pbr==5.11.1`) inside `requirements.txt`. Implemented an enterprise-grade risk-acceptance standard by introducing a structural `.trivyignore` baseline file to safely account for and filter acceptable, non-fixable upstream CVEs embedded within the base OS container image layer. Updated the primary orchestration loop inside `.github/workflows/devsecops-pipeline.yml` to inject this bypass schema. Verified that all three discrete security gates—Bandit (SAST), Safety (SCA), and Trivy (Container Vulnerability Scanner)—execute and clear cleanly. Squash-merged via Pull Request #10.
+-Takeaway: Securing modern deployment structures demands explicit, deterministic controls over dependencies. Combining explicit package pinning with documented risk-acceptance boundaries prevents arbitrary updates from breaking active CI runners while maintaining high-fidelity vulnerability scanning.
+
 # June 19, 2026
 Focus: Container Security, Trivy Integration & Git Conflict Resolution
 

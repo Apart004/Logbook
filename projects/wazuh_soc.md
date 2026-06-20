@@ -1,3 +1,9 @@
+# June 20, 2026
+Focus: Day 15 – IOC Extraction from AlienVault OTX Threat Intelligence Feeds
+
+-What I did: Advanced the automated custom Threat Intelligence Engine to Day 15 specifications by transitioning from raw pulse ingestion to extracting actionable Indicators of Compromise (IOCs). Validated secure REST API transport contexts leveraging an authenticated AlienVault OTX credentials key. Engineered a specialized parsing pipeline in Python to traverse nested JSON responses, isolating pulse metadata (title, author, timestamps) and pulling out atomic IOC categories—including MD5, SHA1, and SHA256 file hashes alongside domain indicators. Isolated and debugged command invocation errors, variable scope naming inconsistencies, and JSON object navigation mismatches to generate a clean, structured indicator telemetry payload.
+-Takeaway: Ingesting raw threat feeds provides value only if the underlying data can be structurally decomposed; extracting normalized atomic IOCs establishes the critical data layer required for upstream database indexing and real-time SIEM alert correlation.
+
 # June 13, 2026
 Focus: AlienVault OTX API Authentication & Threat Feed JSON Parsing
 

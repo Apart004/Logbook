@@ -1,3 +1,9 @@
+# June 20, 2026
+Focus: Memory Recursion Typologies & Stack-Frame Tree Analysis
+
+-What I did: Advanced through the GATE C programming core syllabus, completing an in-depth review of functional recursion models. Classified recursion categories (including linear, binary, tail, and nested recursion variations) and evaluated their physical impact on runtime execution environments. Resolved a series of complex trace-evaluation questions using the Recursion Tree Method to map cascading calls alongside corresponding activation records (stack-frame layer creation, allocation, and tear-down tracking).
+-Takeaway: Programmatic recursion relies completely on runtime stack frame nesting; mapping execution flows using the tree method prevents manual tracking mistakes on nested compiler puzzles and helps compute exact space and time complexities.
+
 # June 19, 2026
 Focus: Function Activation Records, Recursion Architecture & Propositional Minimization
 
