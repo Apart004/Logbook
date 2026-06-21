@@ -1,3 +1,9 @@
+# June 21, 2026
+Focus: Propositional Logic Module Completion & Comprehensive PYQ Analytics
+
+-What I did: Successfully concluded all remaining instructional modules for Propositional Logic in Discrete Mathematics. Solidified core structural understanding across truth tables, logical connectives, well-formed formulas (WFFs), and rules of inference. Executed an intensive problem-solving marathon consisting of targeted practice questions and official GATE PYQs. Evaluated complex logical validity puzzles, distinguishing tautologies from contradictions using algebraic simplification identities and membership structures.
+-Takeaway: Masterfully applying inference rules and logical equivalences directly reduces complex boolean conditions down to solvable terms; solving historical GATE questions validates conceptual speed and eliminates common traps regarding conditional implication nuances ($\rightarrow$ vs $\leftrightarrow$).
+
 # June 20, 2026
 Focus: Memory Recursion Typologies & Stack-Frame Tree Analysis
 

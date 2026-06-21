@@ -1,3 +1,9 @@
+# June 21, 2026
+Focus: Windows Server Architecture & Operating System Fundamentals
+
+-What I did: Pivoted from premium Linux modules to launch into the "Intro to Windows" core operational track on TryHackMe. Deployed a remote sandboxed Windows Server target environment to analyze the system's foundational layer. Evaluated fundamental operating system components, navigated the graphical file system structures, parsed baseline system details, and completed 6 technical orientation tasks tracking administrative workspace operations.
+-Takeaway: Holistic security requires deep dual-OS competency; pivoting between Linux terminal structures and Windows administrative layouts ensures a well-rounded baseline for building cross-platform detection engineering rules.
+
 # June 20, 2026
 Focus: Advanced Linux Querying & Shell I/O Redirection Operators
 
