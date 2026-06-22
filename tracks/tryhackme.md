@@ -1,4 +1,17 @@
+# June 22, 2026
+Focus: Windows System Architecture, Permissions & Defensive/Offensive Web Reconnaissance Baseline
+
+-What I did: Fully wrapped up the active interactive components for the "Offensive Security Intro" and "Windows Fundamentals" pathways. Audited adversarial attack vectors by simulating target site directory discovery mapping, locating hidden sub-directories, and exploiting insecure application administrative portals. Shifted to system internals to analyze Windows OS blueprints across Task 4 through Task 6. Deconstructed the structural hierarchy of the Windows File System, parsed the integrity roles of system storage binaries within `C:\Windows\System32`, and mapped default user profile account categories alongside explicit Access Control List (ACL) security permissions.
+-Takeaway: Knowing exactly how an attacker maps unlinked pages matches directly with knowing where critical operating system binaries and access permissions live; mastering basic Windows access controls and file structures prevents account privilege escalation and unauthorized path traversal.
+
+ June 21, 2026
+Focus: Windows Server Architecture & Operating System Fundamentals
+
+-What I did: Pivoted from premium Linux modules to launch into the "Intro to Windows" core operational track on TryHackMe. Deployed a remote sandboxed Windows Server target environment to analyze the system's foundational layer. Evaluated fundamental operating system components, navigated the graphical file system structures, parsed baseline system details, and completed 6 technical orientation tasks tracking administrative workspace operations.
+-Takeaway: Holistic security requires deep dual-OS competency; pivoting between Linux terminal structures and Windows administrative layouts ensures a well-rounded baseline for building cross-platform detection engineering rules.
+
 # June 21, 2026
+
 Focus: Windows Server Architecture & Operating System Fundamentals
 
 -What I did: Pivoted from premium Linux modules to launch into the "Intro to Windows" core operational track on TryHackMe. Deployed a remote sandboxed Windows Server target environment to analyze the system's foundational layer. Evaluated fundamental operating system components, navigated the graphical file system structures, parsed baseline system details, and completed 6 technical orientation tasks tracking administrative workspace operations.
