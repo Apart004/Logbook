@@ -1,3 +1,9 @@
+# June 23, 2026
+Focus: Pipeline Failure-Mode Validation & SCA Vulnerability Interception Test
+
+-What I did: Conducted an intentional chaos-engineering audit on the active DevSecOps CI pipeline to verify automated compliance blocking. Injected a known vulnerable legacy library variant (`requests==2.32.0`) into the primary `requirements.txt` manifest. Executed the automated workflow runner and confirmed that the decoupled `sca-scan` job running Safety properly trapped the supply-chain vulnerabilities, triggered an alert on the known CVEs, and forcefully broke the pipeline execution loop as designed.
+-Takeaway: Automated gates are only reliable if their failure modes are actively tested; intentionally staging vulnerability mock injections proves that the compliance engine successfully protects the production repository from supply-chain risks.
+
 # June 21, 2026
 Focus: Pipeline Job Decoupling & Parallel Scanner Optimization
 

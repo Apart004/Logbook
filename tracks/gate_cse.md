@@ -1,3 +1,9 @@
+# June 23, 2026
+Focus: C Preprocessor Directives (Macros), Literal Syntax & Recursion Application Puzzles
+
+-What I did: Advanced through the GATE C programming core syllabus, shifting into compiler preprocessing mechanics and text substitution logic. Explored the structural differences between literals and preprocessor `#define` macros, evaluating how the compiler parses macro text expansions before physical code synthesis. Practiced a series of structural evaluation questions, combining macro-expansion traps with nested function recursion call tracing to determine precise variable tracking states.
+-Takeaway: Preprocessor macros are raw text replacements performed before compilation, which can introduce ordering bugs if not parenthesized correctly; mapping macro rules alongside recursion trees eliminates standard tracking errors found on complex GATE questions.
+
 # June 22, 2026
 Focus: Propositional Logic Competitive Testing & Comprehensive Recursion Execution Theory
 

@@ -1,3 +1,9 @@
+# June 23, 2026
+Focus: Administrative Access Control & UAC Defensive Topologies
+
+-What I did: Officially completed the "Windows Fundamentals 1" module on TryHackMe. Advanced into systemic administrative controls by analyzing User Account Control (UAC) security mechanics. Investigated how Windows maps privilege isolation layers, forcing user processes to execute inside a constrained security context and intercepting unauthorized system-wide operations by mandating explicit cryptographic or administrative confirmation alerts before escalation.
+-Takeaway: UAC acts as a primary defense-in-depth barrier against silent privilege elevation; understanding its underlying token architecture is vital for identifying misconfigurations that could allow malicious software to bypass security prompts.
+
 # June 22, 2026
 Focus: Windows System Architecture, Permissions & Defensive/Offensive Web Reconnaissance Baseline
 
