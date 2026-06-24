@@ -1,3 +1,9 @@
+# June 24, 2026
+Focus: Windows Fundamentals Part 2 – System Management Consoles & Multi-OS Interaction
+
+-What I did: Launched "Windows Fundamentals Part 2" on TryHackMe. Deployed an interactive dual-system topology, spawning a Linux AttackBox side-by-side with a remote Windows machine. Navigated administrative system management utilities, executed basic configuration audits across early core tasks, and mapped out system configurations to successfully resolve the first 5 technical orientation questions.
+-Takeaway: Interoperating with a remote Windows node from a Linux-based platform mirrors realistic defensive and offensive enterprise conditions; mastering administrative dashboard utilities is key for identifying hidden privilege vectors or misconfigured services.
+
 # June 23, 2026
 Focus: Administrative Access Control & UAC Defensive Topologies
 

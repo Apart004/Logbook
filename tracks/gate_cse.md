@@ -1,3 +1,9 @@
+# June 24, 2026
+Focus: String Immutability/Indexing, Character Pointers & Dynamic Memory Allocation (DMA) Introduction
+
+-What I did: Advanced through the GATE C programming core syllabus, shifting from basic logic into structural memory manipulation frameworks. Conducted an exhaustive study of string handling, character arrays, string-literal indexing traps, and the architectural differences between pointer-allocated and array-allocated strings. Solved a collection of related competitive programming questions and official GATE PYQs. Concluded the session with an introduction to Dynamic Memory Allocation (DMA) fundamentals, evaluating runtime heap management mechanics.
+-Takeaway: In C, indexing a string literal returns its memory address, and attempting to modify a pointer-backed string literal triggers a runtime segmentation fault due to read-only page enforcement; isolating these memory behaviors is critical for resolving advanced GATE compiler pointer puzzles.
+
 # June 23, 2026
 Focus: C Preprocessor Directives (Macros), Literal Syntax & Recursion Application Puzzles
 

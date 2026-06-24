@@ -1,3 +1,9 @@
+# June 24, 2026
+Focus: Day 11 – AWS Cloud Architecture via Terraform IaC & SCA Fallback Configurations
+
+-What I did: Reached Day 11 DevSecOps milestones by introducing Infrastructure as Code (IaC) and fixing scanner integration blocks. Provisioned an encrypted S3 bucket, a secure VPC network layer, dedicated subnets, and stateful security groups across a modular Terraform layout (`main.tf`, `variables.tf`, `outputs.tf`). Resolved an active pipeline interruption by upgrading and implementing an `echo` fallback mechanism to manage Safety scanner exit codes in report-only mode inside `.github/workflows/devsecops-pipeline.yml`. Mitigated local branch divergence conflicts by executing a clean `git reset --hard origin/main`. Verified all four parallel pipeline jobs executed successfully before squash-merging via Pull Request #12.
+-Takeaway: Declaring system resources via IaC guarantees environment reproducibility; tracking third-party security tool exit parameters with deliberate error handling ensures strict security insight without generating false-positive pipeline breaks.
+
 # June 23, 2026
 Focus: Pipeline Failure-Mode Validation & SCA Vulnerability Interception Test
 
