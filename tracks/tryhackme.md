@@ -1,3 +1,10 @@
+--
+# June 25, 2026
+Focus: Windows Administration Frameworks, UAC Isolation & System Telemetry Auditing
+
+-What I did: Successfully concluded the "Windows Fundamentals Part 2" room on TryHackMe. Deconstructed User Account Control (UAC) security tiers, mapping out execution parameters for the four base alert slider levels (*Always Notify* down to *Never Notify*) and validating the role of Secure Desktop dimming against prompt interception. Navigated the complete `compmgmt.msc` console to audit System Tools (Task Scheduler automation rules, Event Viewer 3-pane logs, administrative hidden network shares `C$` and `ADMIN$`), Storage (Disk Management volume partitioning), and Services (Startup configurations, binary paths, and WMI/WMIC PowerShell abstraction behaviors).
+-Takeaway: Dissecting administrative snap-ins like Event Viewer and local service configurations provides the essential baseline needed to construct precise threat detection rules and track privilege escalation paths within an enterprise infrastructure.
+
 # June 24, 2026
 Focus: Windows Fundamentals Part 2 – System Management Consoles & Multi-OS Interaction
 

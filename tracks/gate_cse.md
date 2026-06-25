@@ -1,3 +1,10 @@
+--
+# June 25, 2026
+Focus: C Programming Syllabus Completion (Double Pointers & Heap Typecasting) & Discrete Math Core Additions
+
+-What I did: Officially completed the full instructional lecture track for C Programming in the GATE syllabus. Rounded out advanced topics by solving multi-level indirection models (double/triple pointers) and executing dynamic memory allocation (DMA) allocation arrays using strict heap pointer typecasting (e.g., explicit generic pointer alignment via `(int*)malloc()`). Solved a comprehensive set of competitive array/pointer evaluation puzzles and competitive PYQs. Concurrently completed the final core components of Propositional Logic by mastering the concepts of satisfiability models and mathematical interpretations.
+-Takeaway: A double pointer (`void**` or `int**`) stores the address of another memory reference, which requires multiple pointer dereferences to retrieve the underlying data. Explicitly typecasting the return address of void-type heap allocations prevents memory alignment bugs and clears up pointer tracking issues common on GATE programming questions.
+
 # June 24, 2026
 Focus: String Immutability/Indexing, Character Pointers & Dynamic Memory Allocation (DMA) Introduction
 
