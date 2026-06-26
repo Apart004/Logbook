@@ -1,4 +1,10 @@
 --
+# June 26, 2026
+Focus: Live System Resource Monitoring & Administrative CLI Diagnostics
+
+-What I did: Continued tracking Windows administrative infrastructure tools via TryHackMe. Dissected Resource Monitor (`resmon.exe`) across its four core structural telemetry sections: CPU scheduling, Memory commitment, Disk I/O operations, and Network bandwidth consumption. Audited live process trees, traced active file handle allocations, and mapped deadlocked application states. Switched to Command Prompt (`cmd.exe`) primitives to parse baseline host variables (`hostname`, `whoami`), manipulate network interface details (`ipconfig /?`), analyze socket connection matrices (`netstat`), and query local domain configurations using sub-command wrappers via `net help user` and `net help localgroup`.
+-Takeaway: Combining visual hardware mapping trackers with raw command-line utility configurations allows an administrator to quickly spot hidden execution scripts, unprivileged service additions, or suspicious outbound sockets.
+
 # June 25, 2026
 Focus: Windows Administration Frameworks, UAC Isolation & System Telemetry Auditing
 

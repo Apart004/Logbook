@@ -1,4 +1,10 @@
 --
+# June 26, 2026
+Focus: Advanced C Programming PYQ Analysis & Predicate Logic Fundamentals Introduction
+
+-What I did: Conducted a targeted problem-solving workshop exclusively focused on official GATE PYQs for the C Programming module, solidifying concepts around multi-level pointer arithmetic, array indexing, and dynamic allocation typecasting under exam constraints. Transitioned into Discrete Mathematics to begin the First-Order Logic (Predicate Logic) syllabus. Analyzed the structural mechanics of domain limitations, predicates, propositional variables, and the semantic behavior of mathematical quantifiers: the Universal Quantifier ($\forall$) and the Existential Quantifier ($\exists$).
+-Takeaway: While Propositional Logic is limited to static truth values for declared statements, Predicate Logic introduces variable-driven properties and quantifiers. Mastering variable scoping rules within quantifiers is essential for translating natural language statements into formal logic structures without encountering scope boundary errors on GATE questions.
+
 # June 25, 2026
 Focus: C Programming Syllabus Completion (Double Pointers & Heap Typecasting) & Discrete Math Core Additions
 
