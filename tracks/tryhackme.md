@@ -1,4 +1,10 @@
 --
+# June 27, 2026
+Focus: Windows Registry Architecture & System Configuration Hives
+
+-What I did: Explored Windows system configuration mechanics on TryHackMe by analyzing the Windows Registry structure. Handled the Registry Editor (`regedit`) to understand the centralized hierarchical database that the operating system constantly references at runtime. Analyzed how data is distributed across hive structures to track individual user profile environments, application configurations, file type extension mappings, system hardware manifests, and active hardware communication ports.
+-Takeaway: The Registry is the core state database of a Windows machine; understanding how to navigate keys and values is vital for identifying advanced persistence mechanisms, like malicious autorun modifications, during threat hunting.
+
 # June 26, 2026
 Focus: Live System Resource Monitoring & Administrative CLI Diagnostics
 

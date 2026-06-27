@@ -1,4 +1,10 @@
 --
+# June 27, 2026
+Focus: C Programming PYQ Execution, Interpretations & Models in Logic, and First-Order Logic Advancement
+
+-What I did: Conducted an analytical problem-solving session working through official GATE PYQs for the C Programming track to reinforce multi-level dereferencing agility under exam conditions. Transitioned into Mathematical Logic to complete structural evaluation questions on interpretations, models, and semantic satisfiability metrics. Continued advancing into First-Order Logic (Predicate Logic), evaluating quantification scope rules and translating complex English expressions into formal quantified logical frameworks.
+-Takeaway: In mathematical logic, an interpretation assigns meaning to predicates and constants, whereas a model is an interpretation that specifically makes a given formula true. Separating these concepts is critical for correctly parsing abstract truth evaluation questions in the discrete math section of the GATE exam.
+
 # June 26, 2026
 Focus: Advanced C Programming PYQ Analysis & Predicate Logic Fundamentals Introduction
 

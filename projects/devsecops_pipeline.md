@@ -1,3 +1,10 @@
+--
+# June 27, 2026
+Focus: Day 12 – Automated IaC Compliance Scanning via Checkov
+
+-What I did: Completed the Day 12 milestone of the DevSecOps pipeline by integrating automated static application security testing (SAST) for cloud infrastructure. Configured Checkov as a dedicated `iac-scan` job within `.github/workflows/devsecops-pipeline.yml` to automatically audit the `terraform/` directory for security misconfigurations and compliance violations. Added the `checkov` dependency directly to `requirements.txt`. Successfully validated the integration across a testing matrix of 10 total pipeline runs (5 parallel jobs triggered via 2 distinct events) with zero policy errors before squash-merging via Pull Request #13.
+-Takeaway: Shifting security left by running static analysis directly on Terraform scripts prevents insecure configurations, such as unencrypted storage or overly permissive security groups, from ever reaching cloud providers.
+
 # June 24, 2026
 Focus: Day 11 – AWS Cloud Architecture via Terraform IaC & SCA Fallback Configurations
 
