@@ -1,4 +1,10 @@
 --
+# June 28, 2026
+Focus: Windows Fundamentals Part 3 – Patch Management & Native Defensive Suites
+
+-What I did: Commenced "Windows Fundamentals Part 3" on TryHackMe, completing the initial layout and reaching the 30% room progress milestone. Spawned the interactive lab environment using an active AttackBox loop to bridge communication with dual remote Windows target instances (`10.48.165.160` and `10.48.181.213`). Successfully cleared Task 2 (Windows Updates) by studying how the OS schedules cryptographic hotfixes and system security patches, and Task 3 (Windows Security) by auditing real-time native threat defense baselines and Windows Defender mitigation suites.
+-Takeaway: Monitoring patch levels and native defensive parameters ensures an environment is protected against known CVE exploits; analyzing these built-in systems provides a framework for recognizing anomalous process behavior.
+
 # June 27, 2026
 Focus: Windows Registry Architecture & System Configuration Hives
 

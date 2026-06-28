@@ -1,4 +1,10 @@
 --
+# June 28, 2026
+Focus: Day 13 – Remediating IaC Misconfigurations & Cloud Architecture Hardening
+
+-What I did: Executed the Day 13 sprint of the DevSecOps pipeline to fully patch security vulnerabilities caught during Checkov compliance tests. Re-staged the deployment configuration files within `terraform/main.tf` by implementing critical structural modifications: explicitly applied an `aws_s3_bucket_public_access_block` to enforce private object controls, added an isolated S3 server access logging target, integrated full VPC Flow Logs routed directly into an AWS CloudWatch Log Group for real-time telemetry, and decoupled automatic address distribution by setting `map_public_ip_on_launch = false` across subnets. Cleared all automated CI static analysis blocks before squash-merging via Pull Request #14.
+-Takeaway: Compliance scanning is only useful if it leads to proactive remediation; hardening infrastructure scripts before runtime execution significantly reduces the attack surface of cloud assets.
+
 # June 27, 2026
 Focus: Day 12 – Automated IaC Compliance Scanning via Checkov
 

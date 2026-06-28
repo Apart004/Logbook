@@ -1,4 +1,10 @@
 --
+# June 28, 2026
+Focus: First-Order Logic (FOL) Quantification, Nested Scope Constraints & Structural Properties
+
+-What I did: Advanced deep into the Mathematical Logic syllabus for GATE CSE by thoroughly exploring First-Order Logic (FOL) and Predicate Logic. Analyzed the algebraic properties of both the Universal Quantifier ($\forall$) and Existential Quantifier ($\exists$), shifting into the mechanics of **nested quantifiers** where variable binding sequence determines expression semantics (e.g., assessing why $\forall x \exists y P(x, y) \not\equiv \exists y \forall x P(x, y)$). Investigated distribution properties of quantifiers over logical connectives ($\land, \lor, \rightarrow$) and solved a collection of analytical evaluation questions.
+-Takeaway: The ordering of mixed nested quantifiers is strict and non-commutative; the outer quantifier establishes a variable scope that constrains the inner selection bounds. Tracing these evaluation domains carefully eliminates semantic interpretation traps on tricky GATE discrete math problems.
+
 # June 27, 2026
 Focus: C Programming PYQ Execution, Interpretations & Models in Logic, and First-Order Logic Advancement
 
