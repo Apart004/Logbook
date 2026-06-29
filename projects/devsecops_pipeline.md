@@ -1,4 +1,10 @@
 --
+# June 29, 2026
+Focus: Day 14 – Multi-Stage IaC Verification, Syntactic Validation & Pipeline Staging
+
+-What I did: Reached the Day 14 milestone of the DevSecOps pipeline by restructuring the automated Infrastructure as Code (IaC) linting phase. Enhanced `.github/workflows/devsecops-pipeline.yml` by integrating `hashicorp/setup-terraform@v2` to provision the official CLI wrapper on the runner. Implemented a backend-isolated initialization gate using `terraform init -backend=false` to verify provider states without external dependencies, followed by a strict `terraform validate` block to catch programmatic layout anomalies. Re-ordered the workflow sequence so that the Checkov compliance scanner runs immediately after native syntax validation passes. Successfully merged all 10 verified pipeline runs into `main` via Pull Request #15.
+-Takeaway: Structuring an IaC pipeline to run syntactic validation checks before executing heavy policy-as-code security scans optimizes runner compute efficiency and ensures that semantic syntax errors are caught at the absolute earliest point in the deployment loop.
+
 # June 28, 2026
 Focus: Day 13 – Remediating IaC Misconfigurations & Cloud Architecture Hardening
 
