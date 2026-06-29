@@ -1,4 +1,10 @@
 --
+# June 29, 2026
+Focus: Predicate Logic Problem-Solving Workshop & First-Order Logic Advancement
+
+-What I did: Conducted an intensive problem-solving session working through a substantial set of exam-style questions on predicates and quantifier distribution properties. Solidified core structural conversion techniques for translating natural language statements into logical formulas using universal ($\forall$) and existential ($\exists$) operators. Transitioned into the remaining advanced First-Order Logic (FOL) syllabus concepts, focusing on quantification negation rules, scope shifting, and validity testing mechanisms.
+-Takeaway: Negating a quantified expression swaps the quantifier type and pushes the negation inside (e.g., $\neg \forall x P(x) \equiv \exists x \neg P(x)$). Mastering these logical transformations and scope-shifting boundaries prevents simple syntax translation errors when breaking down complex predicate arguments on the GATE exam.
+
 # June 28, 2026
 Focus: First-Order Logic (FOL) Quantification, Nested Scope Constraints & Structural Properties
 

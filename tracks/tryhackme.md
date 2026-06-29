@@ -1,4 +1,10 @@
 --
+# June 29, 2026
+Focus: Windows Defender Signaling, Threat Mitigation Baselines & Firewall Profiles
+
+-What I did: Advanced through Tasks 3, 4, and 5 of the "Windows Fundamentals Part 3" module on TryHackMe. Evaluated the built-in Windows Security health taxonomy (Green/Yellow/Red status signals) to isolate critical system warnings. Triage-audited a target instance to identify a severe security exposure where the native antivirus engine's **Real-time protection** mechanism had been disabled. Analyzed Windows Defender Firewall boundary profiles, mapping untrusted transit layers (such as airport or coffee shop Wi-Fi access points) directly to the restrictive default **Public network** profile to block unauthorized inbound probes.
+-Takeaway: Dissecting native endpoint telemetry and understanding firewall profile switching behavior is fundamental for validating host security postures and verifying that active endpoint protection controls are functional.
+
 # June 28, 2026
 Focus: Windows Fundamentals Part 3 – Patch Management & Native Defensive Suites
 
