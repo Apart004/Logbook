@@ -1,4 +1,10 @@
 --
+# June 30, 2026
+Focus: Finalizing Windows Security Suite & Living Off the Land (LotL) Vectors
+
+-What I did: Officially completed the "Windows Fundamentals Part 3" module on TryHackMe. Analyzed enterprise security mechanisms including the Antimalware Scan Interface (AMSI) for de-obfuscating script payloads at execution time, and Credential Guard for using virtualization-based security (VBS) to isolate LSASS memory segments. Investigated the offensive operational paradigm known as **Living Off the Land (LotL)**, reviewing how adversaries deploy dual-use native binaries like `wmic.exe`, `powershell.exe`, or `vssadmin.exe` to execute unmonitored scripts and avoid signature detection tools.
+-Takeaway: Defensive engineering requires understanding how built-in, trusted system tools can be weaponized by threat actors to quietly conduct enumeration and maintain host persistence.
+
 # June 29, 2026
 Focus: Windows Defender Signaling, Threat Mitigation Baselines & Firewall Profiles
 

@@ -1,4 +1,10 @@
 --
+# June 30, 2026
+Focus: Day 15 – Milestone 3: Compliance Pipeline Stress-Testing & Vulnerability Injection
+
+-What I did: Reached the Day 15 milestone of the DevSecOps pipeline, unlocking Milestone 3 by running an intentional security vulnerability stress-test on the CI scanning engine. Structured the IaC architecture by introducing missing `terraform/variables.tf` and `terraform/outputs.tf` configurations. Injected a critical misconfiguration into `terraform/main.tf` by opening inbound SSH port 22 to public traffic (`0.0.0.0/0`). Verified that the Checkov engine successfully blocked the build, logging a **CKV_AWS_24** validation failure along with structural code remediation metadata. Reverted the vulnerable ingress rule to baseline security standards immediately following verification, and squash-merged the clean tracking branch into `main` via Pull Request #16.
+-Takeaway: Validating policy-as-code scanners via controlled vulnerability injections verifies that alerting paths, logging mechanisms, and pipeline failures execute exactly as planned when real misconfigurations are introduced.
+
 # June 29, 2026
 Focus: Day 14 – Multi-Stage IaC Verification, Syntactic Validation & Pipeline Staging
 
