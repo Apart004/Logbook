@@ -1,4 +1,10 @@
 --
+# July 1, 2026
+Focus: Active Directory Architecture & Windows Domain Infrastructure
+
+-What I did: Commenced the "Active Directory Basics" room within the Cyber Security 101 pathway, reaching 33% room completion. Finalized the foundational modules by clearing Task 1 (Introduction), Task 2 (Windows Domains), and Task 3 (Active Directory). Studied the core operational differences between a standard standalone Windows Workgroup configuration and a centralized Windows Domain architecture. Explored how Active Directory serves as a centralized directory service to manage authentication, objects, and permissions across an entire enterprise network.
+-Takeaway: Shifting from local machine account management to a domain structure introduces centralized identity verification via Domain Controllers. Understanding this distinction is fundamental for securing enterprise endpoints and spotting lateral movement tactics.
+
 # June 30, 2026
 Focus: Finalizing Windows Security Suite & Living Off the Land (LotL) Vectors
 

@@ -1,4 +1,14 @@
 --
+# July 1, 2026
+Focus: C Programming Refinement & Algorithmic Analysis Foundations (DSA Lectures 1, 3, & 4)
+
+-What I did: Executed a target practice session resolving core C Programming application problems. Formally kicked off the Data Structures and Algorithms (DSA) lecture sequence by completing three comprehensive video training modules under the Unacademy curriculum (Lectures 1, 3, and 4 presented by Vishvadeep Gothi):
+  - Lecture 1 (Algorithm & Analysis): Mastered structural algorithm validation parameters and basic operational steps.
+  - Lecture 3 (Algorithm Analysis & Practice): Solved specialized complexity measurement problems to map execution growth rates.
+  - Lecture 4 (Algorithm Analysis Continued): Explored advanced scaling constraints, asymptotic limits, and runtime estimation criteria.
+-Takeaway: Analyzing an algorithm's asymptotic runtime profile is essential for building efficient software; evaluating constraints through mathematical scaling matrices helps avoid memory or compute bottlenecks under worst-case inputs.
+
+
 # June 30, 2026
 Focus: Initialization of Data Structures & Algorithms (DSA) Track & Predicate Logic PYQ Deflection
 
