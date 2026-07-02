@@ -1,4 +1,10 @@
 --
+# July 2, 2026
+Focus: Dynamic Application Security Testing (DAST) Integration & Pipeline Artifact Upgrades
+
+-What I did: Significantly expanded the CI/CD pipeline capabilities by integrating dynamic application security analysis. Configured an automated OWASP ZAP DAST scanning stage to evaluate application deployments for runtime vulnerabilities. Orchestrated a series of pipeline optimizations across successive commits: upgraded the core `actions/upload-artifact` step to `v4` to resolve deprecation blocks, provisioned explicit repository write permissions to facilitate automated security issue reporting, and standardized the compliance reporting engine to output stable, uniquely named runtime artifact scanning objects.
+-Takeaway: Combining Static Application Security Testing (SAST) with Dynamic Application Security Testing (DAST) builds a comprehensive defensive shield. SAST flags issues within structural source code, while DAST evaluates the running application to catch live configuration anomalies and logical deployment risks.
+
 # June 30, 2026
 Focus: Day 15 – Milestone 3: Compliance Pipeline Stress-Testing & Vulnerability Injection
 

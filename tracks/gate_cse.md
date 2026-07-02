@@ -1,4 +1,10 @@
 --
+# July 2, 2026
+Focus: C Programming Core Evaluation – GO Classes Basic Mock Test Series
+
+-What I did: Participated in a focused testing session by completing the introductory C Programming mock examination from the GO Classes test series. Evaluated foundational programmatic variables under strict exam conditions, checking agility across basic syntax structures, operator precedence evaluation rules, conditional branches, and core execution flows.
+-Takeaway: Taking targeted mock exams highlights hidden edge cases in operator precedence and type conversions. Reviewing the step-by-step solutions for any missed questions is the best way to ensure no silly errors happen on the actual GATE exam.
+
 # July 1, 2026
 Focus: C Programming Refinement & Algorithmic Analysis Foundations (DSA Lectures 1, 3, & 4)
 

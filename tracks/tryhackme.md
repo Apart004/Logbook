@@ -1,4 +1,10 @@
 --
+# July 2, 2026
+Focus: Active Directory Privilege Escalation Exercises & Object Delegation Tracking
+
+-What I did: Advanced through Task 4 of the "Active Directory Basics" module on TryHackMe. Conducted a localized credential exploitation loop inside a remote desktop (RDP) lab session; used an elevated session via `phillip`'s account to run a password manipulation command in PowerShell, successfully taking over `sophie`'s profile to harvest a hidden flag from her desktop directory (`THM{thanks_for_contacting_support}`). Investigated the architectural design of Active Directory Object **Delegation**, exploring how permissions are distributed securely across Organizational Units (OUs) without relying on over-privileged group memberships.
+-Takeaway: Exploiting domain configurations requires understanding target access vectors; configuring granular AD delegation properties minimizes risk by preventing privilege creeping across administrative domains.
+
 # July 1, 2026
 Focus: Active Directory Architecture & Windows Domain Infrastructure
 
