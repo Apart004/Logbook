@@ -1,4 +1,14 @@
 --
+# July 3, 2026
+Focus: Active Directory Baseline & Windows Command Line Information Gathering
+
+-What I did: Continued parallel tracks within the Windows security space. Maintained foundational Active Directory concepts at 33% room completion. Concurrently initiated the "Windows Command Line" module, achieving 27% progress by completing Task 1 (Introduction) and Task 2 (Basic System Information). Ran core administrative command-line utilities including `hostname`, `systeminfo`, and native environment variables to profile host architectures, software build details, and OS identifiers.
+-Takeaway: Command-line system profiling is the first step in defensive auditing and reconnaissance, revealing key endpoint properties without relying on heavy graphical user interfaces.
+Focus: Centralized Configuration Loader, Secret Decoupling & Enrichment API Mapping
+
+-What I did: Built out the foundation of SentinelX's configuration architecture by implementing a decoupled, modular initialization pattern (`config.yaml` + `.env` + `config/loader.py`). Structured `.env.example` to separate database variables (`MONGODB_URI`) and integration hooks, including Threat Intelligence API schemas (AbuseIPDB, AlienVault) and Enrichment APIs (VirusTotal, Shodan). Provisioned global app metadata parameters inside `config.yaml` using Python's `pyyaml` library handled via `pyproject.toml` dependency management.
+-Takeaway: Decoupling application settings from volatile cryptographic token keys protects the engineering baseline, controls configuration drift, and blocks credential leaks in remote code repositories.
+
 # July 2, 2026
 Focus: Active Directory Privilege Escalation Exercises & Object Delegation Tracking
 

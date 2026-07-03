@@ -1,4 +1,14 @@
 --
+# July 3, 2026
+Focus: Array Operations, 2D Address Layouts, and Triangular Matrix Calculations
+
+-What I did: Conducted an in-depth Data Structures & Algorithms (DSA) study session covering the structural mechanics of linear and non-linear array structures. Analyzed execution flows and boundary parameters for fundamental mutations:
+  - Array Manipulations: Formulated conditions for random-access Insertion, Deletion, and Element Shifting.
+  - Search Algorithms: Implemented Linear Search ($\mathcal{O}(n)$ complexity) and Binary Search ($\mathcal{O}(\log n)$ complexity boundaries).
+  - Multi-Dimensional Address Spaces: Solved mathematical coordinate localization problems for target elements inside 2D arrays using both Row-Major and Column-Major ordering equations.
+  - Matrix Formations: Investigated specialized space-saving representations, deriving mathematical indices for Upper and Lower Triangular Matrices, followed by targeted competitive problem-solving.
+-Takeaway: Mapping 2D coordinate spaces and triangular patterns into flat 1D memory spaces requires tracking row/column base-offset address calculations. Mastering these conversions ensures maximum efficiency in memory-constrained testing questions.
+
 # July 2, 2026
 Focus: C Programming Core Evaluation – GO Classes Basic Mock Test Series
 
