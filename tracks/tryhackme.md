@@ -1,4 +1,10 @@
 --
+# July 4, 2026
+Focus: Windows Command Line Networking Infrastructure & Diagnostic Tools
+
+-What I did: Continued the "Windows Command Line" module, expanding technical familiarity with native CLI networking utilities. Evaluated network interface configurations using `ipconfig` and `ipconfig /all` to parse system metrics (IPv4 address, subnet mask, default gateway, lease duration, and active DNS name servers). Performed network layer diagnostics using `ping` (ICMP requests) and `tracert` (TTL trace tracking across public transit gateways). Mastered endpoint socket verification by testing `nslookup` domain record querying alongside advanced `netstat -abon` process mapping to link active TCP sockets directly to their execution Process IDs (PIDs) and system binary names like `sshd.exe`.
+-Takeaway: Shifting endpoint auditing from heavy graphical wizards to high-verbosity CLI commands enables rapid administrative reconnaissance and lets you safely inspect open ports or process ownership during incident handling.
+
 # July 3, 2026
 Focus: Active Directory Baseline & Windows Command Line Information Gathering
 

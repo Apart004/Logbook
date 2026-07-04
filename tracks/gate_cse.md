@@ -1,4 +1,14 @@
 --
+# July 4, 2026
+Focus: Array Architectural Limits, Linked List Primitives, and Pointer Reassignments
+
+-What I did: Conducted a technical comparison of sequential storage models while initiating the Linked List memory data structure. Maintained structural mastery over linear allocations:
+  - Array Evaluation: Reviewed physical advantages (random constant-time $\mathcal{O}(1)$ element access, excellent spatial memory cache locality) against structural constraints (fixed sizing allocations, highly demanding consecutive memory overhead, expensive insertions/deletions scaling at $\mathcal{O}(n)$).
+  - Linked List Architecture: Designed foundational singly linked structural representations using custom node objects containing sequential pointer links (`struct Node`).
+  - Boundary Conditions: Formalized programmatic boundary validation parameters across critical states: Empty List testing thresholds (`head == NULL`), Non-Empty conditions, and Single-Node boundaries (`head != NULL && head->next == NULL`).
+  - Memory Protections & Logic: Evaluated the logical risks of Null Pointer Dereferencing and resolved an analytical competitive exam question mapping sequential link reassignments.
+-Takeaway: While arrays excel at raw static lookup speed due to localized blocks, linked lists provide fluid dynamic growth at the cost of non-contiguous traversal speeds. Preventing segmentation faults during list traversal requires strictly validating that a target pointer is not null before evaluating its next address link.
+
 # July 3, 2026
 Focus: Array Operations, 2D Address Layouts, and Triangular Matrix Calculations
 
