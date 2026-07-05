@@ -1,4 +1,10 @@
 --
+# July 5, 2026
+Focus: Windows Filesystem Manipulation & Directory Traversal Mechanics
+
+-What I did: Continued the "Windows Command Line" track, moving to directory indexing and filesystem maintenance operations. Mastered operational primitives including absolute directory validation via parameterless `cd` commands, directory listing via `dir` (with hidden systems auditing via `/a` and recursive subdirectory dumps via `/s`), and path visualization via `tree`. Executed object life-cycle mutations using folder provisioning commands (`mkdir`), container removal operations (`rmdir`), standard output dumps (`type`/`more`), relative/absolute item relocation routines (`copy`/`move`), and explicit item destruction processes (`del`/`erase`) integrated with global extension wildcard matching arrays (`*`).
+-Takeaway: Navigating a system quickly via the command line using wildcards and recursive flags allows you to audit hidden system configurations and analyze host indicators during a compromise triage session.
+
 # July 4, 2026
 Focus: Windows Command Line Networking Infrastructure & Diagnostic Tools
 

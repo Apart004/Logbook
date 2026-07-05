@@ -1,4 +1,10 @@
 --
+# July 5, 2026
+Focus: Discrete Mathematics — Propositional & Predicate Logic Evaluation
+
+-What I did: Concluded the core theoretical review and active testing cycles for Propositional and First-Order Predicate Logic. Reviewed critical logical equivalences, implication properties, quantifiers ($\forall, \exists$), and mathematical translation mechanics. Completed a dedicated logic Subject Wise Test, reinforcing error-free performance under strict exam conditions. Analyzed and solved a comprehensive suite of GATE Previous Year Questions (PYQs), focusing on variable binding, validity checking, and nested quantifier negation structures.
+-Takeaway: Solving logic problems under strict test conditions builds the precision needed to track variable bindings and scope changes in multi-quantifier expressions without falling into standard exam traps.
+
 # July 4, 2026
 Focus: Array Architectural Limits, Linked List Primitives, and Pointer Reassignments
 

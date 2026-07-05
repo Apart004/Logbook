@@ -1,4 +1,10 @@
 --
+# July 5, 2026
+Focus: Telemetry Architecture & Structured Loguru Ingestion Engine
+
+-What I did: Implemented a robust application telemetry subsystem by integrating the `loguru` structured logging engine. Configured multi-sink data routing providing concurrent output parsing: a colorized console sink formatted for high-readability development monitoring, alongside an automated persistent file logging system. Enforced rigid filesystem clean-up limits by integrating automated file rotation (size/time boundaries) and custom file retention window configurations to bound total trace storage.
+-Takeaway: Moving away from raw print statements to a structured logging framework with built-in log rotation ensures clean application debugging logs without risking storage exhaustion during heavy production runs.
+
 # July 3, 2026
 Focus: Centralized Configuration Loader, Secret Decoupling & Enrichment API Mapping
 
