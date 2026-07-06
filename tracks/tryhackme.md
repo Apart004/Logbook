@@ -1,4 +1,10 @@
 --
+# July 6, 2026
+Focus: Windows Process Triage & Lifecycle Management
+
+-What I did: Advanced through the "Windows Command Line" module by analyzing system runtime blocks. Utilized `tasklist` to dump the operating system's active process space. Applied specific string filters via the filter flag (`/FI`) combined with logical evaluation operators (`eq`) to isolate targeted binary profiles (such as `sshd.exe` and `notepad.exe`). Exercised manual administrative override patterns by utilizing `taskkill` coupled with explicit Process ID indicators (`/PID`) to cleanly terminate active application runtime threads.
+-Takeaway: Leveraging command-line process auditing tools enables an analyst to bypass standard graphical roadblocks, allowing them to rapidly filter, track down, and terminate unauthorized or hanging background binaries.
+
 # July 5, 2026
 Focus: Windows Filesystem Manipulation & Directory Traversal Mechanics
 

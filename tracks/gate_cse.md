@@ -1,4 +1,10 @@
 --
+# July 6, 2026
+Focus: Discrete Mathematics — Predicate Logic PYQ Resolution
+
+-What I did: Completed a comprehensive, deep-dive problem-solving session focused strictly on GATE Previous Year Questions (PYQs) involving First-Order Predicate Logic. Analyzed complex question architectures from past exams, focusing on nested quantifiers ($\forall, \exists$), semantic interpretations, validity proofs, and translating natural language arguments into formal predicate syntax.
+-Takeaway: Reviewing historical predicate logic questions highlights how easily subtle phrasing or shifting quantifier scopes can change an entire formula's validity. Mastering these nuances is key to locking down maximum marks in the Discrete Mathematics section.
+
 # July 5, 2026
 Focus: Discrete Mathematics — Propositional & Predicate Logic Evaluation
 
