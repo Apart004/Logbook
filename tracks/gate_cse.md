@@ -1,4 +1,10 @@
 --
+# July 7, 2026
+Focus: Discrete Mathematics — Set Theory Fundamentals & Algebraic Set Operations
+
+-What I did: Initiated the foundational block of Set Theory for Discrete Mathematics. Codified core set classifications (finite, infinite, null, universal) alongside mathematical subset definitions. Derived combinatoric counting formulas for total subsets ($2^n$) and proper subsets ($2^n - 1$) within a power set container of cardinality $n$. Formulated logical parameters and Venn structures for primary algebraic set operations: Union ($\cup$), Intersection ($\cap$), Relative Complement/Set Difference ($-$), and Symmetric Difference ($\Delta$ or $\oplus$), solving initial algebraic verification matrices.
+-Takeaway: Set theory identities provide the core vocabulary for advanced logic and probability partitions. Tracking boundary elements—especially empty set properties and symmetric intersections—prevents errors when mapping mathematical constraints to computing proofs.
+
 # July 6, 2026
 Focus: Discrete Mathematics — Predicate Logic PYQ Resolution
 

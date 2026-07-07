@@ -1,4 +1,10 @@
 --
+# July 7, 2026
+Focus: Network Architecture — ISO OSI 7-Layer Reference Model Ingestion
+
+-What I did: Commenced a foundational network engineering module focused on the conceptual ISO OSI reference model framework. Deconstructed the entire 7-layer stack from Layer 1 through Layer 7 using structural mnemonics. Analyzed physical media layers (802.3 Ethernet vs. 802.11 Wi-Fi spectrums), Layer 2 data framing constraints (6-byte hexadecimal MAC structures), Layer 3 network routing protocols (IP, ICMP, IPSec), Layer 4 end-to-end transport control loops (TCP/UDP), Layer 5 application state synchronization (NFS/RPC), Layer 6 presentation formatting parameters (ASCII, Unicode, MIME encoding loops), and Layer 7 end-user system service interfaces (HTTP, DNS, SMTP).
+-Takeaway: Deeply learning the exact encapsulation and decapsulation barriers of the OSI model is essential for accurate network triage and configuring targeted protective controls like layer-specific firewalls.
+
 # July 6, 2026
 Focus: Windows Process Triage & Lifecycle Management
 
