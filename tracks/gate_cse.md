@@ -1,4 +1,14 @@
 --
+# July 8, 2026
+Focus: Linked List Algorithms, Doubly Linked Structures, and Array PYQ Processing
+
+-What I did: Advanced deep into linear data structures within the Data Structures & Algorithms (DSA) curriculum. Developed and optimized algorithmic pseudocode for standard singly linked structures:
+  - Positional Traversal & Item Searching: Built pointer-advancement conditions ($\mathcal{O}(n)$ time complexity limits).
+  - Structural Mutations: Coded front, rear, and arbitrary index element Insertions and Deletions, verifying precise node pointer allocation changes.
+  - Doubly Linked Lists: Initiated structural setups, studying bidirectional link fields (`struct Node` containing both `*next` and `*prev` elements).
+  - Competitive Analysis: Evaluated and solved a comprehensive array of historical GATE Previous Year Questions (PYQs) covering linear arrays, assessing index offsets and execution steps.
+-Takeaway: Singly linked lists require manual tracking of the preceding node during deletion runs, while doubly linked lists allow constant-time node removal if the target node pointer is already known—though this introduces the overhead of managing double the link pointer updates.
+
 # July 7, 2026
 Focus: Discrete Mathematics — Set Theory Fundamentals & Algebraic Set Operations
 

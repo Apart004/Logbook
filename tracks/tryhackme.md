@@ -1,4 +1,10 @@
 --
+# July 8, 2026
+Focus: Network Protocols — Subnet Masking, Routing, and Transport Handshakes
+
+-What I did: Advanced through a core network layer tracking module. Audited active network interface configurations via Linux terminal abstractions (`ifconfig` and `ip a s`). Evaluated Classless Inter-Domain Routing (CIDR) allocations, mapping how a 24-bit subnet mask (`255.255.255.0` or `/24`) isolates local hosts while leaving `.0` and `.255` bound to network and broadcast addresses. Memorized RFC 1918 private address ranges (`10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`) to parse inbound traffic pools. Analyzed Layer 3 router hop selections alongside Transport Layer state engines, mapping out the chronological sequence of the stateful TCP 3-Way Handshake (`SYN` -> `SYN-ACK` -> `ACK`) across valid 16-bit application listening port registers ($1 \le \text{port} \le 65535$).
+-Takeaway: Mastering low-level network headers, masking bounds, and stateful socket connections allows an engineer to precisely track down anomalies and spot subtle indicators of compromise across data streams.
+
 # July 7, 2026
 Focus: Network Architecture — ISO OSI 7-Layer Reference Model Ingestion
 
