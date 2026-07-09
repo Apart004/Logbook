@@ -1,4 +1,10 @@
 --
+# July 9, 2026
+Focus: Doubly Linked List Operations, Queue Adjacency, and Linear Structure PYQs
+
+-What I did: Finalized the complete lecture series for Singly and Doubly Linked Lists, mapping structural configurations for bidirectional pointers (`*prev`, `*next`). Resolved an explicit set of competitive linked list Previous Year Questions (PYQs). Initiated the foundational block for the **Queue** data structure, examining the abstract data type (ADT) boundaries and modeling the First-In, First-Out (FIFO) processing engine. Mapped out the programmatic tracking flow for primary operations: Insertion (Enqueue via Rear pointer increments) and Deletion (Dequeue via Front pointer modifications).
+-Takeaway: Unlike stacks, queues require dual tracking points (Front and Rear). Care must be taken during pointer shifts to explicitly evaluate empty boundary conditions (`front == NULL`) or circular array overflows to prevent memory alignment faults or data corruption.
+
 # July 8, 2026
 Focus: Linked List Algorithms, Doubly Linked Structures, and Array PYQ Processing
 
