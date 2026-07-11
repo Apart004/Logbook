@@ -1,4 +1,13 @@
 --
+# July 11, 2026
+Focus: Linear Abstract Data Types — Stack-Queue Dual Implementations & Expression Parsing
+
+-What I did: Advanced through structural Stack operations, evaluating overflow/underflow bounds. Engineered dual-implementation logic models to cross-simulate linear collections:
+  - Stack Realization via Queues: Modeled push-heavy and pop-heavy algorithmic pipelines using two distinct Queue collections to swap elements.
+  - Queue Realization via Stacks: Built FIFO behavior out of LIFO memory blocks using two Stacks (In-Stack and Out-Stack) to reverse item orders.
+  - Parsing Structures: Initiated Arithmetic Expression Notation theory, mapping boundaries between Operators and Operands. Analyzed conversion flows across Infix ($A + B$), Prefix ($+AB$), and Postfix ($AB+$) representations.
+-Takeaway: Implementing a Stack using Queues requires shifting elements between structures during data inserts, driving up cost from $\mathcal{O}(1)$ to $\mathcal{O}(n)$. In contrast, converting Infix mathematical expressions to Postfix formats isolates operator precedence rules, allowing compilers to safely evaluate formulas using a single Stack scan without parentheses overhead.
+
 # July 10, 2026
 Focus: Linear Data Structures — Queue Mastery & Stack ADT Initialization
 
