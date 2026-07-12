@@ -1,4 +1,10 @@
 --
+# July 12, 2026
+Focus: Introduction to Web Application Architecture
+
+-What I did: Commenced a foundational architectural alignment module on TryHackMe analyzing client-server application layouts. Deconstructed front-end browser runtime components—breaking down HTML document parsing layouts, CSS design rule enforcement systems, and JavaScript asynchronous execution engines. Analyzed backend persistence systems, web routing application servers, and mapped the defensive security posturing of Web Application Firewalls (WAF) filtering malicious Layer 7 HTTP/HTTPS traffic matrices at the network periphery.
+-Takeaway: Security engineering requires an exhaustive understanding of web application internals; knowing exactly how front-end code requests state changes from backend data pools allows an analyst to properly map out attack vectors and configure edge protection devices like WAFs.
+
 # July 11, 2026
 Focus: Cryptography Basics Module Graduation (100% Completion)
 

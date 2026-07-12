@@ -1,4 +1,10 @@
 --
+# July 12, 2026
+Focus: Linked List Subject Testing, Expression Parsing Algorithms, and Set Theory Foundations
+
+-What I did: Executed a formal performance evaluation by taking a specialized Subject-Wise Test on Linked Lists to verify memory-allocation edge cases and pointer mutation time complexities under pressure. Advanced through expression parsing mechanics using Stack data structures, auditing algorithmic routines to transform and evaluate complex math expressions across Infix, Prefix, and Postfix configurations. Concurrently advanced in the Discrete Mathematics curriculum by completing all remaining structural lectures for **Set Theory**, analyzing subsets, power sets, Cartesian products, and fundamental set identities.
+-Takeaway: When evaluating a Postfix expression using a Stack, incoming operands are pushed directly onto the stack, while an incoming operator pops the top two operands, applies the mathematical relationship, and pushes the result back—effectively automating operator precedence without using nested brackets.
+
 # July 11, 2026
 Focus: Linear Abstract Data Types — Stack-Queue Dual Implementations & Expression Parsing
 
