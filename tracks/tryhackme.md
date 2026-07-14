@@ -1,4 +1,10 @@
 --
+# July 13, 2026
+Focus: Web Application Architecture — URL Anatomy & Parameter Mechanics
+
+-What I did: Analyzed the complete anatomical structure of a Uniform Resource Locator (URL) and its direct implications on web application security. Traced differences between plaintext HTTP (Port 80) and encrypted HTTPS (Port 443) communication paradigms. Evaluated security threats surrounding domain management, specifically focusing on typosquatting mechanics in phishing flows, and analyzed input validation parameters passed via query strings (`?`) and fragments (`#`).
+-Takeaway: Web components driven by query strings and fragments are client-modifiable surfaces; failing to sanitize these values before server-side parsing directly exposes endpoints to injection attacks.
+
 # July 12, 2026
 Focus: Introduction to Web Application Architecture
 

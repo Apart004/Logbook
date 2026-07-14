@@ -1,4 +1,10 @@
 --
+# July 13, 2026
+Focus: Mathematical Logic & Set Theory Finalization
+
+-What I did: Concluded the complete theoretical curriculum block for Set Theory, validating laws of union, intersection, set differences, and cartesian product bounds. Shifted focus back to Mathematical Logic by tackling a highly targeted selection of competitive Previous Year Questions (PYQs) centered on Predicate Logic, evaluating existential ($\exists$) and universal ($\forall$) quantifiers, variable bindings, and domain-of-discourse constraints.
+-Takeaway: In Predicate Logic, switching the order of mixed quantifiers (e.g., $\forall x \exists y$ versus $\exists y \forall x$) completely changes the logical meaning of a statement. Precision in parsing binding scopes is mandatory for avoiding invalid deductions in GATE scoring.
+
 # July 12, 2026
 Focus: Linked List Subject Testing, Expression Parsing Algorithms, and Set Theory Foundations
 
