@@ -1,4 +1,10 @@
 --
+# July 14, 2026
+Focus: Web Application Architecture — HTTP Protocol Message Anatomy
+
+-What I did: Deep-dived into the wire-level syntax of stateless HyperText Transfer Protocol (HTTP) transaction packets. Deconstructed the distinct variations between client Requests and server Responses. Audited the four critical layers of HTTP messages: the start/request line determining operational methods and status returns, the key-value metadata header arrays, the mandatory empty CRLF divider line ($\backslash\text{r}\backslash\text{n}$), and the dynamic body payload segment used for uploading client inputs or returning structural DOM content.
+-Takeaway: The empty line in an HTTP message acts as a strict structural divider; understanding this protocol requirement is fundamental for debugging proxy configuration issues and defending against HTTP request smuggling vectors.
+
 # July 13, 2026
 Focus: Web Application Architecture — URL Anatomy & Parameter Mechanics
 

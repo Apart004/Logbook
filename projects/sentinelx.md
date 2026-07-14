@@ -1,4 +1,10 @@
 --
+# July 14, 2026
+Focus: Phase 1 Threat Intelligence Inception & Pydantic IOC Modeling
+
+-What I did: Formally kicked off Phase 1 development by spinning up and checking out the dedicated feature branch `phase-1-threat-intel`. Engineered the primary data validation layers inside `database/models.py`, building out a comprehensive Indicator of Compromise (IOC) data schema using Pydantic. Enforced explicit runtime type checking rules for tracking hostile IP spaces, cryptographic malicious file hashes, command-and-control domains, and threat actor metadata payloads.
+-Takeaway: Moving validation logic directly onto Pydantic models ensures that corrupted or malformed intelligence feeds are dropped or caught at the ingestion boundary before they can pollute the database.
+
 # July 13, 2026
 Focus: Phase 0 Graduation & Architecture Decision Record (P0-T11)
 

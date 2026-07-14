@@ -1,4 +1,10 @@
 --
+# July 14, 2026
+Focus: Discrete Mathematics — Mathematical Functions & Functional Mapping Properties
+
+-What I did: Formally transitioned out of pure Set Theory logic to initialize the **Functions** curriculum block within the Discrete Mathematics syllabus. Mapped the foundational algebraic rules defining relation boundaries that form legitimate functions ($f: A \to B$). Investigated core functional mapping properties, detailing the rigorous mathematical constraints that govern Injective (one-to-one mapping allocations), Surjective (onto range distributions where codomain equals image), and Bijective configurations.
+-Takeaway: A mapping is only a valid function if every single element in the domain maps to exactly one unique element in the codomain. Understanding how these domain mappings interact lays the ground rules for evaluating counting principles, combinatorics, and discrete mathematical algorithms down the line.
+
 # July 13, 2026
 Focus: Mathematical Logic & Set Theory Finalization
 
