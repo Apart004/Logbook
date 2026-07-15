@@ -1,4 +1,11 @@
 --
+
+# July 15, 2026
+Focus: Model Refactoring, Pydantic/MongoDB Serialization, and Style Formatting
+
+-What I did: Actively resolved database integration hurdles on the dedicated `phase-1-threat-intel` branch. Refactored the Pydantic Indicator of Compromise (IOC) schema inside `database/models.py` by replacing strict Python Enums with standard plain string validation lines to resolve MongoDB JSON serialization exceptions. Updated local engineering documentation (`devlog day 12`), applied automated PEP 8 formatting using the `black` code formatter, and successfully cleared the automated CI check pipeline.
+-Takeaway: MongoDB natively handles standard string types more cleanly than complex nested Python Enums; fallback string-based schemas with Pydantic validation keep payloads serialize-safe while preserving strong typing rules.
+
 # July 14, 2026
 Focus: Phase 1 Threat Intelligence Inception & Pydantic IOC Modeling
 

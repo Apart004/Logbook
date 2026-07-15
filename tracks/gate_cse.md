@@ -1,4 +1,11 @@
 --
+
+# July 15, 2026
+Focus: Discrete Mathematics — Function Mappings, Bijections, and Set Cardinality
+
+-What I did: Progressed deeper into Discrete Mathematics by solving targeted problems on functional mappings. Audited structural definitions for Injective (one-to-one), Surjective (onto), and Bijective (one-to-one correspondence) mappings. Analyzed set cardinality relations in the context of functional spaces—deducing formulas for calculating total possible functions from set $A$ to set $B$ ($|B|^{|A|}$), total injective mappings, and verifying cardinality matches necessary for bijective mapping existences.
+-Takeaway: A bijective mapping (one-to-one correspondence) between set $A$ and set $B$ can only exist if and only if their cardinalities are strictly equal ($|A| = |B|$). This baseline cardinality rule is crucial for mapping finite versus infinite set bounds in theoretical computer science.
+
 # July 14, 2026
 Focus: Discrete Mathematics — Mathematical Functions & Functional Mapping Properties
 

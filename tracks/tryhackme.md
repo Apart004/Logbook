@@ -1,4 +1,10 @@
 --
+# July 15, 2026
+Focus: Web Application Architecture — HTTP Request Anatomy & Methods
+
+-What I did: Deep-dived into the structural components of HTTP Requests, analyzing the Request Line syntax (`METHOD /path HTTP/version`). Evaluated the security parameters of HTTP verbs, noting data leak vectors with GET requests and payload injection surfaces with POST/PUT requests. Examined low-level configuration methods like OPTIONS, TRACE, and CONNECT, and tracked protocol version evolutions from simple text-only HTTP/0.9 to UDP-backed QUIC protocols in HTTP/3.
+-Takeaway: Restricting non-essential HTTP methods (like disabling TRACE and OPTIONS on production web servers) reduces information disclosure risk and shrinks the application's overall attack surface.
+
 # July 14, 2026
 Focus: Web Application Architecture — HTTP Protocol Message Anatomy
 
