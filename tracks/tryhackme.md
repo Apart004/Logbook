@@ -1,4 +1,10 @@
 --
+# July 16, 2026
+Focus: Web Application Architecture — HTTP Responses and Status Codes
+
+-What I did: Concluded the core protocol message analysis on TryHackMe, focusing on HTTP headers, request bodies, and the full HTTP response lifecycle. Deconstructed the response Status Line (`HTTP/Version Status_Code Reason_Phrase`) and mapped out the five functional categories of status codes: Informational (1xx), Success (2xx), Redirection (3xx), Client Errors (4xx), and Server Errors (5xx).
+-Takeaway: Mastered the structural taxonomy of web responses (such as 200 OK, 301 Redirect, 404 Not Found, and 500 Internal Server Error) to quickly diagnose upstream infrastructure issues versus client-side payload malformations during audits.
+
 # July 15, 2026
 Focus: Web Application Architecture — HTTP Request Anatomy & Methods
 
