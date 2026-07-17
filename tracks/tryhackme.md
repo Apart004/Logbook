@@ -1,4 +1,10 @@
 --
+# July 17, 2026
+Focus: Web Application Architecture — HTTP Response Anatomy & Status Codes
+
+-What I did: Explored the wire-level syntax of HTTP Responses, focusing heavily on the Status Line structure (`HTTP/Version Status_Code Reason_Phrase`). Classified three-digit server response codes into their five primary functional ranges: Informational (1xx), Success (2xx), Redirection (3xx), Client Errors (4xx), and Server Errors (5xx), analyzing standard codes like 200 OK, 301 Moved Permanently, 404 Not Found, and 500 Internal Server Error.
+-Takeaway: Memorizing categorical response codes allows for rapid debugging of client-side request malformations versus true server-side system failures during web architecture audits.
+
 # July 16, 2026
 Focus: Web Application Architecture — HTTP Responses and Status Codes
 

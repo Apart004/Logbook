@@ -1,4 +1,9 @@
 --
+# July 17, 2026
+Focus: Data Structures — Infix and Postfix Expression Parsing
+
+-What I did: Refreshed core linear data structures by solving targeted practice questions on expression transformations. Analyzed operator precedence and associativity constraints required to convert human-readable Infix expressions into stack-optimized Postfix notations, mapping out step-by-step stack operations (push/pop rules) during algebraic string evaluation.
+-Takeaway: Precision with operator associativity (e.g., left-to-right vs. right-to-left for exponents) is absolute key to avoiding off-by-one errors in stack-based evaluation questions on the GATE exam.
 
 # July 15, 2026
 Focus: Discrete Mathematics — Function Mappings, Bijections, and Set Cardinality
