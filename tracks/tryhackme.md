@@ -1,4 +1,10 @@
 --
+# July 18, 2026
+Focus: Web Application Architecture — Declarative HTTP Security Headers
+
+-What I did: Analyzed defensive runtime mitigations via server-side HTTP response headers. Evaluated the configuration matrices of Content-Security-Policy (CSP) for cross-site scripting (XSS) containment, Strict-Transport-Security (HSTS) for global TLS enforcement, X-Content-Type-Options (`nosniff`) to suppress browser MIME-type guessing, and Referrer-Policy to prevent credential/URL leakages during external cross-origin redirects.
+-Takeaway: Hardcoding strict security headers directly into server configuration blocks provides global, low-overhead browser-enforced barriers against common frontend injection vectors.
+
 # July 17, 2026
 Focus: Web Application Architecture — HTTP Response Anatomy & Status Codes
 
