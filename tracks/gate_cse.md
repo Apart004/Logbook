@@ -1,4 +1,9 @@
 --
+# July 19, 2026
+Focus: Discrete Mathematics (Predicate Logic) & Data Structures (Stack Activation Records)
+
+-What I did: Executed a targeted review of Predicate Logic, sharpening core deduction techniques with existential ($\exists$) and universal ($\forall$) quantifiers. Advanced through DSA lectures focusing on the structural runtime mechanics of dynamic execution—analyzing the composition of Activation Records (local variables, parameters, return addresses, and links) on the system stack, and mapped out space complexity recursive calls using Fibonacci sequence formulas.
+-Takeaway: Every nested or recursive function call creates a unique activation record on the stack; tracking the maximum depth of these stack frames is essential for accurately deriving the true auxiliary space complexity of recursive bounds.
 
 # July 18, 2026
 Focus: Data Structures & Algorithms — Comprehensive Notes Review
