@@ -1,4 +1,10 @@
 --
+# July 20, 2026
+Focus: Web Application Architecture — Practical HTTP Request/Response Emulation
+
+-What I did: Initialized the interactive split-view laboratory environment on TryHackMe. Engaged with the static web emulator to practically construct, manipulate, and analyze raw HTTP payloads, simulating variations in request methods, headers, and response status evaluations.
+-Takeaway: Hands-on payload manipulation bridges the gap between theoretical protocol definitions and live web exploitation/debugging workflows.
+
 # July 19, 2026
 Focus: Web Application Architecture — HTTP Security Headers & Browser Enforcement
 
