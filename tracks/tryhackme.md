@@ -1,4 +1,11 @@
 --
+
+# July 21, 2026
+Focus: Network & Web Authentication — Automated Credential Testing with Hydra
+
+-What I did: Completed the practical Hydra room on TryHackMe, mastering CLI syntax for automated password brute-forcing and credential auditing across supported network services and web login forms. Analyzed flag structures, protocol specifications, target formatting, and custom wordlist routing.
+-Takeaway: Hands-on experience with Hydra highlights the crucial necessity of robust defense-in-depth controls—such as strict multi-factor authentication (MFA), aggressive rate-limiting, and account lockout policies—to neutralize automated authentication attacks at the edge.
+
 # July 20, 2026
 Focus: Web Application Architecture — Practical HTTP Request/Response Emulation
 
