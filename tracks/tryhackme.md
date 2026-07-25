@@ -1,4 +1,10 @@
 --
+# July 25, 2026
+Focus: Security Operations — Practical SOC SIEM Triage & Alert Analysis
+
+-What I did: Completed the practical SOC simulation exercise, acting as a Level 1 Analyst analyzing SIEM event logs. Applied the 5 Ws methodology (Who, What, When, Where, Why) to investigate an active Port Scanning alert, cross-referencing telemetry with known authorized scanner IPs (`10.0.0.8`) to distinguish vulnerability assessments from malicious reconnaissance.
+-Takeaway: Effective Tier 1 alert triage requires validating network context—such as pre-announced vulnerability scans—to quickly filter benign internal traffic from true adversary behavior.
+
 # July 24, 2026
 Focus: Security Operations — Linux Environment Setup & SOC Architecture
 
