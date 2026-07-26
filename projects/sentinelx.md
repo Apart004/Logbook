@@ -1,4 +1,14 @@
 --
+
+
+
+
+# July 26, 2026
+Focus: Phase 1 — Threat Intelligence (Task P1-T5: AbuseIPDB Collector Build)
+
+-What I did: Initiated Task `P1-T5` on the `phase-1-threat-intel` branch following codebase linting and formatting pass (`ruff` fix validation). Formulated structural logic for `collectors/abuseipdb.py` to handle automated Indicator of Compromise (IOC) polling, response parsing, and error-handling routines for external threat intelligence feeds. Verified project health metrics at 15 total sessions and 36 lifetime commits.
+-Takeaway: Decoupling external intelligence API logic into isolated collector modules keeps threat data pipelines scalable and simplifies integration with internal database indexing schemas.
+
 # July 18, 2026
 Focus: Phase 1 Architecture Snapshot & Task P1-T3 Planning
 
