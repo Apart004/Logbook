@@ -1,4 +1,20 @@
 --
+
+
+
+# July 27, 2026
+
+Focus: Security Operations — Log Sources & Telemetry Classification
+
+-What I did: Explored core logging fundamentals and log source taxonomy in enterprise environments. Analyzed the functional distinction between Host-Centric logs (endpoints, servers, processes, registry changes, authentication events) and Network-Centric logs (firewalls, routers, IDS/IPS, SSH/VPN sessions, web traffic) to understand how SIEM platforms construct end-to-end telemetry trails.
+-Takeaway: Cross-correlating host-centric activity (e.g., process creation) with network-centric telemetry (e.g., outbound web connections) is essential for mapping out complete attack paths and detecting lateral movement.
+
+# July 26, 2026
+Focus: Security Operations — Practical SIEM Alert Triage & SOC Fundamentals Completion
+
+-What I did: Successfully completed Task 6 of the SOC Fundamentals module. Conducted hands-on alert triage inside a simulated SIEM using the 5 Ws methodology (Who, What, When, Where, Why). Identified an internal port scan alert initiated by host `Nessus` (`10.0.0.8`) targeting `10.0.0.3`, validated it against pre-announced vulnerability assessment windows, categorized the event as authorized/intended, and extracted the final flag (`THM{000_INTRO_TO_SOC}`).
+-Takeaway: Correlating raw alert data with organizational context prevents false-positive escalation and keeps Level 1 SOC operations focused on true adversary activity.
+
 # July 25, 2026
 Focus: Security Operations — Practical SOC SIEM Triage & Alert Analysis
 
