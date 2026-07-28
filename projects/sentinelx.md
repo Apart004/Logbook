@@ -1,7 +1,11 @@
 --
 
 
+# July 28, 2026
+Focus: Phase 1 — Threat Intelligence (Task P1-T6: URLhaus Collector Build)
 
+-What I did: Completed Task P1-T5 and advanced to P1-T6 to build the `collectors/urlhaus.py` module. Created a new feature branch (`feat/p1-t6-urlhaus`) to isolate the development of the URLhaus API integration for malicious URL ingestion. Verified project health metrics at 16 total sessions and 38 lifetime commits.
+-Takeaway: Expanding the threat intelligence pipeline to include URLhaus diversifies the IOC database, allowing the system to track and correlate malware distribution vectors alongside IP reputation.
 
 # July 26, 2026
 Focus: Phase 1 — Threat Intelligence (Task P1-T5: AbuseIPDB Collector Build)
