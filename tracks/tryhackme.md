@@ -2,6 +2,18 @@
 
 
 
+# July 29, 2026
+Focus: Security Operations — SIEM Detection Logic & Alert Triage Workflows
+
+-What I did: Explored how SIEM solutions detect malicious behavior using rule-based logical expressions and field-value pair correlation. Analyzed specific Windows Event ID use cases—such as log clearing (`EventID: 104`) and post-exploitation reconnaissance (`EventID: 4688` with `whoami` process execution)—and studied the alert investigation workflow for classifying events as True/False Positives, rule tuning, and isolation protocols.
+-Takeaway: Detection rules depend on normalized log fields to reliably capture threat signatures; precise field-value matching minimizes noise and enables rapid SOC incident triage.
+
+# July 28, 2026
+Focus: Security Operations — SIEM Fundamentals, Value Proposition & Log Ingestion
+
+-What I did: Progressed through the Introduction to SIEM module, completing Task 2 (Logs Everywhere, Answers Nowhere), Task 3 (Why SIEM?), and Task 4 (Log Sources and Ingestion). Analyzed how SIEM platforms solve log visibility challenges by centralizing disparate host/network telemetry, performing real-time correlation, and leveraging agents/forwarders for structured log ingestion.
+-Takeaway: Without a SIEM to ingest, normalize, and correlate logs in real time, security teams face massive visibility gaps, making manual cross-device threat investigation practically impossible at scale.
+
 # July 27, 2026
 
 Focus: Security Operations — Log Sources & Telemetry Classification
