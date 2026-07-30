@@ -1,6 +1,10 @@
 --
 
+# July 30, 2026
+Focus: Security Operations — Introduction to SIEM (Room Completion)
 
+-What I did: Fully completed the Introduction to SIEM room on TryHackMe. Finished hands-on labs covering log ingestion, parsing normalized fields, evaluating logical detection rules, and walking through end-to-end alert triage scenarios for True/False Positive classification.
+-Takeaway: SIEM platforms serve as the core intelligence hub for SOC operations; mastering how detection rules map to specific host/network telemetry allows for faster threat detection and effective rule tuning.
 
 # July 29, 2026
 Focus: Security Operations — SIEM Detection Logic & Alert Triage Workflows
