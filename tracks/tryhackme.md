@@ -1,5 +1,16 @@
 --
 
+# July 31, 2026
+Focus: Defensive Security Tooling — CyberChef: The Basics (31% Progress)
+
+-What I did: Commenced the "CyberChef: The Basics" room under the Defensive Security Tooling track. Completed Tasks 1 through 4 (Introduction, Accessing the Tool, Navigating the Interface, and Before Anything Else). Reached 31% overall room progress while learning core UI layouts, recipe chaining, input/output panels, and initial data transformation workflows.
+-Takeaway: CyberChef provides an indispensable environment for rapidly decoding obfuscated strings, base64 payloads, and hexadecimal dumps during incident response and malware triage.
+Focus: Security Operations — Introduction to SIEM (Room Completion)
+
+-What I did: Fully completed the Introduction to SIEM room on TryHackMe. Finished hands-on labs covering log ingestion, parsing normalized fields, evaluating logical detection rules, and walking through end-to-end alert triage scenarios for True/False Positive classification.
+-Takeaway: SIEM platforms serve as the core intelligence hub for SOC operations; mastering how detection rules map to specific host/network telemetry allows for faster threat detection and effective rule tuning.
+
+
 # July 30, 2026
 Focus: Security Operations — Introduction to SIEM (Room Completion)
 
