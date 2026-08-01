@@ -1,5 +1,15 @@
 --
 
+
+
+
+
+# August 1, 2026
+Focus: Defensive Security Tooling — CyberChef Operations & Practical Exercises
+
+-What I did: Continued CyberChef: The Basics room on TryHackMe. Studied core operational categories including Extractors (IPs, URLs, emails), Date/Time epoch conversions, Base encoding variants (Base64 binary-to-text mapping, Base58, Base62, Base85), and URL percent-encoding. Completed hands-on practical exercises involving manual binary conversions and regex-based telemetry extraction.
+-Takeaway: Combining extractor recipes with decoding pipelines in CyberChef automates the triage of obfuscated artifacts and raw network dumps during incident investigations.
+
 # July 31, 2026
 Focus: Defensive Security Tooling — CyberChef: The Basics (31% Progress)
 
