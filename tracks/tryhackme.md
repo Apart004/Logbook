@@ -2,7 +2,11 @@
 
 
 
+# August 2, 2026
+Focus: Defensive Security Tooling — CyberChef Hands-On Recipe Cooking
 
+-What I did: Applied CyberChef operational categories to solve practical challenges. Constructed recipes using `To Base64`, `From Base85`, `URL Decode`, `From UNIX Timestamp`, and regex `Extract IP addresses` to reverse obfuscated strings, parse timestamps, and isolate target IP signatures.
+-Takeaway: Rapidly chaining transformations in CyberChef turns complex decoding and forensic text parsing into simple one-click operations.
 
 # August 1, 2026
 Focus: Defensive Security Tooling — CyberChef Operations & Practical Exercises
