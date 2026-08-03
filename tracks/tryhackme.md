@@ -1,6 +1,10 @@
 --
 
+# August 3, 2026
+Focus: Defensive Security Tooling — CyberChef: The Basics (Room Completion)
 
+-What I did: Fully completed the CyberChef: The Basics room on TryHackMe. Summarized the role of continuous technical training in SOC teams and finalized all practical modules on data transformations, regex extraction, encoding variants, and recipe chaining.
+-Takeaway: Mastering CyberChef enables rapid, repeatable artifact analysis during incident response, significantly speeding up triage for obfuscated payloads and raw log analysis.
 
 # August 2, 2026
 Focus: Defensive Security Tooling — CyberChef Hands-On Recipe Cooking
