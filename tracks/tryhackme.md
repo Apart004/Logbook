@@ -1,5 +1,18 @@
 --
 
+
+
+
+
+
+
+
+# August 4, 2026
+Focus: Web Security & OWASP — OWASP Top 10:2025 & The IAAA Framework
+
+-What I did: Started the OWASP Top 10:2025 track on TryHackMe, focusing on the fundamental IAAA framework (Identity, Authentication, Authorization, Accountability). Analyzed how strict sequential dependency across these four tiers forms the backbone of web security and how failures in any single stage lead directly to critical vulnerabilities like Broken Access Control and Identification/Authentication Failures.
+-Takeaway: Security control layers in web applications are strictly linear: without robust Identification and Authentication, Authorization cannot be enforced, and without granular Accountability (logging/auditing), post-exploitation actions cannot be traced.
+
 # August 3, 2026
 Focus: Defensive Security Tooling — CyberChef: The Basics (Room Completion)
 

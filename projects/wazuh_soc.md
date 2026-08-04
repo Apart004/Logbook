@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+# August 4,2026
+Scraped the old project and progress and starting fresh setup and project without ai 
+
+
 # June 20, 2026
 Focus: Day 15 – IOC Extraction from AlienVault OTX Threat Intelligence Feeds
 
