@@ -5,7 +5,11 @@
 
 
 
+# August 5, 2026
+Focus: Web Security & OWASP — Identification & Authentication Failures
 
+-What I did: Continued the OWASP Top 10:2025 track on TryHackMe, examining Identification and Authentication Failures. Explored common authentication security flaws including username enumeration, weak credential enforcement, rate-limiting gaps, and registration logic vulnerabilities (e.g., case-sensitivity normalization flaws allowing `aDmiN` account collisions to hijack `admin` access).
+-Takeaway: Applications must enforce strict, consistent input normalization and canonicalization during both user registration and authentication phases to prevent identity collisions and authorization bypasses.
 
 # August 4, 2026
 Focus: Web Security & OWASP — OWASP Top 10:2025 & The IAAA Framework
