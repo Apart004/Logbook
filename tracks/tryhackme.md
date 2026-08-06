@@ -3,7 +3,11 @@
 
 
 
+# August 6, 2026
+Focus: Web Security & OWASP — OWASP Top 10 2025: IAAA Failures (88% Progress)
 
+-What I did: Advanced to 88% progress in the "OWASP Top 10 2025: IAAA Failures" room on TryHackMe. Worked through key module tasks focusing on A01 (Broken Access Control), A07 (Identification and Authentication Failures), and A09 (Logging & Alerting Failures), examining how breakdowns in authorization enforcement and accountability impact overall application resilience.
+-Takeaway: Securing web applications requires a tight feedback loop where authorization checks enforce strict least privilege (A01/A07) and robust logging (A09) ensures full visibility into suspicious activity.
 
 # August 5, 2026
 Focus: Web Security & OWASP — Identification & Authentication Failures
