@@ -1,7 +1,11 @@
 --
 
 
+# August 7, 2026
+Focus: Web Security & OWASP — Application Design Flaws (Insecure Design)
 
+-What I did: Explored OWASP Top 10 concepts around Application Design Flaws. Analyzed the structural differences between architectural design defects and implementation/coding bugs, threat modeling principles, state machine/workflow vulnerabilities, and secure-by-design mitigation strategies.
+-Takeaway: Implementation fixes cannot compensate for insecure architecture; integrating threat modeling and secure reference designs early in the planning phase is required to eliminate structural logic flaws.
 
 # August 6, 2026
 Focus: Web Security & OWASP — OWASP Top 10 2025: IAAA Failures (88% Progress)
