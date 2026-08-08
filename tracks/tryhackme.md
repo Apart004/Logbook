@@ -1,5 +1,9 @@
 --
+# August 8, 2026
+Focus: Web Security & OWASP — OWASP Top 10 2025: Insecure Data Handling (Room Completion)
 
+-What I did: Completed the "OWASP Top 10 2025: Insecure Data Handling" room on TryHackMe. Analyzed the core risks associated with improper data management, including sensitive data exposure in transit/rest, inadequate cryptographic standards, plain-text secret storage, and unmasked PII leakage within application logs.
+-Takeaway: Secure data handling requires enforcing end-to-end encryption (TLS 1.3/AES-256), strict secret management outside source repositories, and automated data sanitization on log streams.
 
 # August 7, 2026
 Focus: Web Security & OWASP — Application Design Flaws (Insecure Design)
