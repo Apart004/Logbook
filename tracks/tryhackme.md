@@ -1,4 +1,20 @@
 --
+
+
+
+
+
+
+
+
+
+# August 9, 2026
+Focus: Security Operations — SOC Level 1 Path & Junior Security Analyst Intro
+
+-What I did: Officially initiated the SOC Level 1 learning path on TryHackMe, completing the "Junior Security Analyst Intro" room. Simulated daily SOC Tier 1 analyst responsibilities, including real-time alert triage, initial event classification, incident escalation protocols, and ticket management workflows.
+-Takeaway: Tier 1 analyst work revolves around rapid, precise context-gathering—correlating host/network telemetry to differentiate false positives from actionable security incidents within strict operational SLAs.
+
+
 # August 8, 2026
 Focus: Web Security & OWASP — OWASP Top 10 2025: Insecure Data Handling (Room Completion)
 
