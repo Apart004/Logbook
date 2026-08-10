@@ -6,7 +6,11 @@
 
 
 
+# August 10, 2026
+Focus: Security Operations — SOC Role in Blue Team (55% Progress)
 
+-What I did: Continued the SOC Level 1 path on TryHackMe, completing Tasks 1 through 3 (Introduction, Security Hierarchy, and Meet the Blue Team) in the "SOC Role in Blue Team" room. Analyzed enterprise security organization structures, handoff workflows between Tier 1/2/3 analysts, and cross-functional relationships between SOC operations, Incident Response, and Detection Engineering teams.
+-Takeaway: Efficient SOC operations depend on clear escalation pathways and well-defined operational boundaries between initial triage (L1), deep investigation (L2), and specialized threat hunting/response (L3).
 
 # August 9, 2026
 Focus: Security Operations — SOC Level 1 Path & Junior Security Analyst Intro
