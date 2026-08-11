@@ -4,7 +4,11 @@
 
 
 
+# August 11, 2026
+Focus: Security Operations — SOC Role in Blue Team (Room Completion)
 
+-What I did: Completed the "SOC Role in Blue Team" room on TryHackMe under the SOC Level 1 path. Finalized modules covering analyst tier progression (L1 to L3), SOC metrics (MTTD/MTTR), incident response collaboration workflows, and the operational responsibilities of blue team personnel.
+-Takeaway: Understanding how L1 triage feeds directly into L2/L3 investigations and incident response playbooks is essential for maintaining efficient security operations and reducing mean time to detect and respond.
 
 # August 10, 2026
 Focus: Security Operations — SOC Role in Blue Team (55% Progress)
