@@ -2,7 +2,11 @@
 
 
 
+# August 12, 2026
+Focus: Security Operations — SOC L1 Alert Triage (50% Progress)
 
+-What I did: Reached 50% progress in the "SOC L1 Alert Triage" room under the SOC Level 1 path. Completed Tasks 1 through 3 (Introduction, Events and Alerts, and Alert Properties). Analyzed the distinction between benign system events and actionable security alerts, essential alert attributes (severity, timestamps, source/destination metadata, rule triggers), and structured evaluation techniques.
+-Takeaway: Effective triage relies on understanding alert properties quickly to filter out noise, reduce false-positive burnout, and prioritize true positives based on criticality and potential impact.
 
 # August 11, 2026
 Focus: Security Operations — SOC Role in Blue Team (Room Completion)
