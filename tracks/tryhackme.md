@@ -1,6 +1,10 @@
 --
 
+# August 13, 2026
+Focus: Security Operations — SOC L1 Alert Triage (Room Completion)
 
+-What I did: Fully completed the "SOC L1 Alert Triage" room on TryHackMe under the SOC Level 1 path. Practiced applying systematic triage frameworks to evaluate alert fidelity, correlate raw events across host/network logs, classify false vs. true positives, and draft structured escalation tickets.
+-Takeaway: Standardized triage playbooks significantly increase response speed and accuracy, ensuring critical alerts are prioritized and escalated with full contextual evidence.
 
 # August 12, 2026
 Focus: Security Operations — SOC L1 Alert Triage (50% Progress)
