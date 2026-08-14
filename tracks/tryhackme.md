@@ -1,5 +1,19 @@
 --
 
+
+
+
+
+
+
+
+
+# August 14, 2026
+Focus: Security Operations — SOC L1 Alert Reporting (50% Progress)
+
+-What I did: Reached 50% progress in the "SOC L1 Alert Reporting" room under the SOC Level 1 path. Completed Task 1 (Introduction), Task 2 (Alert Funnel), and Task 3 (Reporting Guide). Learned how high-volume event data is filtered down the alert funnel and studied core principles for drafting clear, concise, and context-rich escalation reports.
+-Takeaway: High-quality incident reporting bridges initial triage with technical escalation—providing Tier 2/3 analysts with structured evidence, timeline context, and affected asset details minimizes response delay.
+
 # August 13, 2026
 Focus: Security Operations — SOC L1 Alert Triage (Room Completion)
 
