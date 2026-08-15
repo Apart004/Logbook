@@ -6,7 +6,11 @@
 
 
 
+# August 15, 2026
+Focus: Security Operations — SOC L1 Alert Reporting (Room Completion)
 
+-What I did: Fully completed the "SOC L1 Alert Reporting" room on TryHackMe under the SOC Level 1 path. Practiced constructing technical incident reports, summarizing event timelines, documenting IOCs/telemetry, and formatting clear escalation tickets for Tier 2/3 blue team personnel.
+-Takeaway: Effective security reporting relies on structured clarity—presenting precise impact metrics, chronological evidence, and actionable next steps enables swift incident containment.
 
 # August 14, 2026
 Focus: Security Operations — SOC L1 Alert Reporting (50% Progress)
