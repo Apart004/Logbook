@@ -4,7 +4,11 @@
 
 
 
+# August 16, 2026
+Focus: Core SOC Solutions — Introduction to EDR (35% Progress)
 
+-What I did: Started the "Introduction to EDR" room in the Core SOC Solutions section on TryHackMe, reaching 35% completion (256/314 pts). Completed Task 1 (Introduction), Task 2 (What is an EDR?), and Task 3 (Beyond the Antivirus). Analyzed the key operational differences between traditional signature-based Antivirus (AV) and Endpoint Detection and Response (EDR) platforms, focusing on real-time telemetry collection, process tracking, and behavioral monitoring.
+-Takeaway: Traditional AV relies heavily on known file hashes, whereas EDR provides continuous endpoint visibility by analyzing process trees, host behavior, memory modifications, and network connections to catch novel attack techniques.
 
 # August 15, 2026
 Focus: Security Operations — SOC L1 Alert Reporting (Room Completion)
