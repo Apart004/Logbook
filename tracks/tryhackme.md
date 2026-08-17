@@ -2,7 +2,11 @@
 
 
 
+# August 17, 2026
+Focus: Core SOC Solutions — Introduction to EDR (Telemetry Mechanics)
 
+-What I did: Continued the "Introduction to EDR" room in the SOC Level 1 path on TryHackMe. Deep-dived into EDR architectural components, specifically analyzing how the EDR Agent (Sensor) operates at the kernel/user space level to capture endpoint telemetry, monitor process creation trees, and stream event logs to the central backend.
+-Takeaway: The EDR agent/sensor serves as the frontline observer in endpoint defense; its ability to capture granular, real-time host activity is what feeds behavioral detection and automated isolation playbooks.
 
 # August 16, 2026
 Focus: Core SOC Solutions — Introduction to EDR (35% Progress)
