@@ -1,6 +1,10 @@
 --
 
+# August 18, 2026
+Focus: Core SOC Solutions — EDR Telemetry & Behavioral Analytics
 
+-What I did: Continued the "Introduction to EDR" room on TryHackMe, studying host telemetry fundamentals. Analyzed key telemetry streams collected by EDR agents—including process trees, network sockets, command-line arguments, file system events, and registry changes—and how correlated telemetry enables detection of stealthy, living-off-the-land attacks.
+-Takeaway: High-fidelity telemetry provides the contextual baseline needed to reconstruct complete attack timelines, differentiate benign admin tasks from malicious execution, and perform root-cause investigations.
 
 # August 17, 2026
 Focus: Core SOC Solutions — Introduction to EDR (Telemetry Mechanics)
