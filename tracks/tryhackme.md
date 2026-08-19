@@ -1,5 +1,24 @@
 --
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# August 19, 2026
+Focus: Core SOC Solutions — Introduction to EDR (94% Progress)
+
+-What I did: Advanced to 94% completion in the "Introduction to EDR" room under the SOC Level 1 path on TryHackMe. Completed Task 4 (How an EDR works?) and Task 5 (EDR Telemetry), analyzing how EDR components process endpoint data, apply correlation rules, and feed centralized threat detection engines.
+-Takeaway: Combining real-time telemetry streaming with automated rule matching allows EDR solutions to detect complex attack patterns across process execution, network sockets, and system modifications almost instantaneously.
+
 # August 18, 2026
 Focus: Core SOC Solutions — EDR Telemetry & Behavioral Analytics
 
