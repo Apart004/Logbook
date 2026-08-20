@@ -11,7 +11,11 @@
 
 
 
+# August 20, 2026
+Focus: Cyber Threat Intelligence — Pyramid of Pain (Room Kickoff)
 
+-What I did: Initiated the "Pyramid of Pain" room on TryHackMe under the SOC Level 1 path. Analyzed the relationship between Indicators of Compromise (IOCs) and adversary operational overhead, ranging from trivial indicators (file hashes, IP addresses) up to behavioral TTPs (Tactics, Techniques, and Procedures).
+-Takeaway: Moving up the Pyramid of Pain shifts defense from reactive signature matching to proactive behavioral disruption, maximizing the cost and effort required for an attacker to maintain persistence.
 
 # August 19, 2026
 Focus: Core SOC Solutions — Introduction to EDR (94% Progress)
