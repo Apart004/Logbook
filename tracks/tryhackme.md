@@ -9,7 +9,11 @@
 
 
 
+# August 21, 2026
+Focus: Pyramid of Pain - IP Addresses
 
+-What I did: Analyzed network IOCs within the Pyramid of Pain framework, evaluating how adversaries utilize Fast Flux DNS to rotate IP infrastructure quickly. Evaluated dynamic analysis logs in ANY.RUN to correlate malicious process ID 1632 with outbound requests to external domains (craftinginterpreters.com).
+-Takeaway: Blocking IP addresses is a low-friction, temporary fix for adversaries; durable containment requires elevating detection strategy to domain names, host artifacts, and behavioral TTPs.
 
 # August 20, 2026
 Focus: Cyber Threat Intelligence — Pyramid of Pain (Room Kickoff)
