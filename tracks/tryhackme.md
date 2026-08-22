@@ -7,7 +7,11 @@
 
 
 
+# August 22, 2026
+Focus: Pyramid of Pain - Domain Names
 
+-What I did: Analyzed Domain Name IOCs within the Pyramid of Pain framework and investigated URL shortening obfuscation techniques. Examined network traffic logs in ANY.RUN to inspect HTTP, DNS, and connection tabs, identifying initial suspicious domain queries (craftingalegacy.com).
+-Takeaway: Domain names represent a "Simple" pain level for adversaries; enforcing DNS-level sinkholing or domain blocking forces attackers to re-purchase and re-configure infrastructure rather than just swapping IPs.
 
 # August 21, 2026
 Focus: Pyramid of Pain - IP Addresses
