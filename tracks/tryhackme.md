@@ -5,7 +5,11 @@
 
 
 
+# August 23, 2026
+Focus: Pyramid of Pain - Domain Names Answers
 
+-What I did: Answered comprehension questions regarding Domain Name IOCs in TryHackMe's Pyramid of Pain room. Identified Punycode (IDN homograph) attack vectors using Unicode characters and used preview characters to resolve shortened URL redirects (https://tryhackme.com/).
+-Takeaway: Attackers obscure domains using Punycode spoofing and shorteners; analysts must inspect raw DNS queries and expand short links safely before analyzing target infrastructure.
 
 # August 22, 2026
 Focus: Pyramid of Pain - Domain Names
