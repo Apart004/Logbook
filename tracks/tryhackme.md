@@ -3,7 +3,11 @@
 
 
 
+# August 24, 2026
+Focus: Pyramid of Pain - Network Artifacts
 
+-What I did: Analyzed Network Artifact IOCs within the Pyramid of Pain framework, focusing on User-Agent strings, URI patterns, and C2 traffic signatures. Examined PCAP packet inspection using TShark field extraction (`http.host`, `http.user_agent`) to isolate Emotet trojan indicators.
+-Takeaway: Network artifacts force adversaries to modify their tools or communication protocols; isolating custom User-Agents or URI patterns via IDS/PCAP analysis raises the operational cost for the attacker.
 
 # August 23, 2026
 Focus: Pyramid of Pain - Domain Names Answers
