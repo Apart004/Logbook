@@ -1,7 +1,11 @@
 --
 
 
+# August 25, 2026
+Focus: Pyramid of Pain (Room Completion - 100%)
 
+-What I did: Fully completed the Pyramid of Pain room on TryHackMe (100%), finishing all tasks from Trivial indicators (Hashes, IPs) up through Simple, Annoying, Challenging, and Tough levels (Domain Names, Host/Network Artifacts, Tools, and TTPs). Evaluated practical IOC analysis scenarios using sandboxes and network capture tools.
+-Takeaway: Shifting detection strategies from static IOCs (hashes/IPs) to TTPs maximizes adversary operational pain, forcing attackers to completely redefine their intrusion methodologies.
 
 # August 24, 2026
 Focus: Pyramid of Pain - Network Artifacts
