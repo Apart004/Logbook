@@ -1,5 +1,9 @@
 --
+# August 26, 2026
+Focus: Cyber Kill Chain - Reconnaissance (25%)
 
+-What I did: Started the Cyber Kill Chain room on TryHackMe, reaching 25% progress by analyzing Phase 1 (Reconnaissance). Evaluated passive vs. active recon tactics, OSINT collection techniques, and tools like theHarvester, Hunter.io, and OSINT Framework for email harvesting and infrastructure mapping.
+-Takeaway: Reconnaissance forms the foundation of intrusion planning; identifying passive OSINT gathering and public data exposure early limits adversary ability to craft targeted phishing or exploit vectors.
 
 # August 25, 2026
 Focus: Pyramid of Pain (Room Completion - 100%)
