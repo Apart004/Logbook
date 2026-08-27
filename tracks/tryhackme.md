@@ -5,6 +5,20 @@ Focus: Cyber Kill Chain - Reconnaissance (25%)
 -What I did: Started the Cyber Kill Chain room on TryHackMe, reaching 25% progress by analyzing Phase 1 (Reconnaissance). Evaluated passive vs. active recon tactics, OSINT collection techniques, and tools like theHarvester, Hunter.io, and OSINT Framework for email harvesting and infrastructure mapping.
 -Takeaway: Reconnaissance forms the foundation of intrusion planning; identifying passive OSINT gathering and public data exposure early limits adversary ability to craft targeted phishing or exploit vectors.
 
+
+
+
+
+
+
+
+
+# August 27, 2026
+Focus: Cyber Kill Chain - Reconnaissance Task Completion
+
+-What I did: Completed Task 2 (Reconnaissance) of the Cyber Kill Chain room on TryHackMe. Answered comprehension questions regarding open-source intelligence frameworks (OSINT Framework) and techniques utilized for gathering target contact details (Email harvesting).
+-Takeaway: Analyzing the initial phase of the Cyber Kill Chain highlights how attackers combine passive OSINT collection and automated harvesting tools to build targeted attack surfaces prior to weaponization.
+
 # August 25, 2026
 Focus: Pyramid of Pain (Room Completion - 100%)
 
