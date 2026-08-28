@@ -7,11 +7,11 @@ Focus: Cyber Kill Chain - Reconnaissance (25%)
 
 
 
+# August 28, 2026
+Focus: Cyber Kill Chain - Exploitation
 
-
-
-
-
+-What I did: Analyzed Phase 4 (Exploitation) of the Cyber Kill Chain room on TryHackMe. Evaluated execution vectors including malicious Office macros, unpatched public CVEs, and zero-day vulnerabilities, while identifying key host-based indicators such as unexpected process spawns, registry modifications, and suspicious CLI arguments.
+-Takeaway: Detecting exploitation requires monitoring endpoint telemetry for abnormal execution behaviors (e.g., process spawning from Office applications) rather than relying solely on signature-based vulnerability detection.
 
 # August 27, 2026
 Focus: Cyber Kill Chain - Reconnaissance Task Completion
