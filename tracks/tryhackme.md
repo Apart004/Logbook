@@ -2,16 +2,20 @@
 # August 26, 2026
 Focus: Cyber Kill Chain - Reconnaissance (25%)
 
+<<<<<<< HEAD
 -What I did: Started the Cyber Kill Chain room on TryHackMe, reaching 25% progress by analyzing Phase 1 (Reconnaissance). Evaluated passive vs. active recon tactics, OSINT collection techniques, and tools like theHarvester, Hunter.io, and OSINT Framework for email harvesting and infrastructure mapping.
 -Takeaway: Reconnaissance forms the foundation of intrusion planning; identifying passive OSINT gathering and public data exposure early limits adversary ability to craft targeted phishing or exploit vectors.
+=======
+
+>>>>>>> 8ddc6cb (feat: log august 28 thm milestone, resolved git push rejection and synced logbook)
 
 
 
 # August 28, 2026
-Focus: Cyber Kill Chain - Exploitation
+Focus: Git Pipeline Resolution & Cyber Kill Chain Exploitation
 
--What I did: Analyzed Phase 4 (Exploitation) of the Cyber Kill Chain room on TryHackMe. Evaluated execution vectors including malicious Office macros, unpatched public CVEs, and zero-day vulnerabilities, while identifying key host-based indicators such as unexpected process spawns, registry modifications, and suspicious CLI arguments.
--Takeaway: Detecting exploitation requires monitoring endpoint telemetry for abnormal execution behaviors (e.g., process spawning from Office applications) rather than relying solely on signature-based vulnerability detection.
+-What I did: Resolved non-fast-forward Git push rejections in `~/VS Code/Github/Logbook` using `git pull --rebase origin main`. Successfully pushed accumulated log updates covering the Cyber Kill Chain Exploitation phase.
+-Takeaway: Standardizing pipeline execution with rebase prevents branch divergence when syncing multi-device log updates to remote Git repositories.
 
 # August 27, 2026
 Focus: Cyber Kill Chain - Reconnaissance Task Completion
