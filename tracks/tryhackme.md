@@ -1,3 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+# August 29, 2026
+Focus: Cyber Kill Chain - Command & Control (C2)
+
+-What I did: Analyzed Phase 6 (Command and Control / C2) of the Cyber Kill Chain room on TryHackMe. Evaluated modern beaconing mechanisms across common egress channels including HTTP/HTTPS (ports 80/443) and DNS Tunneling, comparing them to legacy detection vectors like IRC.
+-Takeaway: Adversaries leverage high-volume legitimate protocols (HTTP/S, DNS) for C2 beaconing to blend with regular network noise; detecting C2 requires identifying subtle periodicity and anomalous payload patterns in outbound traffic.
+
 # August 28, 2026
 Focus: Git Detached HEAD & Aborted Rebase Recovery
 
