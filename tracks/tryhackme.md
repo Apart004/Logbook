@@ -9,7 +9,11 @@
 
 
 
+# August 30, 2026
+Focus: Cyber Kill Chain - Actions on Objectives
 
+-What I did: Analyzed Phase 7 (Actions on Objectives) of the Cyber Kill Chain room on TryHackMe. Evaluated post-exploitation activities including credential harvesting, privilege escalation, lateral movement, data exfiltration, and adversary tactics like destroying Windows Shadow Copies to prevent system recovery.
+-Takeaway: The final phase of the Cyber Kill Chain represents impact; monitoring for volume shadow copy deletion (`vssadmin delete shadows`) is critical to early detection of ransomware or destruction attempts before data loss occurs.
 
 # August 29, 2026
 Focus: Cyber Kill Chain - Command & Control (C2)
