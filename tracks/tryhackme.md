@@ -7,7 +7,11 @@
 
 
 
+# August 31, 2026
+Focus: Cyber Kill Chain - Practical Scenario Analysis (Target Breach)
 
+-What I did: Applied Cyber Kill Chain framework mapping to the historical 2013 Target data breach practical scenario on TryHackMe. Mapped attack vectors across stages including spearphishing attachments, public-facing exploits, dynamic linker hijacking, PowerShell execution, fallback C2 channels, and local system data collection.
+-Takeaway: Mapping complex real-world breaches into specific Kill Chain phases enables SOC analysts to identify defensive gaps, understand adversary progression, and implement layered controls across the intrusion lifecycle.
 
 # August 30, 2026
 Focus: Cyber Kill Chain - Actions on Objectives
