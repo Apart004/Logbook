@@ -1,11 +1,23 @@
 
 
 
+# September 3, 2026
+Focus: Unified Kill Chain (UKC) - Framework Overview
 
+-What I did: Analyzed Paul Pols' Unified Kill Chain (UKC) framework and its 18 phases, comparing its modern scope against traditional models like Lockheed Martin's Cyber Kill Chain and MITRE ATT&CK. Evaluated the model's non-linear, iterative approach to post-exploitation, pivoting, and adversary intent.
+-Takeaway: The UKC accurately reflects real-world operational threats by modeling iterative attack loops—such as post-exploitation pivoting and secondary reconnaissance—where static, linear frameworks fail.
 
+# September 2, 2026
+Focus: Threat Modeling Concepts & Frameworks
 
+-What I did: Studied threat modeling principles within cybersecurity environments, focusing on asset identification, vulnerability assessment, remediation planning, and SDLC policy implementation. Evaluated risk frameworks such as STRIDE, DREAD, and CVSS to map attack surfaces alongside the Unified Kill Chain (UKC).
+-Takeaway: Proactive threat modeling translates technical vulnerabilities into operational risk, enabling security teams to implement preventative SDLC controls and prioritize defensive engineering effort before exploitation occurs.
 
+# September 1, 2026
+Focus: Cyber Kill Chain - Introduction & Fundamental Concepts
 
+-What I did: Reviewed the core foundational concepts of the Cyber Kill Chain framework on TryHackMe. Analyzed how military intrusion models translate to offensive cybersecurity methodologies and defensive strategy alignment to disrupt adversary operations.
+-Takeaway: Understanding the sequential stages of an adversary's intrusion path allows blue teams to map defensive controls at each layer, enabling early detection and active disruption before attackers achieve their primary objectives.
 
 # August 31, 2026
 Focus: Cyber Kill Chain - Practical Scenario Analysis (Target Breach)

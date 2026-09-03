@@ -4,7 +4,13 @@
 
 
 
+# September 3, 2026
+Focus: TryHackMe SOC Level 1 - Unified Kill Chain
 
+-What I did (TryHackMe): Analyzed Paul Pols' Unified Kill Chain (UKC) framework and its 18 phases, comparing its modern scope against traditional models like Lockheed Martin's Cyber Kill Chain and MITRE ATT&CK. Evaluated the model's non-linear, iterative approach to post-exploitation, pivoting, and adversary intent.
+-Takeaway (TryHackMe): The UKC accurately reflects real-world operational threats by modeling iterative attack loops—such as post-exploitation pivoting and secondary reconnaissance—where static, linear frameworks fail.
+
+-Daily Outcome: Completed Unified Kill Chain introductory module. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 2, 2026
 Focus: TryHackMe SOC Level 1 - Threat Modeling
