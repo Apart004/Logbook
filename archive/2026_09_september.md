@@ -2,7 +2,13 @@
 
 
 
+# September 4, 2026
+Focus: TryHackMe SOC Level 1 - Unified Kill Chain
 
+-What I did (TryHackMe): Analyzed the Initial Access phase group of the Unified Kill Chain framework on TryHackMe, spanning Reconnaissance, Weaponization, Social Engineering, Exploitation, Persistence, Defense Evasion, Command & Control, and Pivoting. Mapped each operational phase to corresponding MITRE ATT&CK Tactics (TA0043, TA0001, TA0002, TA0003, TA0005, TA0011, TA0008).
+-Takeaway (TryHackMe): Analyzing initial foothold phases through the UKC model highlights how adversaries layer defense evasion and persistence alongside C2 and pivoting, allowing blue teams to disrupt intrusion paths before lateral movement occurs.
+
+-Daily Outcome: Completed Initial Access module in Unified Kill Chain room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 3, 2026
 Focus: TryHackMe SOC Level 1 - Unified Kill Chain

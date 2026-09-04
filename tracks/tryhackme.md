@@ -1,6 +1,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+# September 4, 2026
+Focus: Unified Kill Chain (UKC) - Initial Access & Foothold Phases
+
+-What I did: Analyzed the Initial Access phase group of the Unified Kill Chain framework on TryHackMe, spanning Reconnaissance, Weaponization, Social Engineering, Exploitation, Persistence, Defense Evasion, Command & Control, and Pivoting. Mapped each operational phase to corresponding MITRE ATT&CK Tactics (TA0043, TA0001, TA0002, TA0003, TA0005, TA0011, TA0008).
+-Takeaway: Analyzing initial foothold phases through the UKC model highlights how adversaries layer defense evasion and persistence alongside C2 and pivoting, allowing blue teams to disrupt intrusion paths before lateral movement occurs.
+
 # September 3, 2026
 Focus: Unified Kill Chain (UKC) - Framework Overview
 
