@@ -1,6 +1,12 @@
 
 
+# September 5, 2026
+Focus: TryHackMe SOC Level 1 - Unified Kill Chain
 
+-What I did (TryHackMe): Answered comprehension questions covering Unified Kill Chain (UKC) phases on TryHackMe. Correctly mapped tactics including email phishing, social engineering password resets, C2 infrastructure setup during Weaponization, Exploitation, Pivoting between targets, and maintaining access via Persistence.
+-Takeaway (TryHackMe): Categorizing individual adversary actions into standardized UKC phases reinforces rapid incident response triage and aids in mapping detection rules to specific threat behaviors.
+
+-Daily Outcome: Completed phase identification task in Unified Kill Chain room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 4, 2026
 Focus: TryHackMe SOC Level 1 - Unified Kill Chain
