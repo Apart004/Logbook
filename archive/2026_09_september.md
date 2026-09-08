@@ -8,7 +8,13 @@
 
 
 
+# September 8, 2026
+Focus: TryHackMe SOC Level 1 - Unified Kill Chain
 
+-What I did (TryHackMe): Completed the Unified Kill Chain room on TryHackMe (100%), finalizing the study of all 18 phases across Initial Access, Foothold, and Action on Objectives ("Out" goals). Evaluated how the UKC framework complements Lockheed Martin's Cyber Kill Chain and MITRE ATT&CK in identifying risk and reconstructing attack paths.
+-Takeaway (TryHackMe): Mastered the UKC framework to systematically model end-to-end adversary behavior, improving SOC alert reconstruction and threat modeling across modern, non-linear intrusion scenarios.
+
+-Daily Outcome: Completed Unified Kill Chain room (100%). Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 5, 2026
 Focus: TryHackMe SOC Level 1 - Unified Kill Chain

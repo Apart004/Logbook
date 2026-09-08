@@ -4,7 +4,11 @@
 
 
 
+# September 8, 2026
+Focus: Unified Kill Chain - Room Completion (100%)
 
+-What I did: Completed the Unified Kill Chain room on TryHackMe (100%), finalizing the study of all 18 phases across Initial Access, Foothold, and Action on Objectives ("Out" goals). Evaluated how the UKC framework complements Lockheed Martin's Cyber Kill Chain and MITRE ATT&CK in identifying risk and reconstructing attack paths.
+-Takeaway: Mastered the UKC framework to systematically model end-to-end adversary behavior, improving SOC alert reconstruction and threat modeling across modern, non-linear intrusion scenarios.
 
 # September 5, 2026
 Focus: Unified Kill Chain (UKC) - Phase Identification Questions
