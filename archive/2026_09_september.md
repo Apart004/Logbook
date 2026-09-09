@@ -6,7 +6,13 @@
 
 
 
+# September 9, 2026
+Focus: TryHackMe SOC Level 1 - Email Analysis
 
+-What I did (TryHackMe): Started the Email Analysis module on TryHackMe, studying the core structure and RFC-standard components of email addresses (Username, @ delimiter, and Domain Name). Evaluated how basic parsing of mailbox identification and destination mail server routing forms the baseline for phishing investigations.
+-Takeaway (TryHackMe): Understanding recipient routing fundamentals is essential for identifying spoofing anomalies, display name deceptions, and domain typosquatting during initial phishing triage.
+
+-Daily Outcome: Completed Anatomy of an Email Address introductory task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 8, 2026
 Focus: TryHackMe SOC Level 1 - Unified Kill Chain
