@@ -4,7 +4,13 @@
 
 
 
+# September 10, 2026
+Focus: TryHackMe SOC Level 1 - Email Analysis
 
+-What I did (TryHackMe): Analyzed core email transfer and retrieval protocols on TryHackMe, examining SMTP for mail transmission alongside POP3 (local download/deletion) and IMAP (server synchronization). Mapped end-to-end email routing, covering DNS MX record lookups, mail server delivery, and client mailbox retrieval.
+-Takeaway (TryHackMe): Distinguishing between transmission (SMTP) and retrieval (POP3/IMAP) protocols is critical when tracing mail header hops and auditing email logs during phishing incident response.
+
+-Daily Outcome: Completed Email Protocols & Transport Journey task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 9, 2026
 Focus: TryHackMe SOC Level 1 - Email Analysis

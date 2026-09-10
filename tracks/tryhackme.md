@@ -2,6 +2,20 @@
 
 
 
+
+
+
+
+
+
+
+
+# September 10, 2026
+Focus: Email Analysis - Email Protocols & Transport Journey
+
+-What I did: Analyzed core email transfer and retrieval protocols on TryHackMe, examining SMTP for mail transmission alongside POP3 (local download/deletion) and IMAP (server synchronization). Mapped end-to-end email routing, covering DNS MX record lookups, mail server delivery, and client mailbox retrieval.
+-Takeaway: Distinguishing between transmission (SMTP) and retrieval (POP3/IMAP) protocols is critical when tracing mail header hops and auditing email logs during phishing incident response.
+
 # September 9, 2026
 Focus: Email Analysis - Anatomy of an Email Address
 
