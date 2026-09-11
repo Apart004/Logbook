@@ -8,7 +8,11 @@
 
 
 
+# September 11, 2026
+Focus: Email Analysis - Email Headers & Raw Message Inspection
 
+-What I did: Investigated email metadata structures in TryHackMe's Email Analysis room using Thunderbird to analyze raw `.eml` samples (`email1.eml`). Inspected raw message sources (`Ctrl + U`) to extract critical header fields including From, To, Reply-To, Subject, Date, and originating IP addresses.
+-Takeaway: Analyzing raw message headers reveals hidden delivery metadata and originating IP addresses that standard email client interfaces obscure, enabling SOC analysts to verify true sender identity during phishing triage.
 
 # September 10, 2026
 Focus: Email Analysis - Email Protocols & Transport Journey

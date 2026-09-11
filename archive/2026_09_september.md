@@ -2,7 +2,13 @@
 
 
 
+# September 11, 2026
+Focus: TryHackMe SOC Level 1 - Email Analysis
 
+-What I did (TryHackMe): Investigated email metadata structures in TryHackMe's Email Analysis room using Thunderbird to analyze raw `.eml` samples (`email1.eml`). Inspected raw message sources (`Ctrl + U`) to extract critical header fields including From, To, Reply-To, Subject, Date, and originating IP addresses.
+-Takeaway (TryHackMe): Analyzing raw message headers reveals hidden delivery metadata and originating IP addresses that standard email client interfaces obscure, enabling SOC analysts to verify true sender identity during phishing triage.
+
+-Daily Outcome: Completed Email Headers & Raw Message Inspection task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 10, 2026
 Focus: TryHackMe SOC Level 1 - Email Analysis
