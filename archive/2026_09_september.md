@@ -1,6 +1,12 @@
 
 
+# September 12, 2026
+Focus: TryHackMe SOC Level 1 - Email Analysis
 
+-What I did (TryHackMe): Investigated email body structures, HTML formatting, and embedded media handling in TryHackMe's Email Analysis room. Inspected raw message code to uncover hidden HTML links, blocked remote image tags, and base64-encoded file attachments identified via `Content-Type`, `Content-Disposition`, and `Content-Transfer-Encoding` headers.
+-Takeaway (TryHackMe): Inspecting raw HTML sources and attachment encoding headers enables analysts to extract obfuscated URLs and safely reconstruct suspicious attachments without relying on client-side rendering.
+
+-Daily Outcome: Completed Email Body & HTML Source Inspection task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 11, 2026
 Focus: TryHackMe SOC Level 1 - Email Analysis

@@ -6,7 +6,11 @@
 
 
 
+# September 12, 2026
+Focus: Email Analysis - Email Body & HTML Source Inspection
 
+-What I did: Investigated email body structures, HTML formatting, and embedded media handling in TryHackMe's Email Analysis room. Inspected raw message code to uncover hidden HTML links, blocked remote image tags, and base64-encoded file attachments identified via `Content-Type`, `Content-Disposition`, and `Content-Transfer-Encoding` headers.
+-Takeaway: Inspecting raw HTML sources and attachment encoding headers enables analysts to extract obfuscated URLs and safely reconstruct suspicious attachments without relying on client-side rendering.
 
 # September 11, 2026
 Focus: Email Analysis - Email Headers & Raw Message Inspection
