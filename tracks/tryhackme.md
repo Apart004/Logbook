@@ -4,7 +4,11 @@
 
 
 
+# September 13, 2026
+Focus: Email Analysis - Malicious Email Types & Phishing Anatomy
 
+-What I did: Evaluated malicious email categories within TryHackMe's Email Analysis module, distinguishing between Spam, Malspam, Phishing, Spear Phishing, Whaling, Smishing, and Vishing. Analyzed social engineering indicators including sender address spoofing, artificial urgency, brand impersonation, generic greetings, hidden/shortened links, and executable payload attachments.
+-Takeaway: Identifying structural phishing indicators—such as display name vs. envelope address mismatches and obfuscated URLs—enables rapid triage of incoming email security alerts.
 
 # September 12, 2026
 Focus: Email Analysis - Email Body & HTML Source Inspection

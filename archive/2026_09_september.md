@@ -1,5 +1,28 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# September 13, 2026
+Focus: TryHackMe SOC Level 1 - Email Analysis
+
+-What I did (TryHackMe): Evaluated malicious email categories within TryHackMe's Email Analysis module, distinguishing between Spam, Malspam, Phishing, Spear Phishing, Whaling, Smishing, and Vishing. Analyzed social engineering indicators including sender address spoofing, artificial urgency, brand impersonation, generic greetings, hidden/shortened links, and executable payload attachments.
+-Takeaway (TryHackMe): Identifying structural phishing indicators—such as display name vs. envelope address mismatches and obfuscated URLs—enables rapid triage of incoming email security alerts.
+
+-Daily Outcome: Completed Malicious Email Types & Phishing Anatomy task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
+
 # September 12, 2026
 Focus: TryHackMe SOC Level 1 - Email Analysis
 
