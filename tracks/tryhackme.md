@@ -2,7 +2,11 @@
 
 
 
+# September 14, 2026
+Focus: Phishing Emails in Action - Package Tracking Analysis (33%)
 
+-What I did: Reached 33% progress in TryHackMe's Phishing Emails in Action room by analyzing Task 3 (Track Your Package). Examined shipping notification phishing vectors including spoofed distribution center sender addresses, tracking pixel deployment for recipient validation, and malicious link manipulation.
+-Takeaway: Attackers combine tracking pixels with domain spoofing to confirm active mailboxes and lure users into payload delivery via fake package updates.
 
 # September 13, 2026
 Focus: Email Analysis - Malicious Email Types & Phishing Anatomy

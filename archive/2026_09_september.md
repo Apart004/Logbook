@@ -13,7 +13,13 @@
 
 
 
+# September 14, 2026
+Focus: TryHackMe SOC Level 1 - Phishing Emails in Action
 
+-What I did (TryHackMe): Reached 33% progress in TryHackMe's Phishing Emails in Action room by analyzing Task 3 (Track Your Package). Examined shipping notification phishing vectors including spoofed distribution center sender addresses, tracking pixel deployment for recipient validation, and malicious link manipulation.
+-Takeaway (TryHackMe): Attackers combine tracking pixels with domain spoofing to confirm active mailboxes and lure users into payload delivery via fake package updates.
+
+-Daily Outcome: Reached 33% completion in Phishing Emails in Action. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 13, 2026
 Focus: TryHackMe SOC Level 1 - Email Analysis
