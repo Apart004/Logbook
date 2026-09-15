@@ -1,6 +1,10 @@
 
 
+# September 15, 2026
+Focus: Phishing Analysis - Multi-Stage Redirection & Credential Harvesting
 
+-What I did: Investigated multi-stage redirection phishing campaigns within TryHackMe's Email Analysis room. Analyzed tactics including artificial urgency (same-day expiration), multi-brand impersonation (OneDrive/Adobe/Microsoft), URL redirection chains to bypass secure email gateways (SEGs), and fake authentication portals designed for credential harvesting.
+-Takeaway: Attackers chain trusted document-sharing platforms with multi-stage redirects to bypass static email filters; security controls must evaluate post-click redirection paths and domain reputation beyond the initial email link.
 
 # September 14, 2026
 Focus: Phishing Emails in Action - Package Tracking Analysis (33%)
