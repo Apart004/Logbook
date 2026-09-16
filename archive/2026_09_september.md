@@ -11,7 +11,13 @@
 
 
 
+# September 16, 2026
+Focus: TryHackMe SOC Level 1 - Phishing Emails in Action
 
+-What I did (TryHackMe): Completed all practical investigation tasks (Tasks 1 through 7) in TryHackMe's "Phishing Emails in Action" room, reaching 88% overall room progress prior to the final conclusion task. Analyzed phishing scenarios covering order cancellations, package tracking, multi-stage document downloads, account holds, recent purchase lures, and scheduled shipment notifications.
+-Takeaway (TryHackMe): Analyzing diverse phishing scenarios reinforces key threat patterns—such as spoofed sender domains, artificial urgency, hidden redirects, and credential harvesting landing pages—improving rapid triage capabilities for SOC analysis.
+
+-Daily Outcome: Reached 88% progress on Phishing Emails in Action upon completing Task 7. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 14, 2026
 Focus: TryHackMe SOC Level 1 - Phishing Emails in Action
