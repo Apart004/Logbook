@@ -11,13 +11,7 @@
 
 
 
-# September 15, 2026
-Focus: TryHackMe SOC Level 1 - Email Analysis
 
--What I did (TryHackMe): Investigated multi-stage redirection phishing campaigns within TryHackMe's Email Analysis room. Analyzed tactics including artificial urgency (same-day expiration), multi-brand impersonation (OneDrive/Adobe/Microsoft), URL redirection chains to bypass secure email gateways (SEGs), and fake authentication portals designed for credential harvesting.
--Takeaway (TryHackMe): Attackers chain trusted document-sharing platforms with multi-stage redirects to bypass static email filters; security controls must evaluate post-click redirection paths and domain reputation beyond the initial email link.
-
--Daily Outcome: Completed Multi-Stage Redirection & Credential Harvesting analysis task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 14, 2026
 Focus: TryHackMe SOC Level 1 - Phishing Emails in Action

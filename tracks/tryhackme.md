@@ -6,6 +6,33 @@ Focus: Phishing Analysis - Multi-Stage Redirection & Credential Harvesting
 -What I did: Investigated multi-stage redirection phishing campaigns within TryHackMe's Email Analysis room. Analyzed tactics including artificial urgency (same-day expiration), multi-brand impersonation (OneDrive/Adobe/Microsoft), URL redirection chains to bypass secure email gateways (SEGs), and fake authentication portals designed for credential harvesting.
 -Takeaway: Attackers chain trusted document-sharing platforms with multi-stage redirects to bypass static email filters; security controls must evaluate post-click redirection paths and domain reputation beyond the initial email link.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# September 16, 2026
+Focus: Phishing Emails in Action - Room Completion (88% -> 100%)
+
+-What I did: Completed all practical investigation tasks (Tasks 1 through 7) in TryHackMe's "Phishing Emails in Action" room, reaching 88% overall room progress prior to the final conclusion task. Analyzed phishing scenarios covering order cancellations, package tracking, multi-stage document downloads, account holds, recent purchase lures, and scheduled shipment notifications.
+-Takeaway: Analyzing diverse phishing scenarios reinforces key threat patterns—such as spoofed sender domains, artificial urgency, hidden redirects, and credential harvesting landing pages—improving rapid triage capabilities for SOC analysis.
+
+# September 14, 2026
+Focus: Phishing Emails in Action - Package Tracking Analysis (33%)
+
+-What I did: Reached 33% progress in TryHackMe's Phishing Emails in Action room by analyzing Task 3 (Track Your Package). Examined shipping notification phishing vectors including spoofed distribution center sender addresses, tracking pixel deployment for recipient validation, and malicious link manipulation.
+-Takeaway: Attackers combine tracking pixels with domain spoofing to confirm active mailboxes and lure users into payload delivery via fake package updates.
+
 # September 14, 2026
 Focus: Phishing Emails in Action - Package Tracking Analysis (33%)
 
