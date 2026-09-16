@@ -1,4 +1,10 @@
 
+# September 16, 2026
+Focus: Phishing Emails in Action - Room Completion (88% -> 100%)
+
+-What I did: Completed all practical investigation tasks (Tasks 1 through 7) in TryHackMe's "Phishing Emails in Action" room, reaching 88% overall room progress prior to the final conclusion task. Analyzed phishing scenarios covering order cancellations, package tracking, multi-stage document downloads, account holds, recent purchase lures, and scheduled shipment notifications.
+-Takeaway: Analyzing diverse phishing scenarios reinforces key threat patterns—such as spoofed sender domains, artificial urgency, hidden redirects, and credential harvesting landing pages—improving rapid triage capabilities for SOC analysis.
+
 
 # September 15, 2026
 Focus: Phishing Analysis - Multi-Stage Redirection & Credential Harvesting
@@ -7,25 +13,6 @@ Focus: Phishing Analysis - Multi-Stage Redirection & Credential Harvesting
 -Takeaway: Attackers chain trusted document-sharing platforms with multi-stage redirects to bypass static email filters; security controls must evaluate post-click redirection paths and domain reputation beyond the initial email link.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# September 16, 2026
-Focus: Phishing Emails in Action - Room Completion (88% -> 100%)
-
--What I did: Completed all practical investigation tasks (Tasks 1 through 7) in TryHackMe's "Phishing Emails in Action" room, reaching 88% overall room progress prior to the final conclusion task. Analyzed phishing scenarios covering order cancellations, package tracking, multi-stage document downloads, account holds, recent purchase lures, and scheduled shipment notifications.
--Takeaway: Analyzing diverse phishing scenarios reinforces key threat patterns—such as spoofed sender domains, artificial urgency, hidden redirects, and credential harvesting landing pages—improving rapid triage capabilities for SOC analysis.
 
 # September 14, 2026
 Focus: Phishing Emails in Action - Package Tracking Analysis (33%)
