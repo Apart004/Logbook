@@ -1,4 +1,28 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# September 17, 2026
+Focus: Network Traffic Analysis - DNS Tunneling & C2 Inspection
+
+-What I did: Analyzed the fundamental necessity of Network Traffic Analysis (NTA) in SOC operations on TryHackMe. Inspected raw DNS packet captures for host `192.168.1.16` (`WIN-016`), identifying C2 beaconing via high-frequency subdomain generation and base64-encoded command extraction within TXT record responses (`SSBsb3ZlIHlvdXIgY3VyaW91c2l0eQ==` -> `I love your curiosity`).
+-Takeaway: Standard firewall and DNS logs only capture high-level metadata (query/QTYPE); full packet analysis is required to inspect payload contents and uncover covert channels like DNS tunneling and C2 instruction streams.
+
 # September 16, 2026
 Focus: Phishing Emails in Action - Room Completion (88% -> 100%)
 

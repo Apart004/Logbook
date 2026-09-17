@@ -9,7 +9,13 @@
 
 
 
+# September 17, 2026
+Focus: TryHackMe SOC Level 1 - Network Traffic Analysis
 
+-What I did (TryHackMe): Analyzed the fundamental necessity of Network Traffic Analysis (NTA) in SOC operations on TryHackMe. Inspected raw DNS packet captures for host `192.168.1.16` (`WIN-016`), identifying C2 beaconing via high-frequency subdomain generation and base64-encoded command extraction within TXT record responses (`SSBsb3ZlIHlvdXIgY3VyaW91c2l0eQ==` -> `I love your curiosity`).
+-Takeaway (TryHackMe): Standard firewall and DNS logs only capture high-level metadata (query/QTYPE); full packet analysis is required to inspect payload contents and uncover covert channels like DNS tunneling and C2 instruction streams.
+
+-Daily Outcome: Completed Introduction to Network Traffic Analysis and DNS Tunneling practical scenario. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 16, 2026
 Focus: TryHackMe SOC Level 1 - Phishing Emails in Action
