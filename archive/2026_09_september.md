@@ -7,7 +7,13 @@
 
 
 
+# September 18, 2026
+Focus: TryHackMe SOC Level 1 - Network Traffic Analysis
 
+-What I did (TryHackMe): Analyzed protocol headers across the four TCP/IP stack layers (Application, Transport, Internet, Link) in TryHackMe's Network Traffic Analysis room. Inspected HTTP application payloads (`Content-Length: 10485760`), detected TCP session hijacking via abnormal sequence number jumps, identified IP fragmentation overlaps, and analyzed MAC spoofing in gratuitous ARP poisoning attacks.
+-Takeaway (TryHackMe): Full packet captures (PCAP) provide deep header and payload visibility—such as sequence numbers, fragment offsets, and raw application bytes—that high-level log outputs sanitize or omit.
+
+-Daily Outcome: Completed TCP/IP Stack Encapsulation and Layered Inspection task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 17, 2026
 Focus: TryHackMe SOC Level 1 - Network Traffic Analysis
