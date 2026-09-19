@@ -13,7 +13,11 @@
 
 
 
+# September 19, 2026
+Focus: Network Traffic Basics - Milestone Progress (90%)
 
+-What I did: Reached 90% completion in TryHackMe's "Network Traffic Basics" room (SOC Level 1 > Network Traffic Analysis). Completed core tasks covering NTA fundamentals, primary motives for traffic analysis, layer-by-layer packet observation, network traffic sources/flows, and traffic capture mechanisms.
+-Takeaway: Mastered foundational network monitoring mechanisms across TAP/SPAN access methods, flow log generation, and full packet inspection strategies to establish baseline traffic behavioral profiles in SOC environments.
 
 # September 18, 2026
 Focus: Network Traffic Analysis - TCP/IP Layer Encapsulation & Inspection

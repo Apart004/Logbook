@@ -5,7 +5,13 @@
 
 
 
+# September 19, 2026
+Focus: TryHackMe SOC Level 1 - Network Traffic Basics
 
+-What I did (TryHackMe): Reached 90% completion in TryHackMe's "Network Traffic Basics" room (SOC Level 1 > Network Traffic Analysis). Completed core tasks covering NTA fundamentals, primary motives for traffic analysis, layer-by-layer packet observation, network traffic sources/flows, and traffic capture mechanisms.
+-Takeaway (TryHackMe): Mastered foundational network monitoring mechanisms across TAP/SPAN access methods, flow log generation, and full packet inspection strategies to establish baseline traffic behavioral profiles in SOC environments.
+
+-Daily Outcome: Reached 90% completion in Network Traffic Basics room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 18, 2026
 Focus: TryHackMe SOC Level 1 - Network Traffic Analysis
