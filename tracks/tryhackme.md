@@ -11,7 +11,11 @@
 
 
 
+# September 20, 2026
+Focus: Network Traffic Basics - Splunk Integration & Perimeter Log Investigation
 
+-What I did: Initialized the TryHackMe practical lab environment for Network Traffic Basics. Configured local VM access to inspect ingested perimeter log sources within the Splunk Web interface (`http://MACHINE_IP:8000`) and the `Perimeter_logs` desktop directory for Task 7 incident investigation.
+-Takeaway: Ingesting raw network and perimeter logs into a SIEM like Splunk allows rapid indexing, cross-protocol correlation, and efficient query-based threat hunting during network traffic analysis.
 
 # September 19, 2026
 Focus: Network Traffic Basics - Milestone Progress (90%)
