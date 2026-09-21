@@ -9,7 +9,11 @@
 
 
 
+# September 21, 2026
+Focus: Network Traffic Basics - Perimeter Log Analysis & Attack Patterns
 
+-What I did: Analyzed perimeter log samples (`firewall.log`, `waf.log`, `vpn.log`) in Task 6 of TryHackMe's "Network Traffic Basics" room. Identified key attack patterns: port scanning (`203.0.113.10`), web application attacks via WAF rule blocks (`198.51.100.200`), and VPN credential brute-forcing (`203.0.113.50`).
+-Takeaway: Correlating event patterns across perimeter devices differentiates benign noise from active threats—scanning exhibits 1-to-many port connections, brute-forcing shows high-volume authentication failures, and C2 exhibits fixed-interval beaconing.
 
 # September 20, 2026
 Focus: Network Traffic Basics - Splunk Integration & Perimeter Log Investigation
