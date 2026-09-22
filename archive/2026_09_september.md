@@ -1,6 +1,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# September 22, 2026
+Focus: TryHackMe SOC Level 1 - Network Traffic Analysis
+
+-What I did (TryHackMe): Analyzed a full month of perimeter logs (`firewall.log`, `ids_alerts.log`, `vpn_auth.log`) for Initech Corp in TryHackMe's Network Traffic Analysis challenge. Traced the complete intrusion lifecycle: external reconnaissance (`198.51.100.92`), VPN credential brute-forcing against service accounts (`svc_vpn`), initial access with assigned ephemeral IP (`10.8.0.62`), internal SMB lateral movement to `10.0.0.20` (`FINANCE-SRV1`), persistent C2 beaconing on port 4444, and HTTP POST data exfiltration on ports 80/8080.
+-Takeaway (TryHackMe): Correlating log sources across firewall, IDS, and VPN auth logs allows SOC analysts to reconstruct full attack chains from initial probing to lateral movement and exfiltration.
+
+-Daily Outcome: Completed Incident Scenario Log Analysis in Network Traffic Analysis room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
+
 # September 21, 2026
 Focus: TryHackMe SOC Level 1 - Network Traffic Basics
 
