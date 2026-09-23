@@ -5,7 +5,11 @@
 
 
 
+# September 23, 2026
+Focus: Network Traffic Basics - Room Completion (100%)
 
+-What I did: Completed the "Network Traffic Basics" room on TryHackMe (100%), wrapping up foundational concepts on enterprise network architecture, perimeter security boundaries, traffic baselining, and SOC triage workflows.
+-Takeaway: Enterprise defense relies on monitoring the network perimeter boundary across firewalls, Active Directory, application servers, and endpoints to detect early-stage scanning, brute-forcing, and unauthorized traffic before lateral movement occurs.
 
 # September 22, 2026
 Focus: Network Traffic Analysis - Incident Scenario Log Analysis

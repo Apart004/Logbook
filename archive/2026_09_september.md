@@ -14,7 +14,13 @@
 
 
 
+# September 23, 2026
+Focus: TryHackMe SOC Level 1 - Network Traffic Basics
 
+-What I did (TryHackMe): Completed the "Network Traffic Basics" room on TryHackMe (100%), wrapping up foundational concepts on enterprise network architecture, perimeter security boundaries, traffic baselining, and SOC triage workflows.
+-Takeaway (TryHackMe): Enterprise defense relies on monitoring the network perimeter boundary across firewalls, Active Directory, application servers, and endpoints to detect early-stage scanning, brute-forcing, and unauthorized traffic before lateral movement occurs.
+
+-Daily Outcome: Completed Network Traffic Basics room (100%). Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 22, 2026
 Focus: TryHackMe SOC Level 1 - Network Traffic Analysis
