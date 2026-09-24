@@ -12,7 +12,13 @@
 
 
 
+# September 24, 2026
+Focus: TryHackMe SOC Level 1 - Network Discovery
 
+-What I did (TryHackMe): Initiated the Network Discovery room in TryHackMe's SOC Level 1 path. Examined the core principles of target reconnaissance, studying why adversaries perform network discovery and how SOC analysts identify early-stage scanning, host discovery, and port enumeration across enterprise networks.
+-Takeaway (TryHackMe): Network discovery is one of the earliest visible indicators of adversary activity; detecting reconnaissance patterns allows defenders to implement proactive perimeter blocks before initial exploitation takes place.
+
+-Daily Outcome: Completed Introduction to Network Discovery and deployed practical lab environment. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 23, 2026
 Focus: TryHackMe SOC Level 1 - Network Traffic Basics

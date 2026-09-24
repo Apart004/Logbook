@@ -3,7 +3,11 @@
 
 
 
+# September 24, 2026
+Focus: Network Discovery - Introduction & Core Mechanics
 
+-What I did: Initiated the Network Discovery room in TryHackMe's SOC Level 1 path. Examined the core principles of target reconnaissance, studying why adversaries perform network discovery and how SOC analysts identify early-stage scanning, host discovery, and port enumeration across enterprise networks.
+-Takeaway: Network discovery is one of the earliest visible indicators of adversary activity; detecting reconnaissance patterns allows defenders to implement proactive perimeter blocks before initial exploitation takes place.
 
 # September 23, 2026
 Focus: Network Traffic Basics - Room Completion (100%)
