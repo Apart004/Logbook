@@ -1,7 +1,11 @@
 
 
 
+# September 25, 2026
+Focus: Network Discovery - External vs. Internal Scanning Analysis
 
+-What I did: Analyzed external vs. internal network discovery vectors in TryHackMe's Network Discovery room using exported SIEM CSV log files (`log-session-1.csv`). Mapped external scanning to MITRE ATT&CK Reconnaissance (low severity, perimeter defense/blocking) and internal scanning to MITRE ATT&CK Discovery (high severity, active host compromise/incident escalation).
+-Takeaway: Differentiating source/destination IP scopes (public vs. private) establishes alert severity—internal-to-internal port scanning signals post-compromise lateral movement preparation requiring immediate host containment and incident response.
 
 # September 24, 2026
 Focus: Network Discovery - Introduction & Core Mechanics

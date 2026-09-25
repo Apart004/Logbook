@@ -10,7 +10,13 @@
 
 
 
+# September 25, 2026
+Focus: TryHackMe SOC Level 1 - Network Discovery
 
+-What I did (TryHackMe): Analyzed external vs. internal network discovery vectors in TryHackMe's Network Discovery room using exported SIEM CSV log files (`log-session-1.csv`). Mapped external scanning to MITRE ATT&CK Reconnaissance (low severity, perimeter defense/blocking) and internal scanning to MITRE ATT&CK Discovery (high severity, active host compromise/incident escalation).
+-Takeaway (TryHackMe): Differentiating source/destination IP scopes (public vs. private) establishes alert severity—internal-to-internal port scanning signals post-compromise lateral movement preparation requiring immediate host containment and incident response.
+
+-Daily Outcome: Completed External vs. Internal Scanning Analysis task in Network Discovery room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 24, 2026
 Focus: TryHackMe SOC Level 1 - Network Discovery
