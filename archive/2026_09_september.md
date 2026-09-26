@@ -7,7 +7,13 @@
 
 
 
+# September 26, 2026
+Focus: TryHackMe SOC Level 1 - Network Discovery
 
+-What I did (TryHackMe): Completed the hands-on log analysis task in TryHackMe's Network Discovery room, analyzing exported SIEM CSV datasets (`log-session-1.csv` & `log-session-2.csv`). Filtered network sessions to identify external scanning probes from public IP `203.0.113.25` and counted `100` distinct internal scanning log entries from a compromised host.
+-Takeaway (TryHackMe): Analyzing session counts and traffic directionality (external-to-internal vs. internal-to-internal) provides immediate contextual visibility to separate low-severity perimeter probing from high-severity internal discovery.
+
+-Daily Outcome: Completed External vs. Internal Scanning Analysis questions in Network Discovery room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 
 # September 25, 2026
