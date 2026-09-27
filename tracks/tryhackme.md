@@ -1,4 +1,8 @@
+# September 27, 2026
+Focus: Network Discovery - Horizontal vs. Vertical Port Scanning
 
+-What I did: Investigated port scanning methodologies in TryHackMe's Network Discovery room, distinguishing between Horizontal Scanning (single port across multiple destination IPs, e.g., WannaCry SMB/445 sweeps) and Vertical Scanning (multiple ports on a single destination IP for host footprinting).
+-Takeaway: Correlating log event cardinality identifies scan tactics—fixed destination port with varying destination IPs indicates a horizontal attack sweep, while fixed destination IP with varying destination ports indicates targeted vertical host reconnaissance.
 # September 26, 2026
 Focus: Network Discovery - External vs. Internal Log Analysis
 
