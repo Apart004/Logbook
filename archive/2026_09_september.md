@@ -5,7 +5,13 @@
 
 
 
+# September 27, 2026
+Focus: TryHackMe SOC Level 1 - Network Discovery
 
+-What I did (TryHackMe): Investigated port scanning methodologies in TryHackMe's Network Discovery room, distinguishing between Horizontal Scanning (single port across multiple destination IPs, e.g., WannaCry SMB/445 sweeps) and Vertical Scanning (multiple ports on a single destination IP for host footprinting).
+-Takeaway (TryHackMe): Correlating log event cardinality identifies scan tactics—fixed destination port with varying destination IPs indicates a horizontal attack sweep, while fixed destination IP with varying destination ports indicates targeted vertical host reconnaissance.
+
+-Daily Outcome: Completed Horizontal vs. Vertical Port Scanning analysis task in Network Discovery room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 26, 2026
 Focus: TryHackMe SOC Level 1 - Network Discovery
