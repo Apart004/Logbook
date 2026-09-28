@@ -3,7 +3,13 @@
 
 
 
+# September 28, 2026
+Focus: TryHackMe SOC Level 1 - Network Discovery
 
+-What I did (TryHackMe): Deepened analysis of network discovery techniques in TryHackMe's Network Discovery room, focusing on log detection criteria for Horizontal Scans (same SRC IP, single DST port, multiple DST IPs), Vertical Scans (same SRC IP, single DST IP, multiple DST ports), and hybrid Mixed Scanning strategies.
+-Takeaway (TryHackMe): Detecting mixed horizontal and vertical scanning requires multi-dimensional log grouping—filtering on source IP while tracking distinct counts for both destination IP addresses and destination ports over specific time windows.
+
+-Daily Outcome: Completed Horizontal, Vertical, & Mixed Scanning detection mechanics task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 27, 2026
 Focus: TryHackMe SOC Level 1 - Network Discovery

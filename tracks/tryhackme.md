@@ -1,4 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+# September 28, 2026
+Focus: Network Discovery - Horizontal, Vertical, & Mixed Scanning Detection
+
+-What I did: Deepened analysis of network discovery techniques in TryHackMe's Network Discovery room, focusing on log detection criteria for Horizontal Scans (same SRC IP, single DST port, multiple DST IPs), Vertical Scans (same SRC IP, single DST IP, multiple DST ports), and hybrid Mixed Scanning strategies.
+-Takeaway: Detecting mixed horizontal and vertical scanning requires multi-dimensional log grouping—filtering on source IP while tracking distinct counts for both destination IP addresses and destination ports over specific time windows.
+
 # September 27, 2026
+
 Focus: Network Discovery - Horizontal vs. Vertical Port Scanning
 
 -What I did: Investigated port scanning methodologies in TryHackMe's Network Discovery room, distinguishing between Horizontal Scanning (single port across multiple destination IPs, e.g., WannaCry SMB/445 sweeps) and Vertical Scanning (multiple ports on a single destination IP for host footprinting).
