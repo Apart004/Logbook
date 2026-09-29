@@ -1,7 +1,13 @@
 
 
 
+# September 29, 2026
+Focus: TryHackMe SOC Level 1 - Network Discovery
 
+-What I did (TryHackMe): Evaluated fundamental host/port scanning mechanics in TryHackMe's Network Discovery room, covering Ping Sweeps (ICMP Echo Request/Reply), TCP SYN Scans (stealth half-open handshake), and UDP Scans (relying on ICMP Port Unreachable or timeout heuristics). Configured Kibana (`http://MACHINE_IP:5601`) to index `All logs` for query-based scan type identification.
+-Takeaway (TryHackMe): Understanding transport and network layer scan signatures—such as incomplete TCP handshakes or ICMP unreachable cascades—enables precise query filtering in SIEM dashboards like Kibana to isolate scanning behavior from authorized vulnerability assessments.
+
+-Daily Outcome: Completed Identifying Scan Types task & configured Kibana lab instance. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 28, 2026
 Focus: TryHackMe SOC Level 1 - Network Discovery
