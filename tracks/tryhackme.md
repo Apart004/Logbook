@@ -6,7 +6,11 @@
 
 
 
+# September 30, 2026
+Focus: Web Application Security - Desktop-to-Web Paradigm Shift & Risk Vectors
 
+-What I did: Investigated the security tradeoffs associated with the historical evolution from desktop to web-based applications, SaaS, and cloud architectures. Evaluated web app exposure vectors from both owner perspectives (24/7 exposure, database connectivity) and user perspectives (credential exposure, browser compromise), analyzing real-world breaches (Equifax 2017 Apache Struts vulnerability, Capital One 2019 WAF SSRF/cloud misconfiguration).
+-Takeaway: Web applications serve as primary attack surfaces because they are continuously exposed to public networks and bridge external client interactions with critical back-end infrastructure and cloud databases.
 
 # September 29, 2026
 Focus: Network Discovery - Scan Types & Kibana Log Analysis

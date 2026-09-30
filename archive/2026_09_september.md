@@ -1,5 +1,11 @@
 
+# September 30, 2026
+Focus: TryHackMe SOC Level 1 - Web Application Security
 
+-What I did (TryHackMe): Investigated the security tradeoffs associated with the historical evolution from desktop to web-based applications, SaaS, and cloud architectures. Evaluated web app exposure vectors from both owner perspectives (24/7 exposure, database connectivity) and user perspectives (credential exposure, browser compromise), analyzing real-world breaches (Equifax 2017 Apache Struts vulnerability, Capital One 2019 WAF SSRF/cloud misconfiguration).
+-Takeaway (TryHackMe): Web applications serve as primary attack surfaces because they are continuously exposed to public networks and bridge external client interactions with critical back-end infrastructure and cloud databases.
+
+-Daily Outcome: Completed introductory module on Web Application Security fundamentals and risk models. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # September 29, 2026
 Focus: TryHackMe SOC Level 1 - Network Discovery
