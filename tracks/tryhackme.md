@@ -2,7 +2,11 @@
 
 
 
+# October 2, 2026
+Focus: Web Security Essentials - Defense Systems (CDNs, WAFs, & Antivirus)
 
+-What I did: Examined core perimeter and endpoint defense systems in TryHackMe's "Web Security Essentials" room (Task 5). Analyzed Content Delivery Network (CDN) security architectures (IP masking, DDoS mitigation, TLS enforcement, WAF integration), Web Application Firewall (WAF) deployment modes (Cloud Reverse Proxy, Host-based, Network-based) and detection mechanisms (Signature, Heuristic, Anomaly/Behavioral, IP Reputation), and endpoint Antivirus (AV) controls for mitigating malicious web file uploads.
+-Takeaway: Robust web application security requires a defense-in-depth model where CDNs buffer origin servers from volumetric attacks, WAFs filter malicious layer-7 payloads, and AV endpoints catch post-exploitation tools or web shells that bypass perimeter inspection.
 
 # October 1, 2026
 Focus: Web Security Essentials - Milestone Progress (71%)
