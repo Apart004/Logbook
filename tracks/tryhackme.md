@@ -2,6 +2,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+# October 3, 2026
+Focus: Web Security Essentials - Practical Hands-On Scenario (100%)
+
+-What I did: Successfully completed the practical hands-on scenario for securing "Secure-A-Site" across three critical architectural tiers in TryHackMe's "Web Security Essentials" room: Web Application (THM{APPLICATION_SECURED_8371}), Web Server (THM{SERVER_PROTECTED_9120}), and Host Machine (THM{HOST_HARDENED_4059}). Reached 100% completion for the room.
+-Takeaway: Effective web security demands a defense-in-depth approach where application-level controls (HTTPS, secure cookies, input validation), server perimeter protections (WAF rules, directory restrictions, rate limiting), and host-level hardening (firewalls, AV endpoints, minimal service exposure) work in unison.
+
 # October 2, 2026
 Focus: Web Security Essentials - Defense Systems (CDNs, WAFs, & Antivirus)
 

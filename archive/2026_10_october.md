@@ -12,7 +12,13 @@
 
 
 
+# October 3, 2026
+Focus: TryHackMe SOC Level 1 - Web Security Essentials
 
+-What I did (TryHackMe): Successfully completed the practical hands-on scenario for securing "Secure-A-Site" across three critical architectural tiers in TryHackMe's "Web Security Essentials" room: Web Application (THM{APPLICATION_SECURED_8371}), Web Server (THM{SERVER_PROTECTED_9120}), and Host Machine (THM{HOST_HARDENED_4059}). Reached 100% completion for the room.
+-Takeaway (TryHackMe): Effective web security demands a defense-in-depth approach where application-level controls (HTTPS, secure cookies, input validation), server perimeter protections (WAF rules, directory restrictions, rate limiting), and host-level hardening (firewalls, AV endpoints, minimal service exposure) work in unison.
+
+-Daily Outcome: Completed Web Security Essentials room (100%). Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 2, 2026
 Focus: TryHackMe SOC Level 1 - Web Security Essentials
