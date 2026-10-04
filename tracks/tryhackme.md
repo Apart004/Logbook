@@ -10,7 +10,11 @@
 
 
 
+# October 4, 2026
+Focus: Web Security Essentials - Room Conclusion & Module Wrap-Up (100%)
 
+-What I did: Wrapped up the "Web Security Essentials" room (SOC Level 1 > Web Security Monitoring), reviewing the shift from legacy desktop applications to web-based architectures, core web request/server dynamics, high-risk exposure vectors targeting sensitive data/databases, and perimeter/host defense-in-depth strategies.
+-Takeaway: Web security monitoring demands end-to-end visibility across layer-7 application payloads, server-side infrastructure behavior, and endpoint security controls to detect initial exploitation attempts before they escalate into wider infrastructure breaches.
 
 # October 3, 2026
 Focus: Web Security Essentials - Practical Hands-On Scenario (100%)

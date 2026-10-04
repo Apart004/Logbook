@@ -10,7 +10,13 @@
 
 
 
+# October 4, 2026
+Focus: TryHackMe SOC Level 1 - Web Security Essentials
 
+-What I did (TryHackMe): Wrapped up the "Web Security Essentials" room (SOC Level 1 > Web Security Monitoring), reviewing the shift from legacy desktop applications to web-based architectures, core web request/server dynamics, high-risk exposure vectors targeting sensitive data/databases, and perimeter/host defense-in-depth strategies.
+-Takeaway (TryHackMe): Web security monitoring demands end-to-end visibility across layer-7 application payloads, server-side infrastructure behavior, and endpoint security controls to detect initial exploitation attempts before they escalate into wider infrastructure breaches.
+
+-Daily Outcome: Completed Web Security Essentials room conclusion and module wrap-up. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 3, 2026
 Focus: TryHackMe SOC Level 1 - Web Security Essentials
