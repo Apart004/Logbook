@@ -8,7 +8,13 @@
 
 
 
+# October 5, 2026
+Focus: TryHackMe SOC Level 1 - Detecting Web Attacks
 
+-What I did (TryHackMe): Started the "Detecting Web Attacks" room in TryHackMe's SOC Level 1 path (Web Security Monitoring module). Reviewed core learning objectives focusing on client-side/server-side web attack vectors, log-based vs. network traffic-based detection methods, and Web Application Firewall (WAF) rule analysis.
+-Takeaway (TryHackMe): Detecting web attacks requires combining log analysis (HTTP request/response status, URI parameters) and packet capture inspection (Wireshark layer-7 analysis) to accurately identify OWASP Top 10 web exploit attempts.
+
+-Daily Outcome: Initiated Detecting Web Attacks room and reviewed core module prerequisites. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 4, 2026
 Focus: TryHackMe SOC Level 1 - Web Security Essentials

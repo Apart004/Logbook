@@ -8,7 +8,11 @@
 
 
 
+# October 5, 2026
+Focus: Web Security Monitoring - Detecting Web Attacks (Introduction & Setup)
 
+-What I did: Started the "Detecting Web Attacks" room in TryHackMe's SOC Level 1 path (Web Security Monitoring module). Reviewed core learning objectives focusing on client-side/server-side web attack vectors, log-based vs. network traffic-based detection methods, and Web Application Firewall (WAF) rule analysis.
+-Takeaway: Detecting web attacks requires combining log analysis (HTTP request/response status, URI parameters) and packet capture inspection (Wireshark layer-7 analysis) to accurately identify OWASP Top 10 web exploit attempts.
 
 # October 4, 2026
 Focus: Web Security Essentials - Room Conclusion & Module Wrap-Up (100%)
