@@ -6,7 +6,13 @@
 
 
 
+# October 6, 2026
+Focus: TryHackMe SOC Level 1 - Detecting Web Attacks
 
+-What I did (TryHackMe): Analyzed log-based detection fundamentals in TryHackMe's "Detecting Web Attacks" room. Evaluated access log formats (Client IP, Timestamp, HTTP Status Codes, Response Size, Referrer, User-Agent), studied log signatures across directory fuzzing, HTTP POST brute-forcing, and SQL injection (SQLi), and noted structural log limitations (omission of POST request bodies/payloads). Initialized investigation of the `access.log` dataset for the TryBankMe incident on the Desktop.
+-Takeaway (TryHackMe): Web access logs provide critical forensic timelines (mapping directory enumeration and authentication redirects), but full request payload visibility—especially HTTP POST parameters—requires layer-7 packet captures or WAF logs.
+
+-Daily Outcome: Completed Log-Based Detection task and initialized TryBankMe forensic investigation. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 5, 2026
 Focus: TryHackMe SOC Level 1 - Detecting Web Attacks

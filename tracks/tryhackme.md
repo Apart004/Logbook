@@ -6,7 +6,11 @@
 
 
 
+# October 6, 2026
+Focus: Detecting Web Attacks - Log-Based Detection & TryBankMe Investigation
 
+-What I did: Analyzed log-based detection fundamentals in TryHackMe's "Detecting Web Attacks" room. Evaluated access log formats (Client IP, Timestamp, HTTP Status Codes, Response Size, Referrer, User-Agent), studied log signatures across directory fuzzing, HTTP POST brute-forcing, and SQL injection (SQLi), and noted structural log limitations (omission of POST request bodies/payloads). Initialized investigation of the `access.log` dataset for the TryBankMe incident on the Desktop.
+-Takeaway: Web access logs provide critical forensic timelines (mapping directory enumeration and authentication redirects), but full request payload visibility—especially HTTP POST parameters—requires layer-7 packet captures or WAF logs.
 
 # October 5, 2026
 Focus: Web Security Monitoring - Detecting Web Attacks (Introduction & Setup)
