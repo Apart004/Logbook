@@ -2,9 +2,13 @@
 
 
 
+# October 7, 2026
+Focus: TryHackMe SOC Level 1 - Detecting Web Attacks
 
+-What I did (TryHackMe): Analyzed Web Application Firewall (WAF) mitigation mechanisms in TryHackMe's "Detecting Web Attacks" room. Evaluated WAF rule categories (Signature/Payload Blocking, Known Malicious IP/Threat Intel Reputation, Custom URI Rules, and Rate-Limiting), challenge-response mechanisms (CAPTCHA for bot traffic mitigation), and automated threat intelligence feed integrations (OWASP Top 10 rule sets, CVE protection, and botnet/VPN IP curation).
+-Takeaway (TryHackMe): WAFs serve as layer-7 gatekeepers capable of inspecting full TLS-decrypted HTTP payloads; combining automated signature feeds with custom heuristic rules blocks malicious tools (e.g., SQLMap User-Agents) without impacting legitimate web traffic.
 
-
+-Daily Outcome: Completed Web Application Firewalls task in Detecting Web Attacks room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 6, 2026
 Focus: TryHackMe SOC Level 1 - Detecting Web Attacks

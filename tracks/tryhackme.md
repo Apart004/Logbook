@@ -4,7 +4,11 @@
 
 
 
+# October 7, 2026
+Focus: Detecting Web Attacks - Web Application Firewalls (WAFs) & Mitigation Rules
 
+-What I did: Analyzed Web Application Firewall (WAF) mitigation mechanisms in TryHackMe's "Detecting Web Attacks" room. Evaluated WAF rule categories (Signature/Payload Blocking, Known Malicious IP/Threat Intel Reputation, Custom URI Rules, and Rate-Limiting), challenge-response mechanisms (CAPTCHA for bot traffic mitigation), and automated threat intelligence feed integrations (OWASP Top 10 rule sets, CVE protection, and botnet/VPN IP curation).
+-Takeaway: WAFs serve as layer-7 gatekeepers capable of inspecting full TLS-decrypted HTTP payloads; combining automated signature feeds with custom heuristic rules blocks malicious tools (e.g., SQLMap User-Agents) without impacting legitimate web traffic.
 
 # October 6, 2026
 Focus: Detecting Web Attacks - Log-Based Detection & TryBankMe Investigation
