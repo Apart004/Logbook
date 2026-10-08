@@ -2,7 +2,11 @@
 
 
 
+# October 8, 2026
+Focus: Detecting Web Attacks - Room Completion & Module Wrap-Up (100%)
 
+-What I did: Successfully wrapped up the "Detecting Web Attacks" room in TryHackMe's SOC Level 1 path (100% completion). Summarized core detection strategies spanning client-side/server-side attack vectors, log-based access analysis, network traffic packet capture inspection, and Web Application Firewall (WAF) rule sets.
+-Takeaway: Correlating indicators across web access logs, raw packet captures, and WAF alert feeds eliminates alert silos, enabling SOC analysts to reconstruct complete web attack timelines from initial scanning to exploitation and exfiltration.
 
 # October 7, 2026
 Focus: Detecting Web Attacks - Web Application Firewalls (WAFs) & Mitigation Rules
