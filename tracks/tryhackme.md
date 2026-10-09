@@ -1,6 +1,10 @@
 
 
+# October 9, 2026
+Focus: Windows Event Logs - Logging Overview & Event Viewer Anatomy
 
+-What I did: Initiated the Windows Event Logs module in TryHackMe's SOC Level 1 path. Studied the fundamentals of Windows logging architectures, examining binary `.evtx` log structures (`C:\Windows\System32\winevt\Logs`), Event Viewer navigation (`eventvwr`), log sources (Application vs. Security), key log attributes (System Timestamp, Event IDs like 4625 for failed logins, Keywords), and filtering controls.
+-Takeaway: Windows logs are stored in binary EVTX format and rely on structured Event IDs; mastering log categories and Event Viewer XML/plaintext filtering is essential for triage, threat hunting, and incident response timelines.
 
 # October 8, 2026
 Focus: Detecting Web Attacks - Room Completion & Module Wrap-Up (100%)
