@@ -1,5 +1,24 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# October 10, 2026
+Focus: Windows Event Logs - Authentication Logs (4624 & 4625) & Practical Analysis
+
+-What I did: Deepened analysis of Windows Security logs in TryHackMe's "Windows Event Logs" room, evaluating Event ID 4624 (Successful Logon) and Event ID 4625 (Failed Logon). Examined key logon types (Type 3 Network via NLA, Type 10 RemoteInteractive/RDP), logon parameters (Logon ID, Subject/Target User, Workstation Name, Source IP), and RDP brute force detection indicators. Analyzed the `Practice-Security.evtx` dataset to investigate an active RDP brute force attack targeting `THM-PC`.
+-Takeaway: Detecting RDP compromise requires correlating high-frequency Event ID 4625 brute-force failures from an untrusted source IP with a subsequent Event ID 4624/Type 10 success event sharing the same source IP and target account.
+
 # October 9, 2026
 Focus: Windows Event Logs - Logging Overview & Event Viewer Anatomy
 

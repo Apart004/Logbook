@@ -10,7 +10,13 @@
 
 
 
+# October 10, 2026
+Focus: TryHackMe SOC Level 1 - Windows Event Logs
 
+-What I did (TryHackMe): Deepened analysis of Windows Security logs in TryHackMe's "Windows Event Logs" room, evaluating Event ID 4624 (Successful Logon) and Event ID 4625 (Failed Logon). Examined key logon types (Type 3 Network via NLA, Type 10 RemoteInteractive/RDP), logon parameters (Logon ID, Subject/Target User, Workstation Name, Source IP), and RDP brute force detection indicators. Analyzed the `Practice-Security.evtx` dataset to investigate an active RDP brute force attack targeting `THM-PC`.
+-Takeaway (TryHackMe): Detecting RDP compromise requires correlating high-frequency Event ID 4625 brute-force failures from an untrusted source IP with a subsequent Event ID 4624/Type 10 success event sharing the same source IP and target account.
+
+-Daily Outcome: Analyzed authentication logs (4624/4625) in `Practice-Security.evtx`. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 9, 2026
 Focus: TryHackMe SOC Level 1 - Windows Event Logs
