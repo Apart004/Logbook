@@ -11,7 +11,11 @@
 
 
 
+# October 11, 2026
+Focus: Windows Initial Access - Exposed Services vs. User-Driven Vectors
 
+-What I did: Initiated the Windows Initial Access module in TryHackMe's SOC Level 1 path. Evaluated the core taxonomies of Initial Access mechanisms across Exposed Services (MITRE ATT&CK T1133: External Remote Services via RDP/SSH/VNC; T1190: Exploit Public-Facing Application) and User-Driven Vectors (MITRE ATT&CK T1566: Phishing attachments/links; T1091: Replication Through Removable Media).
+-Takeaway: Initial Access strategies divide cleanly into active exploitation of perimeter-exposed listening ports and social-engineering vectors targeting internal workstations; defenders must monitor both perimeter edge logs and endpoint execution indicators to detect early entry.
 
 # October 10, 2026
 Focus: Windows Event Logs - Authentication Logs (4624 & 4625) & Practical Analysis
