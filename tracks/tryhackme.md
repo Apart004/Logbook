@@ -9,7 +9,11 @@
 
 
 
+# October 12, 2026
+Focus: Windows Event Logs - Process Monitoring (Sysmon Event ID 1 & 4688)
 
+-What I did: Investigated process creation monitoring in TryHackMe's "Windows Event Logs" room. Compared Security Log Event ID 4688 with Sysmon Event ID 1 (Process Creation), evaluating critical telemetry fields: Process Info (PID, Image Path, Command Line), Parent Process Context (building process trees/attack chains), Binary Metadata (PE hashes, signatures), and User Context (Logon ID linkage). Located Sysmon logs in Event Viewer under `Applications and Services Logs -> Microsoft -> Windows -> Sysmon -> Operational`.
+-Takeaway: Process creation logs bridge the gap between authentication alerts and endpoint execution; analyzing parent-child process relationships (e.g., MS Office spawning PowerShell) provides immediate visibility into post-exploitation initial access vectors.
 
 # October 11, 2026
 Focus: Windows Initial Access - Exposed Services vs. User-Driven Vectors

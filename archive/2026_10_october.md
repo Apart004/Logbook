@@ -6,7 +6,13 @@
 
 
 
+# October 12, 2026
+Focus: TryHackMe SOC Level 1 - Windows Event Logs
 
+-What I did (TryHackMe): Investigated process creation monitoring in TryHackMe's "Windows Event Logs" room. Compared Security Log Event ID 4688 with Sysmon Event ID 1 (Process Creation), evaluating critical telemetry fields: Process Info (PID, Image Path, Command Line), Parent Process Context (building process trees/attack chains), Binary Metadata (PE hashes, signatures), and User Context (Logon ID linkage). Located Sysmon logs in Event Viewer under `Applications and Services Logs -> Microsoft -> Windows -> Sysmon -> Operational`.
+-Takeaway (TryHackMe): Process creation logs bridge the gap between authentication alerts and endpoint execution; analyzing parent-child process relationships (e.g., MS Office spawning PowerShell) provides immediate visibility into post-exploitation initial access vectors.
+
+-Daily Outcome: Completed Sysmon Event ID 1 & Process Monitoring analysis task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 11, 2026
 Focus: TryHackMe SOC Level 1 - Windows Initial Access
