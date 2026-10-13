@@ -4,7 +4,13 @@
 
 
 
+# October 13, 2026
+Focus: TryHackMe SOC Level 1 - Windows Event Logs
 
+-What I did (TryHackMe): Completed the "Windows Event Logs" room in TryHackMe's SOC Level 1 path. Consolidated key analytical takeaways across Windows authentication telemetry (4624/4625), Logon ID and PID correlation for attack chain reconstruction, advanced endpoint visibility via Sysmon process creation monitoring (Event ID 1), and PowerShell script-block logging.
+-Takeaway (TryHackMe): Correlating authentication IDs with endpoint process trees and PowerShell command-line logs provides the necessary context to map out initial access execution and lateral movement.
+
+-Daily Outcome: Completed Windows Event Logs room (100%). Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 12, 2026
 Focus: TryHackMe SOC Level 1 - Windows Event Logs
