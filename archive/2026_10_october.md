@@ -2,7 +2,13 @@
 
 
 
+# October 14, 2026
+Focus: TryHackMe SOC Level 1 - Windows Initial Access
 
+-What I did (TryHackMe): Deepened analysis of user-driven Windows Initial Access vectors in TryHackMe's "Windows Initial Access" room. Evaluated MITRE ATT&CK techniques T1566 (Phishing via malicious links/attachments) and T1091 (Replication Through Removable Media via USB drop attacks). Reviewed modern Initial Access tendencies and real-world campaign telemetry across major ransomware groups (e.g., Medusa, Akira) leveraging both edge-exposed service exploitation and user-driven execution vectors.
+-Takeaway (TryHackMe): Even isolated workstations remain vulnerable to Initial Access via social engineering and physical vectors; SOC monitoring strategies must account for multi-stage threat actor TTPs across both perimeter boundaries and endpoint user execution.
+
+-Daily Outcome: Analyzed Phishing, Removable Media, & Threat Actor TTPs task in Windows Initial Access room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 13, 2026
 Focus: TryHackMe SOC Level 1 - Windows Event Logs
