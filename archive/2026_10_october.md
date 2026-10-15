@@ -1,6 +1,12 @@
 
 
+# October 15, 2026
+Focus: TryHackMe SOC Level 1 - Windows Initial Access
 
+-What I did (TryHackMe): Completed the remaining tasks and wrapped up the "Windows Initial Access" room in TryHackMe's SOC Level 1 path (100% completion). Analyzed Initial Access via Phishing (T1566) and Removable Media/USB (T1091), alongside process execution signatures (e.g., LNK payload execution).
+-Takeaway (TryHackMe): Detecting early-stage Windows breaches requires dual-pivot telemetry: exposed service intrusions (RDP/SMB) map directly to Event IDs 4624/4625, while user-driven vectors (Phishing/USB) rely on Sysmon Event ID 1 process trees to trace malicious child process execution.
+
+-Daily Outcome: Completed Windows Initial Access room (100%). Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 14, 2026
 Focus: TryHackMe SOC Level 1 - Windows Initial Access
