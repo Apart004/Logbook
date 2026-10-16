@@ -1,5 +1,27 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# October 16, 2026
+Focus: TryHackMe SOC Level 1 - Linux Logs
+
+-What I did (TryHackMe): Started the "Linux Logs" room in TryHackMe's SOC Level 1 path. Reviewed core learning objectives covering Linux authentication, runtime, and system logs, log analysis CLI tools/commands, and `auditd` event monitoring across on-premises and cloud-native containerized workloads. Initialized the target lab machine environment.
+-Takeaway (TryHackMe): Linux log analysis requires familiarity with both traditional file-based logs (`/var/log`) and systemd journal telemetry, alongside audit daemon (`auditd`) rules to trace root activities, authentication events, and process execution.
+
+-Daily Outcome: Initiated Linux Logs room and initialized target lab machine. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
+
 # October 15, 2026
 Focus: TryHackMe SOC Level 1 - Windows Initial Access
 

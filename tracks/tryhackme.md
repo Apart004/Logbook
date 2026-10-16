@@ -3,6 +3,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# October 16, 2026
+Focus: Linux Logs - Introduction & Environment Setup
+
+-What I did: Started the "Linux Logs" room in TryHackMe's SOC Level 1 path. Reviewed core learning objectives covering Linux authentication, runtime, and system logs, log analysis CLI tools/commands, and `auditd` event monitoring across on-premises and cloud-native containerized workloads. Initialized the target lab machine environment.
+-Takeaway: Linux log analysis requires familiarity with both traditional file-based logs (`/var/log`) and systemd journal telemetry, alongside audit daemon (`auditd`) rules to trace root activities, authentication events, and process execution.
+
 # October 15, 2026
 Focus: Windows Initial Access - Phishing, USB Vectors, & Room Conclusion (100%)
 
