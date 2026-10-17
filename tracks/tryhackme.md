@@ -14,7 +14,11 @@
 
 
 
+# October 17, 2026
+Focus: Linux Logs - Log Format, `/var/log` Architecture, & Filtering
 
+-What I did: Investigated Linux system logging mechanisms in TryHackMe's "Linux Logs" room. Evaluated plain-text file storage in `/var/log/` (e.g., `/var/log/syslog`, `/var/log/auth.log`, `/var/log/kern.log`), analyzed log structure differences compared to binary Windows EVTX logs, and practiced command-line log discovery/filtering techniques using `grep` (including recursive search `grep -R -E "auth|login|session" /var/log`).
+-Takeaway: Unlike structured Windows Event logs, default Linux logs are plain-text and distribution-dependent; mastering CLI tools (`grep`, `awk`, `cat`, `less`) across `/var/log` enables rapid identification of system events, cron jobs, and authentication attempts.
 
 # October 16, 2026
 Focus: Linux Logs - Introduction & Environment Setup

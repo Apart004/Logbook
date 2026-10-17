@@ -12,7 +12,13 @@
 
 
 
+# October 17, 2026
+Focus: TryHackMe SOC Level 1 - Linux Logs
 
+-What I did (TryHackMe): Investigated Linux system logging mechanisms in TryHackMe's "Linux Logs" room. Evaluated plain-text file storage in `/var/log/` (e.g., `/var/log/syslog`, `/var/log/auth.log`, `/var/log/kern.log`), analyzed log structure differences compared to binary Windows EVTX logs, and practiced command-line log discovery/filtering techniques using `grep` (including recursive search `grep -R -E "auth|login|session" /var/log`).
+-Takeaway (TryHackMe): Unlike structured Windows Event logs, default Linux logs are plain-text and distribution-dependent; mastering CLI tools (`grep`, `awk`, `cat`, `less`) across `/var/log` enables rapid identification of system events, cron jobs, and authentication attempts.
+
+-Daily Outcome: Completed Log Format, Working With Logs, & Filtering task in Linux Logs room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 16, 2026
 Focus: TryHackMe SOC Level 1 - Linux Logs
