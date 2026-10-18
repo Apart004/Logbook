@@ -12,7 +12,11 @@
 
 
 
+# October 18, 2026
+Focus: Linux Logs - Generic System Logs & App-Specific Logging
 
+-What I did: Deepened analysis of system and application log structures in TryHackMe's "Linux Logs" room. Evaluated generic Linux system logs (`/var/log/kern.log`, `/var/log/syslog` / `messages`, Debian package logs `/var/log/dpkg.log` / `apt`, and RHEL package logs `/var/log/dnf.log` / `yum.log`). Examined application-specific logging telemetry with a focus on Nginx web server access logs (`/var/log/nginx/access.log`), mapping HTTP request lines, status codes (e.g., 200, 302 redirect, 403 forbidden), response sizes, and client source IPs.
+-Takeaway: Combining generic system telemetry with application-specific logs (e.g., Nginx, database, mail, container) allows SOC analysts to correlate web-based intrusion attempts with underlying host and kernel activity.
 
 # October 17, 2026
 Focus: Linux Logs - Log Format, `/var/log` Architecture, & Filtering
