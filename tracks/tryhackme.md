@@ -10,7 +10,11 @@
 
 
 
+# October 19, 2026
+Focus: Linux Logs - Audit Daemon (auditd) & Runtime System Call Monitoring
 
+-What I did: Explored kernel-level runtime auditing using `auditd` in TryHackMe's "Linux Logs" room. Analyzed ruleset configuration (`/etc/audit/rules.d/`), investigated real-time audit logs via `ausearch -i`, and dissected multi-line syscall event structures (`PROCTITLE`, `CWD`, `PATH`, and `SYSCALL`). Processed key identification fields including process tree identifiers (`pid`, `ppid`), session tracking (`tty`), executable paths (`exe`), rule keys (`key`), and user privilege escalation indicators (`auid` audit user vs `uid` effective execution user). Compared `auditd` with alternative Linux endpoint detection tools (Sysmon for Linux, Falco for container workloads, Osquery, and commercial EDRs).
+-Takeaway: `auditd` provides granular syscall visibility into process creation (`execve`) and critical file modification (`openat`/`write`), making `auid` vs `uid` tracking vital for detecting privilege escalation and post-exploitation activity on Linux endpoints.
 
 # October 18, 2026
 Focus: Linux Logs - Generic System Logs & App-Specific Logging
