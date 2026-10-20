@@ -6,7 +6,13 @@
 
 
 
+# October 20, 2026
+Focus: TryHackMe SOC Level 1 - Linux Logs
 
+-What I did (TryHackMe): Investigated Linux Initial Access mechanisms focusing on exposed SSH services in TryHackMe's "Linux Logs" room. Analyzed MITRE ATT&CK T1133 (External Remote Services) attack vectors, contrasting key-based compromise risks (leaked private keys in repositories/automation servers, credential stealers) with password-based vulnerability vectors (weak temporary passwords, exposed legacy instances, automated botnet brute-forcing). Reviewed real-world threat group campaigns (e.g., Outlaw group) and advanced exposure risks (SSH server CVEs and session hijacking).
+-Takeaway: SSH is the dominant perimeter exposure vector on Linux infrastructure; detecting SSH-based Initial Access requires monitoring authentication logs for high-frequency password brute-force patterns and key-based session origin anomalies.
+
+-Daily Outcome: Analyzed SSH Initial Access & External Remote Services task in Linux Logs room. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 19, 2026
 Focus: TryHackMe SOC Level 1 - Linux Logs
