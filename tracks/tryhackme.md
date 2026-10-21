@@ -6,7 +6,11 @@
 
 
 
+# October 21, 2026
+Focus: Linux Logs - Process Tree Construction & Service Breach Tracing (`auditd`)
 
+-What I did: Evaluated process tree analysis techniques in TryHackMe's "Linux Logs" room to trace initial access and post-exploitation service breaches. Used `auditd` commands (`ausearch -i -x command` to locate execution, `ausearch -i --pid <PPID>` to walk up parent processes to PID 1, and `ausearch -i --ppid <PID>` to enumerate child processes). Reconstructed an exploitation chain demonstrating how an web application (`/opt/mywebapp/app.py`, PID 3898) spawned `/bin/sh` child processes to execute reconnaissance (`whoami`, `ls -la`) and secondary payloads (`curl ... | sh`). Applied process tree walking to investigate the TryPingMe breach scenario.
+-Takeaway: When application logs are absent or sanitized, process tree analysis via audit telemetry provides a reliable, universal approach to trace command lineage back to compromised parent services.
 
 # October 20, 2026
 Focus: Linux Logs - SSH Initial Access & External Remote Services (T1133)
