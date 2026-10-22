@@ -4,7 +4,11 @@
 
 
 
+# October 22, 2026
+Focus: Linux Logs - Service Breaches, Auditd Process Trees, & Room Completion (100%)
 
+-What I did: Completed Tasks 4, 5, and 6 in TryHackMe's "Linux Logs" room, finishing the module (100%). Investigated root account SSH intrusion indicators (successful password login from IP `91.224.92.79`), command injection in web applications (`/opt/trypingme/main.py`), and process tree construction via `auditd` telemetry (`ausearch -i -x whoami` -> PPID `1018` -> PID `577` Python application execution spawning a Python reverse shell). Analyzed supply chain compromise patterns and process tree analysis as a universal detection control.
+-Takeaway: Tracing execution chains via `auditd` process tree construction (`ausearch -i --pid`/`--ppid`) bridges web-layer command injection (e.g., ping forms) with endpoint post-exploitation binaries, providing deterministic evidence of service compromise.
 
 # October 21, 2026
 Focus: Linux Logs - Process Tree Construction & Service Breach Tracing (`auditd`)

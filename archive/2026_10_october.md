@@ -2,7 +2,13 @@
 
 
 
+# October 22, 2026
+Focus: TryHackMe SOC Level 1 - Linux Logs
 
+-What I did (TryHackMe): Completed Tasks 4, 5, and 6 in TryHackMe's "Linux Logs" room, finishing the module (100%). Investigated root account SSH intrusion indicators (successful password login from IP `91.224.92.79`), command injection in web applications (`/opt/trypingme/main.py`), and process tree construction via `auditd` telemetry (`ausearch -i -x whoami` -> PPID `1018` -> PID `577` Python application execution spawning a Python reverse shell). Analyzed supply chain compromise patterns and process tree analysis as a universal detection control.
+-Takeaway (TryHackMe): Tracing execution chains via `auditd` process tree construction (`ausearch -i --pid`/`--ppid`) bridges web-layer command injection (e.g., ping forms) with endpoint post-exploitation binaries, providing deterministic evidence of service compromise.
+
+-Daily Outcome: Completed Linux Logs room (100%). Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 21, 2026
 Focus: TryHackMe SOC Level 1 - Linux Logs
