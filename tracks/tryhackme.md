@@ -4,6 +4,20 @@
 
 
 
+
+
+
+
+
+
+
+
+# October 23, 2026
+Focus: Endpoint Security - Malware Categories & Behavioral Scenarios
+
+-What I did: Analyzed core malware classifications and behavioral signatures in TryHackMe's SOC Level 1 path. Evaluated primary intent, execution mechanics, and real-world specimens across nine categories: Adware (Fireball), Spyware (Hermit), Ransomware (WannaCry), Wiper (PathWiper), Command & Control (Emotet), Data Stealer (Lumma Stealer), Keylogger (Zeus), and Cryptominer (Coinhive). Examined realistic operational scenarios for SOC detection across host telemetry (e.g., unauthorized process CPU spikes, anomalous TLS out-of-band traffic, and persistent keystroke logging).
+-Takeaway: Endpoint security triage relies on matching host indicators (high CPU usage, file encryption/overwriting, keystroke hooks) and network signatures (C2 beaconing, external data exfiltration) to specific malware archetypes to quickly contain threats.
+
 # October 22, 2026
 Focus: Linux Logs - Service Breaches, Auditd Process Trees, & Room Completion (100%)
 
