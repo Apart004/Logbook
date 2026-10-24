@@ -10,7 +10,11 @@
 
 
 
+# October 24, 2026
+Focus: Web Security & Application Reconnaissance - RecruitX Target Assessment
 
+-What I did: Conducted reconnaissance on the RecruitX web application target. Analyzed full Nmap port scans (`-sV -sC -p-`), identifying open services on TCP ports 22 (OpenSSH 9.6p1), 80 (Apache 2.4.58), 3306 (MySQL), and 8080 (Apache default page). Inspected HTTP headers (`PHPSESSID`) to map out a classic LAMP stack (Linux + Apache + MySQL + PHP). Performed directory enumeration via Gobuster using `directory-list-2.3-small.txt`, mapping critical operational paths including `/admin`, `/api`, `/uploads`, `/reset.php`, `/profile.php`, `/dashboard.php`, and `/config`.
+-Takeaway: Combining layer-4 service detection with web directory enumeration reveals attack vectors early—particularly exposed API endpoints (`/api`), file upload directories (`/uploads`), and unauthenticated reset mechanisms (`/reset.php`).
 
 # October 23, 2026
 Focus: Endpoint Security - Malware Categories & Behavioral Scenarios

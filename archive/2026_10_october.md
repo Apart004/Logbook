@@ -14,7 +14,13 @@
 
 
 
+# October 24, 2026
+Focus: TryHackMe SOC Level 1 - Web Security & Target Reconnaissance
 
+-What I did (TryHackMe): Conducted reconnaissance on the RecruitX web application target. Analyzed full Nmap port scans (`-sV -sC -p-`), identifying open services on TCP ports 22 (OpenSSH 9.6p1), 80 (Apache 2.4.58), 3306 (MySQL), and 8080 (Apache default page). Inspected HTTP headers (`PHPSESSID`) to map out a classic LAMP stack (Linux + Apache + MySQL + PHP). Performed directory enumeration via Gobuster using `directory-list-2.3-small.txt`, mapping critical operational paths including `/admin`, `/api`, `/uploads`, `/reset.php`, `/profile.php`, `/dashboard.php`, and `/config`.
+-Takeaway (TryHackMe): Combining layer-4 service detection with web directory enumeration reveals attack vectors early—particularly exposed API endpoints (`/api`), file upload directories (`/uploads`), and unauthenticated reset mechanisms (`/reset.php`).
+
+-Daily Outcome: Completed target reconnaissance and directory enumeration task for RecruitX target. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 23, 2026
 Focus: TryHackMe SOC Level 1 - Endpoint Security & Malware Categories
