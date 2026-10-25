@@ -12,7 +12,13 @@
 
 
 
+# October 25, 2026
+Focus: TryHackMe SOC Level 1 - Web Security & API Exploration
 
+-What I did (TryHackMe): Logged into the RecruitX web application via `/login.php` using test credentials (`testuser@fake.thm` / `Password123`) to establish an active session (`PHPSESSID`) and reach `/dashboard.php`. Navigated through the authenticated user interface (Open Positions, Applications, Browse Jobs, and user profile views). Initiated targeted exploration of the previously enumerated `/api` endpoint to analyze accessible REST routes and unauthenticated data exposure vectors.
+-Takeaway (TryHackMe): Authenticated session state reveals dynamic application behavior (`/dashboard.php`, `/profile.php`), while probing exposed API structures (`/api`) often highlights broken object-level authorization (BOLA) or hidden data endpoints not present in the primary UI.
+
+-Daily Outcome: Completed authentication setup and initiated API endpoint exploration on the RecruitX lab target. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 24, 2026
 Focus: TryHackMe SOC Level 1 - Web Security & Target Reconnaissance
