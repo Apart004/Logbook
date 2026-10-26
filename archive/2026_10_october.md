@@ -10,7 +10,13 @@
 
 
 
+# October 26, 2026
+Focus: TryHackMe SOC Level 1 - Web Security & IDOR Analysis
 
+-What I did (TryHackMe): Investigated IDOR mechanics on the RecruitX web application in TryHackMe's SOC Level 1 path. Analyzed predictable object referencing via URL parameters (`/profile.php?id=6`), evaluating authorization flaws where server-side validation is absent. Formulated testing methodology to test object-level authorization by incrementing/decrementing numeric object identifiers (`id` parameter) to test for unauthorized data access.
+-Takeaway (TryHackMe): IDOR vulnerabilities occur when applications rely on user-supplied parameters to fetch internal objects without enforcing server-side authorization checks; testing sequential numeric parameters reveals broken object-level authorization flaws instantly.
+
+-Daily Outcome: Completed IDOR theoretical analysis and URL parameter structure assessment on the RecruitX lab target. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 25, 2026
 Focus: TryHackMe SOC Level 1 - Web Security & API Exploration
