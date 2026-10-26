@@ -2,13 +2,13 @@
 
 
 
+# October 26, 2026
+Focus: Logbook Sync — Networking & Linux Operational Tracks
 
+-What I did (Networking): Updated progress across Network Fundamentals (hosts, interfaces, encapsulation), IP Addressing & Routing (IPv4, CIDR, ARP, NAT, DHCP), and Transport Layer Protocols (TCP/UDP, port mappings, handshakes). Marked TCP reliability mechanics as the immediate pending item.
+-What I did (Linux): Completed foundational CLI execution chunks across Filesystem Navigation, User/Group Permissions (`chmod`, `chown`), Process & Service Management (`systemctl`, `journalctl`), and Bash I/O Redirection (`>`, `2>`, `|`). Flagged text processing tools (`grep`, `awk`, `cut`, `sort`, `uniq`) for continued practice.
 
-
-
-
-
-
+-Daily Outcome: Synced progression logs across `tracks/networking.md` and `tracks/linux.md`. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 26, 2026
 Focus: TryHackMe SOC Level 1 - Web Security & IDOR Analysis
