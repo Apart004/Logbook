@@ -1,6 +1,12 @@
 
 
+# October 27, 2026
+Focus: TryHackMe SOC Level 1 - Web Security & File Upload Security
 
+-What I did (TryHackMe): Investigated file upload validation controls on the RecruitX web application (`/admin/upload.php`) in TryHackMe's SOC Level 1 path. Inspected client-side HTML controls (`accept` attribute on file input elements) and demonstrated client-side restriction bypasses. Evaluated server-side extension validation mechanics, testing blocklist bypasses using alternative PHP extensions (`.phtml`) to confirm code execution within the `/uploads/documents/` directory.
+-Takeaway (TryHackMe): Relying on client-side controls (`accept` attribute) or incomplete server-side extension blocklists fails to prevent arbitrary file execution; secure upload implementations require strict allowlisting, extension re-naming, and disabling execution permissions in upload storage paths.
+
+-Daily Outcome: Completed File Upload vulnerability analysis and client/server validation assessment on the RecruitX lab target. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 26, 2026
 Focus: Logbook Sync — Networking & Linux Operational Tracks

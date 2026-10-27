@@ -4,7 +4,11 @@
 
 
 
+# October 27, 2026
+Focus: Web Security - Unrestricted File Upload & Client-Side Bypass Analysis
 
+-What I did: Investigated file upload validation controls on the RecruitX web application (`/admin/upload.php`) in TryHackMe's SOC Level 1 path. Inspected client-side HTML controls (`accept` attribute on file input elements) and demonstrated client-side restriction bypasses. Evaluated server-side extension validation mechanics, testing blocklist bypasses using alternative PHP extensions (`.phtml`) to confirm code execution within the `/uploads/documents/` directory.
+-Takeaway: Relying on client-side controls (`accept` attribute) or incomplete server-side extension blocklists fails to prevent arbitrary file execution; secure upload implementations require strict allowlisting, extension re-naming, and disabling execution permissions in upload storage paths.
 
 # October 26, 2026
 Focus: Web Security - Insecure Direct Object Reference (IDOR) Analysis
