@@ -2,7 +2,17 @@
 
 
 
+# October 28, 2026
+Focus: Web Security - Full Attack Chain Analysis & Remediation Synthesis
 
+-What I did: Completed the comprehensive exploit chain analysis for the RecruitX web application in TryHackMe's SOC Level 1 path. Synthesized the end-to-end intrusion kill chain: 
+ 1. Enumeration: Mapped technology stack (Apache, PHP, MySQL) and directory paths (`/admin`, `/api`, `/uploads`, `/reset.php`).
+ 2. IDOR Exploitation: Leveraged broken object-level authorization (`/profile.php?id=` and `/api/user?id=`) to enumerate user accounts and extract administrative email details.
+ 3. Weak Password Reset: Exploited HTTP response token disclosures at `/reset.php` to take over the administrator account.
+ 4. Authenticated Upload Bypass: Bypassed client-side `accept` attributes and incomplete extension blocklists using `.phtml` file uploads at `/admin/upload.php`.
+ 5. Remote Code Execution (RCE): Triggered PHP web shell execution within `/uploads/documents/` to establish interactive system-level shell access.
+ Evaluated defensive remediations across each severity tier (server-side authorization checks, out-of-band email reset tokens, strict extension allowlisting/non-executable upload storage, and API access controls).
+-Takeaway: Cyber intrusions rarely rely on a single critical vulnerability; combining low/medium informational flaws (IDOR + API leaks) with logic flaws (token exposure) creates high-impact compromise paths to full system takeover.
 
 # October 27, 2026
 Focus: Web Security - Unrestricted File Upload & Client-Side Bypass Analysis
