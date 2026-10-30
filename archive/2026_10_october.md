@@ -6,7 +6,13 @@
 
 
 
+# October 30, 2026
+Focus: TryHackMe SOC Level 1 - Vulnerability Analysis & Searchsploit Workflows
 
+-What I did (TryHackMe): Evaluated vulnerability analysis methodologies following network scanning and service enumeration in TryHackMe's SOC Level 1 path. Practiced mapping raw Nmap service banner data to potential exploit vectors, assessing version-specific vulnerability databases, and analyzing command-line exploit lookup workflows via tools like `searchsploit` (Exploit-DB offline repository) versus OS-specific patch backporting verification (e.g., evaluating OpenSSH 9.6p1 banners).
+-Takeaway (TryHackMe): Vulnerability analysis bridges raw enumeration and risk prioritization; cross-referencing service banners with known CVE databases or offline repositories (`searchsploit`) helps distinguish theoretical or backported vendor versions from actionable exposure risks.
+
+-Daily Outcome: Completed Vulnerability Analysis methodology and searchsploit workflow task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 28, 2026
 Focus: TryHackMe SOC Level 1 - Web Security Attack Chain & Remediation
