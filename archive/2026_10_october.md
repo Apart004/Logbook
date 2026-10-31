@@ -4,7 +4,13 @@
 
 
 
+# October 31, 2026
+Focus: TryHackMe SOC Level 1 — Metasploit Exploitation & Shell Handling
 
+-What I did (TryHackMe): Navigated the Metasploit Framework (`msfconsole`) workflow targeting the UnrealIRCd 3.2.8.1 backdoor vulnerability (`exploit/unix/irc/unreal_ircd_3281_backdoor`). Configured target parameters (`RHOSTS`, target port), selected the generic Unix double reverse TCP payload (`cmd/unix/reverse`), configured local listener parameters (`LHOST`, `LPORT`), and executed the exploit. Obtained an unprivileged command shell as `webmaster` and retrieved `/home/webmaster/flag.txt`. Reviewed the theoretical requirement and mechanics of upgrading basic dumb shells to interactive TTYs for commands like `su`/`sudo`.
+-Takeaway (TryHackMe): Exploiting backdoored services via Metasploit requires precise alignment of exploit module options and payload listener settings; recognizing shell interactive constraints (dumb shell vs. interactive TTY) is critical for subsequent post-exploitation operations.
+
+-Daily Outcome: Completed Metasploit UnrealIRCd exploitation and flag recovery task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # October 30, 2026
 Focus: TryHackMe SOC Level 1 - Vulnerability Analysis & Searchsploit Workflows
