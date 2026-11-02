@@ -4,7 +4,11 @@
 
 
 
+# November 02, 2026
+Focus: Reconnaissance Fundamentals — Passive vs. Active Intelligence Gathering
 
+-What I did: Evaluated core reconnaissance methodologies in TryHackMe's SOC Level 1 path. Contrasted Passive Reconnaissance (OSINT, DNS resolvers, crt.sh transparency logs, job posting tech stacks, public repositories) with Active Reconnaissance (ICMP/ARP host discovery, Nmap/masscan port scanning, web fuzzing, direct social engineering). Analyzed detection profiles (IDS/IPS, WAF alerts) and answered exercise questions categorizing specific scenarios (Facebook employee mapping = Passive, Webserver ICMP pinging = Active, Party-based IT Admin social engineering = Active).
+-Takeaway: Passive recon provides stealthy, zero-footprint OSINT without generating target log telemetry, whereas any direct host interaction (packet sending) or human engagement (social engineering/vishing) constitutes active reconnaissance.
 
 # November 01, 2026
 Focus: Penetration Testing Deliverables & Executive/Technical Reporting Standards

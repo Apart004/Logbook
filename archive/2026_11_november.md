@@ -1,3 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+# November 02, 2026
+Focus: TryHackMe SOC Level 1 — Reconnaissance Methodologies (Passive vs. Active)
+
+-What I did (TryHackMe): Evaluated core reconnaissance methodologies in TryHackMe's SOC Level 1 path. Contrasted Passive Reconnaissance (OSINT, DNS resolvers, crt.sh transparency logs, job posting tech stacks, public repositories) with Active Reconnaissance (ICMP/ARP host discovery, Nmap/masscan port scanning, web fuzzing, direct social engineering). Analyzed detection profiles (IDS/IPS, WAF alerts) and answered exercise questions categorizing specific scenarios (Facebook employee mapping = Passive, Webserver ICMP pinging = Active, Party-based IT Admin social engineering = Active).
+-Takeaway (TryHackMe): Passive recon provides stealthy, zero-footprint OSINT without generating target log telemetry, whereas any direct host interaction (packet sending) or human engagement (social engineering/vishing) constitutes active reconnaissance.
+
+-Daily Outcome: Completed Reconnaissance taxonomy analysis and exercise questions. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
+
 # November 01, 2026
 Focus: TryHackMe SOC Level 1 — Penetration Testing Reporting & Documentation Standards
 
