@@ -2,7 +2,11 @@
 
 
 
+# November 03, 2026
+Focus: Passive Reconnaissance — DNS Querying via `dig` and `nslookup`
 
+-What I did: Investigated DNS record enumeration techniques in TryHackMe's SOC Level 1 path. Evaluated DNS query tools, contrasting legacy interactive lookup (`nslookup`) with modern, scriptable query tools (`dig`). Mapped standard DNS record types (A, AAAA, CNAME, MX, SOA, TXT) and analyzed how querying public/open resolvers (e.g., Cloudflare `1.1.1.1`) maintains a passive reconnaissance posture without generating target server log events.
+-Takeaway: `dig` is the preferred tool for DNS intelligence due to default TTL output, clean Unix output formatting, and precise flag control; querying open resolvers yields essential asset telemetry (SPF/DMARC, mail routing, IP mapping) while keeping recon 100% passive.
 
 # November 02, 2026
 Focus: Reconnaissance Fundamentals — Passive vs. Active Intelligence Gathering

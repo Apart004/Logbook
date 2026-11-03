@@ -9,7 +9,13 @@
 
 
 
+# November 03, 2026
+Focus: TryHackMe SOC Level 1 — Passive Reconnaissance & DNS Querying
 
+-What I did (TryHackMe): Investigated DNS record enumeration techniques in TryHackMe's SOC Level 1 path. Evaluated DNS query tools, contrasting legacy interactive lookup (`nslookup`) with modern, scriptable query tools (`dig`). Mapped standard DNS record types (A, AAAA, CNAME, MX, SOA, TXT) and analyzed how querying public/open resolvers (e.g., Cloudflare `1.1.1.1`) maintains a passive reconnaissance posture without generating target server log events.
+-Takeaway (TryHackMe): `dig` is the preferred tool for DNS intelligence due to default TTL output, clean Unix output formatting, and precise flag control; querying open resolvers yields essential asset telemetry (SPF/DMARC, mail routing, IP mapping) while keeping recon 100% passive.
+
+-Daily Outcome: Completed DNS record querying and passive DNS analysis module. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # November 02, 2026
 Focus: TryHackMe SOC Level 1 — Reconnaissance Methodologies (Passive vs. Active)
