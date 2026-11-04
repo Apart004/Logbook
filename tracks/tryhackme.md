@@ -2,6 +2,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# November 04, 2026
+Focus: Passive Subdomain Discovery — DNSDumpster & Certificate Transparency (CT) Logs
+
+-What I did: Evaluated passive subdomain enumeration techniques and OSINT tools in TryHackMe's SOC Level 1 path. Investigated DNSDumpster for public DNS record aggregation, host IP geolocation mapping, and domain relationship graphing without active scanning. Deep-dived into Certificate Transparency (CT) logs using `crt.sh` (`%.tryhackme.com` wildcard queries) to extract Subject Alternative Name (SAN) fields across issued SSL/TLS certificates. Examined defensive applications including dangling DNS record monitoring and subdomain takeover prevention.
+-Takeaway: Certificate Transparency logs (`crt.sh`) provide real-time, zero-traffic subdomain discovery that significantly outpaces passive DNS databases; identifying unadvertised development panels and staging environments (`dev`, `app`, `blog`) is vital for mapping an organization's true attack surface.
+
 # November 03, 2026
 Focus: Passive Reconnaissance — DNS Querying via `dig` and `nslookup`
 
