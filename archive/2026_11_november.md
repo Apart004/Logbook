@@ -5,7 +5,13 @@
 
 
 
+# November 05, 2026
+Focus: TryHackMe SOC Level 1 — Shodan & Passive Exposure Analytics
 
+-What I did (TryHackMe): Evaluated passive device exposure and service banner reconnaissance using Shodan in TryHackMe's SOC Level 1 path[cite: 1]. Practiced search query filters including `hostname:`, `org:`, `port:`, `country:`, and technology stack tags like `http.component:`[cite: 1]. Investigated target host exposure profiles (Cloudflare infrastructure, open ports, banners) and cross-referenced results using Censys.io[cite: 1]. Performed global product searches (e.g., `product:Apache`, `product:nginx`) to analyze host aggregation distributions across Top Countries and Top Ports panels[cite: 1].
+-Takeaway (TryHackMe): Shodan and Censys provide granular, zero-traffic visibility into external infrastructure, service banners, and technology stacks, allowing SOC defenders to analyze perimeter exposures without sending packets to target networks[cite: 1].
+
+-Daily Outcome: Completed Shodan search query fundamentals and global telemetry exercises[cite: 1]. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # November 04, 2026
 Focus: TryHackMe SOC Level 1 — Passive Subdomain Discovery & CT Log Analysis
