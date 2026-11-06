@@ -11,7 +11,11 @@
 
 
 
+# November 06, 2026
+Focus: Active Reconnaissance — Web Browser Enumeration & Transport Layer Mechanics
 
+-What I did: Investigated active web reconnaissance fundamentals using standard web browsers in TryHackMe's SOC Level 1 path. Evaluated transport-level communication mechanics across plain HTTP (TCP/80), HTTPS (TCP/443), and modern HTTP/3 utilizing the QUIC protocol over UDP/443 (identifiable via `h3` in browser Network developer tools). Analyzed non-standard port probing via explicit URL addressing (e.g., `:8443`, `:8080`) and assessed why standard browser traffic poses low-noise reconnaissance detection challenges for perimeter defenders.
+-Takeaway: Web browsers blend naturally with legitimate user traffic, making them stealthy active recon instruments; identifying transport variations like HTTP/3 (`QUIC` over UDP/443) and targeting non-standard web ports (`8080`, `8443`) are essential steps in uncovering unindexed administrative or development interfaces.
 
 # November 05, 2026
 Focus: Passive Reconnaissance — Shodan Query Fundamentals & Global Telemetry

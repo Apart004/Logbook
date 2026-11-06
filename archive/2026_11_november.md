@@ -3,7 +3,13 @@
 
 
 
+# November 06, 2026
+Focus: TryHackMe SOC Level 1 — Active Reconnaissance & Web Transport Mechanics
 
+-What I did (TryHackMe): Investigated active web reconnaissance fundamentals using standard web browsers in TryHackMe's SOC Level 1 path. Evaluated transport-level communication mechanics across plain HTTP (TCP/80), HTTPS (TCP/443), and modern HTTP/3 utilizing the QUIC protocol over UDP/443 (identifiable via `h3` in browser Network developer tools). Analyzed non-standard port probing via explicit URL addressing (e.g., `:8443`, `:8080`) and assessed why standard browser traffic poses low-noise reconnaissance detection challenges for perimeter defenders.
+-Takeaway (TryHackMe): Web browsers blend naturally with legitimate user traffic, making them stealthy active recon instruments; identifying transport variations like HTTP/3 (`QUIC` over UDP/443) and targeting non-standard web ports (`8080`, `8443`) are essential steps in uncovering unindexed administrative or development interfaces.
+
+-Daily Outcome: Completed Web Browser Active Reconnaissance & Transport-Level Basics task. Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # November 05, 2026
 Focus: TryHackMe SOC Level 1 — Shodan & Passive Exposure Analytics
