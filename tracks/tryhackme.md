@@ -9,7 +9,23 @@
 
 
 
+   
 
+
+
+
+
+
+
+
+
+
+
+# November 07, 2026
+Focus: Active Reconnaissance — ICMP Host Discovery & `ping` Mechanics
+
+-What I did: Investigated active host reachability testing using `ping` in TryHackMe's SOC Level 1 path. Analyzed underlying ICMP protocol mechanics, mapping ICMP Echo Request (Type 8) and ICMP Echo Reply (Type 0) exchanges. Contrasted cross-platform CLI execution flags (`ping -c` on Linux/macOS vs. `ping -n` on Windows), DNS name resolution dependencies prior to ICMP transmission, and dual-stack protocol forcing (`-4` and `-6` flags / `ping6`).
+-Takeaway: `ping` provides a lightweight layer-3 reachability verification step prior to deep port scanning, though perimeter firewalls frequently drop ICMP Type 8 packets—requiring secondary TCP/UDP probing techniques when ICMP replies are blocked.   
 
 # November 06, 2026
 Focus: Active Reconnaissance — Web Browser Enumeration & Transport Layer Mechanics
