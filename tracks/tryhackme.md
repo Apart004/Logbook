@@ -19,7 +19,11 @@
 
 
 
+# November 08, 2026
+Focus: Active Reconnaissance — Network Path Discovery & `traceroute` Mechanics
 
+-What I did: Investigated network topology mapping and hop discovery using `traceroute` in TryHackMe's SOC Level 1 path. Analyzed IP header Time-to-Live (TTL) decrement mechanics, evaluating how incremental TTL probes (`TTL=1`, `2`, `3`...) trigger ICMP Time-to-Live Exceeded messages from intermediate routers to enumerate network paths. Contrasted cross-platform CLI execution (`traceroute` on Linux/macOS vs. `tracert` on Windows, plus `-6`/`traceroute6` for IPv6) and protocol variants on Linux (default UDP probes vs. TCP `-T` and ICMP `-I` flags for firewall filter evasion). Examined dynamic routing impacts (BGP, OSPF, anycast, load balancing) and interpreted filtered hops (`*`).
+-Takeaway: `traceroute` maps intermediate routing infrastructure and perimeter filtering boundaries by manipulating IP TTL fields; switching between UDP, TCP (`-T`), and ICMP (`-I`) probes allows analysts to bypass restrictive firewall rules during active network discovery.
 
 # November 07, 2026
 Focus: Active Reconnaissance — ICMP Host Discovery & `ping` Mechanics
