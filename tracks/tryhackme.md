@@ -17,7 +17,11 @@
 
 
 
+# November 09, 2026
+Focus: Active Reconnaissance — Interpreting `traceroute` Output & Dynamic Routing
 
+-What I did: Analyzed multi-run `traceroute` output variations against `tryhackme.com` in TryHackMe's SOC Level 1 path. Examined hop counts (14 vs. 26 hops), per-hop three-packet probe round-trip times, load balancing path divergence across intermediate routers, and CDN anycast routing effects (Cloudflare/Akamai). Evaluated suppressed ICMP responses (`*` hops due to rate limiting/firewall filtering) alongside advanced variants (`mtr` continuous packet loss/latency tracking, TCP `-T` and ICMP `-I` filter-evasion probes, and `traceroute6`).
+-Takeaway: Consecutive `traceroute` runs rarely take identical paths across external networks due to dynamic routing, load balancing, and CDN anycast; combining `traceroute` with `mtr` and TCP/ICMP probe flags provides accurate network topology and filtering visibility.
 
 # November 08, 2026
 Focus: Active Reconnaissance — Network Path Discovery & `traceroute` Mechanics
