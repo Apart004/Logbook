@@ -13,7 +13,10 @@
 
 
 
-
+# November 10, 2026
+* Completed **Active Reconnaissance (Task 6 — Netcat Banner Grabbing)** on TryHackMe, grabbing the FTP service banner on port 21 via `nc` and reviewing listener flags (`-vnlp`). Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#active-reconnaissance--tryhackme-writeup).
+* Started **Brutus (Sherlock — DFIR)** on Hack The Box and solved Tasks 1–3 (identified SSH brute-force IP `65.2.161.68`, `root` compromise in `auth.log`, and manual PTY login at `2024-03-06 06:32:45 UTC` in `wtmp` via `utmp.py`). Logged in [`tracks/hackthebox.md`](../tracks/hackthebox.md#brutus-sherlock--dfir).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, and LeetCode tracks on hold.
 
 # November 09, 2026
 Focus: TryHackMe SOC Level 1 & Codelivly SOC Path Initialization

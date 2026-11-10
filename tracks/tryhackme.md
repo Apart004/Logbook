@@ -17,6 +17,51 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Active Reconnaissance — TryHackMe Writeup
+**Date:** November 10, 2026 | **Path:** SOC Level 1 | **Category:** Network Security / Active Recon
+
+### Summary
+Practiced active network reconnaissance techniques—moving from standard browser probing and ICMP/UDP path tracing (`ping`, `traceroute`) to direct service banner grabbing and port listening using Netcat (`nc`).
+
+**Tools / Artifacts:** `nc`, `ncat`, `ping`, `traceroute`
+
+---
+
+### Task 6: Connecting via Netcat (Banner Grabbing)
+> Start the VM and open the AttackBox. Once the AttackBox loads, use Netcat to connect to the VM port 21. What is the version of the running server?
+
+First, I made sure any old lab VM from Task 3 was terminated so I wouldn't hit connection refused errors on the wrong IP. Once the Task 6 VM booted up, I connected directly to TCP port 21 (FTP) from the AttackBox using `nc`—since FTP announces its service banner immediately upon connection without needing any manual protocol commands.
+
+```bash
+nc MACHINE_IP 21
+```
+
+```text
+220 (vsFTPd [VERSION])
+```
+
+**Answer:** `[Exact version string from the 220 banner]`
+
+---
+
+### Key Takeaways / Hardening
+- Netcat (`nc MACHINE_IP PORT`) works as a fast raw TCP/UDP client for banner grabbing; protocols like FTP and SMTP return version banners immediately on connect, whereas HTTP requires sending a `GET / HTTP/1.1` and `host:` header followed by a blank line.
+- For listener mode (`nc -vnlp PORT`), `-p` has to sit right before the port number, `-n` skips DNS lookups, and ports under 1024 require `sudo`/root privileges.
+- **Hardening:** Suppress or customize default service banners (`ftpd_banner` in vsFTPd, `ServerTokens Prod` in Apache) so external scanners cannot fingerprint exact software versions on initial connect.
+
 # November 09, 2026
 Focus: Active Reconnaissance — Interpreting `traceroute` Output & Dynamic Routing
 
