@@ -28,7 +28,67 @@
 
 
 
+## Nmap Scanning — TryHackMe Writeup
+**Date:** November 11, 2026 | **Path:** SOC Level 1 | **Category:** Network Security / Active Recon
 
+### Summary
+Evaluated Layer-2 vs. Layer-3 network discovery mechanics across physical network segments and logical subnets using simulated ARP broadcast packet tracing.
+
+**Tools / Artifacts:** TryHackMe Network Simulator, ARP Protocol Engine
+
+---
+
+### Task 2: Local vs. Remote Communication (ARP Broadcast Mechanics)
+> Send a packet from computer1 to computer1 (broadcast) with Packet Type "ARP Request" for computer6. How many devices can see the ARP Request? Did computer6 receive the ARP Request?
+
+1. Tested broadcast behavior across subnet boundaries by originating an ARP request on `computer1` targeting `computer6`.
+2. Verified that ARP requests operate strictly as link-layer broadcast packets and cannot cross default gateway routers to reach remote network segments.
+
+```text
+Source: computer1 (10.1.100.x/24)
+Destination: Broadcast (FF:FF:FF:FF:FF:FF)
+Query Data: Who has computer6?
+```
+
+```text
+[Simulator Output]
+Packet delivered to: Default Gateway (Router), Local Switches, Local Subnet Hosts
+Total devices reached: 4
+Packet forwarded across Router: NO (Dropped at Subnet Boundary)
+```
+
+**Answer 1:** `4`
+**Answer 2:** `nay`
+
+---
+
+### Task 3: Remote Subnet Probing (ARP Isolation)
+> Send a packet from computer4 to computer4 (broadcast) with Packet Type "ARP Request" for computer6. How many devices can see the ARP Request? Did computer6 reply to the ARP Request?
+
+1. Moved to `computer4` within the local subnet segment of `computer6` to test intra-subnet link-layer propagation.
+2. Verified that since both endpoints reside on the same broadcast domain, the ARP request reaches `computer6` and receives a direct ARP response.
+
+```text
+Source: computer4
+Destination: Broadcast
+Query Data: Who has computer6?
+```
+
+```text
+[Simulator Output]
+Packet delivered to: Local Subnet Hosts (including computer6)
+Total devices reached: 4
+Reply received from computer6: YES
+```
+
+**Answer 1:** `4`
+**Answer 2:** `yea`
+
+---
+
+### Key Takeaways / Hardening
+- ARP queries are non-routable link-layer (Layer 2) broadcast packets restricted to their immediate physical network segment/subnet.
+- To discover hosts across remote subnets (/16 or /24 behind a gateway router), scanners must switch from ARP requests to routable Layer 3 protocols (ICMP Echo or TCP/UDP probes).
 
 ## Active Reconnaissance — TryHackMe Writeup
 **Date:** November 10, 2026 | **Path:** SOC Level 1 | **Category:** Network Security / Active Recon

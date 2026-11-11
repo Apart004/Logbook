@@ -11,7 +11,9 @@
 
 
 
-
+# November 11, 2026
+* Completed **Active Reconnaissance (Tasks 2 & 3 — ARP Broadcast & Subnet Boundary Simulation)** on TryHackMe, verifying link-layer packet isolation across default gateways. Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#active-reconnaissance--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 10, 2026
 * Completed **Active Reconnaissance (Task 6 — Netcat Banner Grabbing)** on TryHackMe, grabbing the FTP service banner on port 21 via `nc` and reviewing listener flags (`-vnlp`). Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#active-reconnaissance--tryhackme-writeup).
