@@ -26,7 +26,47 @@
 
 
 
+## Nmap Live Host Discovery — TryHackMe Writeup
+**Date:** November 12, 2026 | **Path:** SOC Level 1 | **Category:** Network Security / Active Recon
 
+### Summary
+Traced how host discovery interacts across TCP/IP layers (ARP, ICMP, TCP, UDP) using the network simulator—specifically seeing how local vs. cross-subnet pings trigger ARP resolution and populate local ARP caches.
+
+**Tools / Artifacts:** TryHackMe Network Simulator, `arp`, `icmp`
+
+---
+
+### Task 4: Layer 2 & Layer 3 Host Discovery (ARP + ICMP Mechanics)
+> Scenario 1: Send a "Ping Request" from `computer1` to `computer3` (same subnet).  
+> Scenario 2: Send a "Ping Request" from `computer2` to `computer5` (remote subnet) and resend.
+
+Before an IP packet (ICMP Echo Request) can leave an interface, the sending host has to resolve the next-hop Layer-2 MAC address via ARP. Watching the simulator packet log top-to-bottom confirmed two distinct resolution flows:
+- **Same subnet (`computer1` → `computer3`):** `computer1` broadcasted an `ARP Request` for `computer3`, received an `ARP Reply` with its MAC address, and then sent the unicast ICMP `Ping Request` (getting 1 reply back).
+- **Different subnet (`computer2` → `computer5`):** Because `computer5` lives behind a gateway, `computer2` first ARPed for the default gateway (`router`), which replied. After receiving the routed packet, the router then sent a second `ARP Request` on the destination segment for `computer5`. Sending a second ping immediately after skipped ARP completely because the MAC mappings were already cached.
+
+```text
+[Scenario 1: Intra-Subnet Ping]
+computer1 -> Broadcast : ARP Request (Who has computer3?)
+computer3 -> computer1 : ARP Reply
+computer1 -> computer3 : Ping Request (ICMP Type 8)
+computer3 -> computer1 : Ping Reply (ICMP Type 0)
+
+[Scenario 2: Cross-Subnet Ping]
+computer2 -> Broadcast : ARP Request (Who has gateway router?)
+router    -> computer2 : ARP Reply
+router    -> Broadcast : ARP Request (Who has computer5?)
+computer5 -> router    : ARP Reply
+```
+
+**Answers (Scenario 1):** `ARP Request` | `ARP Reply` (check simulator label) | `1`  
+**Answers (Scenario 2):** `router` (check simulator label) | `computer5` | `nay`
+
+---
+
+### Key Takeaways / Hardening
+- Even a standard Layer-3 `ping` depends on Layer-2 ARP resolution first—and crossing a router splits ARP resolution into two separate hops (sender → gateway, then gateway → target).
+- Subsequent probes within the ARP cache timeout window skip ARP broadcasts entirely, reducing local broadcast noise.
+- **Hardening:** On sensitive subnets, use Dynamic ARP Inspection (DAI) on managed switches to prevent ARP spoofing/poisoning during local network discovery.
 
 ## Nmap Scanning — TryHackMe Writeup
 **Date:** November 11, 2026 | **Path:** SOC Level 1 | **Category:** Network Security / Active Recon
