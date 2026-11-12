@@ -6,7 +6,9 @@
 
 
 
-
+# November 13, 2026
+* Completed **Nmap Live Host Discovery (Target Specification — CIDR Subnets, Octet Ranges & `-sL -n` List Scans)** on TryHackMe. Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-live-host-discovery--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 12, 2026
 * Completed **Nmap Live Host Discovery (Task 4 — ARP & ICMP Layer Interaction Simulation)** on TryHackMe, tracing intra-subnet vs. routed ARP resolution and ARP cache behavior. Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-live-host-discovery--tryhackme-writeup).

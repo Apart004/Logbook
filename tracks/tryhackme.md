@@ -24,7 +24,25 @@
 
 
 
+### Task 1 / Target Specification: Subnets, Ranges & List Scans (`-sL`)
+> What is the first IP address Nmap would scan if you provided `10.10.12.13/29` as your target?  
+> How many IP addresses will Nmap scan if you provide the following range: `10.10.0-255.101-125`?
 
+To verify target expansion without sending a single packet to the network, I used Nmap's list scan (`-sL`) combined with `-n` to disable reverse-DNS lookups. For the `/29` CIDR block, the block size is 8 ($2^3$), which places `10.10.12.13` inside the `10.10.12.8`–`10.10.12.15` block—so Nmap starts right at the network address (`10.10.12.8`). For the multi-octet range, Nmap multiplies the combinations across octets: 256 values (`0-255`) $\times$ 25 values (`101-125`) = 6,400 hosts.
+
+```bash
+nmap -sL -n 10.10.12.13/29 | head -n 4
+nmap -sL -n 10.10.0-255.101-125 | tail -n 2
+```
+
+```text
+Nmap scan report for 10.10.12.8
+Nmap scan report for 10.10.12.9
+...
+Nmap done: 6400 IP addresses (0 hosts up) scanned in 0.05 seconds
+```
+
+**Answers:** `10.10.12.8` | `6400`
 
 ## Nmap Live Host Discovery — TryHackMe Writeup
 **Date:** November 12, 2026 | **Path:** SOC Level 1 | **Category:** Network Security / Active Recon
