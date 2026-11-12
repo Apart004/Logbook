@@ -1,3 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+## HTB Academy — Lab Exercises & Target Environments
+**Date:** November 12, 2026 | **Platform:** Hack The Box Academy | **Category:** Platform / Lab Workflow
+
+### Summary
+Reviewed how HTB Academy interactive exercises spin up isolated Docker and VM targets (`http://<ip>:<port>`), single-target concurrency limits, and session timers.
+
+**Tools / Artifacts:** HTB Academy Web Interface, Docker Targets, VM Targets
+
+---
+
+### Notes & Workflow Mechanics
+- **Target Spawning:** Clicking *Spawn the target system* provisions either a lightweight Docker container (accessible directly over standard internet connectivity without VPN setup, usually ready within seconds) or a full VM target.
+- **Session Limits:** Only **one target per user** can run at a time, governed by a countdown timer with manual extend/re-spawn controls.
+- **Access Format:** Targets expose `http://<ip>:<port>` endpoints (with one-click copy on the IP/port badge) alongside pre-configured test credentials when authentication is part of the exercise.
+
 # Hack The Box — Lab Writeups
 
 ## Brutus (Sherlock — DFIR)
