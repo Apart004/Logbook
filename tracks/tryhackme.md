@@ -22,7 +22,22 @@
 
 
 
+### Task 5: Host Discovery Using ARP (`-PR -sn`)
+> How many hosts are found alive after scanning the `CONNECTION_IP/24`?
 
+To sweep the AttackBox's local `/24` subnet at Layer 2 without triggering a full port scan, I used `-PR` (ARP ping) paired with `-sn` (no port scan) and `-n` (skip reverse-DNS so Nmap doesn't throw `/etc/resolv.conf` warnings). Since ARP frames don't cross routers, this strictly maps live hosts sharing the immediate Ethernet/Wi-Fi broadcast domain.
+
+```bash
+nmap -PR -sn -n CONNECTION_IP/24
+```
+
+```text
+Nmap scan report for 10.201.24.228
+Host is up.
+Nmap done: 256 IP addresses (1 host up) scanned in 10.51 seconds
+```
+
+**Answer:** `1`
 
 ### Task 1 / Target Specification: Subnets, Ranges & List Scans (`-sL`)
 > What is the first IP address Nmap would scan if you provided `10.10.12.13/29` as your target?  

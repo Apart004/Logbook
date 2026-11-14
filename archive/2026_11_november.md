@@ -4,7 +4,9 @@
 
 
 
-
+# November 14, 2026
+* Completed **Nmap Live Host Discovery (Task 5 — Layer-2 ARP Ping Sweep `-PR -sn`)** on TryHackMe, scanning the local `/24` subnet and suppressing DNS resolution noise with `-n`. Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-live-host-discovery--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 13, 2026
 * Completed **Nmap Live Host Discovery (Target Specification — CIDR Subnets, Octet Ranges & `-sL -n` List Scans)** on TryHackMe. Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-live-host-discovery--tryhackme-writeup).
