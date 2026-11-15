@@ -20,7 +20,31 @@
 
 
 
+### Task 7: Host Discovery Using TCP & UDP (`-PS`, `-PA`, `-PU`)
+> Which TCP ping scan still sends the packet type it is named after when run from an unprivileged account?  
+> Which TCP ping scan needs a privileged account to send the packet type it is named after?  
+> What option do you need to add to Nmap to run a TCP SYN ping scan on the telnet port?
 
+When ICMP Echo requests are blocked across routed subnets, Nmap falls back to transport-layer probes (`-sn` disables port scanning after discovery):
+- **TCP SYN Ping (`-PS`):** Sends a `SYN` packet (port 80 by default). Root users send a raw `SYN` and drop the handshake with an `RST` if the target responds with `SYN/ACK`; unprivileged users fall back to the OS `connect()` call, which still transmits a `SYN` packet. To probe Telnet specifically, pass `-PS23`.
+- **TCP ACK Ping (`-PA`):** Sends an unsolicited `ACK` packet (port 80 by default) to trigger a stateless `RST` from live hosts. Because standard OS sockets can't send raw `ACK` flags without an active session, this strictly requires `root`/`sudo` privileges.
+- **UDP Ping (`-PU`):** Probes closed UDP ports so live targets respond with an ICMP Port Unreachable packet (whereas open UDP ports typically stay silent).
+
+```bash
+sudo nmap -PS23 -sn -n 10.200.6.0/24
+sudo nmap -PA -sn -n 10.200.6.0/24
+sudo nmap -PU -sn -n 10.200.6.0/24
+```
+
+```text
+Nmap scan report for 10.200.6.50
+Host is up (0.070s latency).
+Nmap scan report for 10.200.6.250
+Host is up (0.068s latency).
+Nmap done: 256 IP addresses (2 hosts up) scanned in 33.88 seconds
+```
+
+**Answers:** `TCP SYN Ping` (`-PS`) | `TCP ACK Ping` (`-PA`) | `-PS23`
 
 ### Task 5: Host Discovery Using ARP (`-PR -sn`)
 > How many hosts are found alive after scanning the `CONNECTION_IP/24`?
