@@ -18,7 +18,37 @@
 
 
 
+## Nmap Basic Port Scans — TryHackMe Writeup
+**Date:** November 16, 2026 | **Path:** SOC Level 1 / Jr Penetration Tester | **Category:** Network Security / Active Recon
 
+### Summary
+*(52% room progress — Tasks 1–4 completed)*  
+Working through the core mechanics of Nmap port scanning: understanding TCP vs. UDP port states, inspecting TCP header flags (`SYN`, `ACK`, `RST`, `FIN`, `PSH`, `URG`), and running full TCP 3-way handshake connect scans (`-sT`) against the deployed lab targets (`10.49.148.60` / `10.49.178.207`).
+
+**Tools / Artifacts:** `nmap`, AttackBox
+
+---
+
+### Tasks 1–4: TCP/UDP Ports, TCP Flags & TCP Connect Scan (`-sT`)
+> Covered Task 1 (Introduction), Task 2 (TCP and UDP Ports), Task 3 (TCP Flags), and Task 4 (TCP Connect Scan).
+
+Before jumping into stealth scans, I reviewed how Nmap classifies port states (`open`, `closed`, `filtered`, `unfiltered`, `open|filtered`, `closed|filtered`) and how individual TCP control flags dictate packet responses. In Task 4, I ran TCP Connect scans (`-sT`)—which complete the full 3-way handshake (`SYN` → `SYN/ACK` → `ACK`) via the OS `connect()` syscall and immediately tear down the session with `RST/ACK` once a port responds. This is Nmap's default scan type whenever running from an unprivileged (non-root) account.
+
+```bash
+nmap -sT -Pn 10.49.148.60
+nmap -sT -Pn 10.49.178.207
+```
+
+```text
+# Replace with the specific open ports / service banners from your AttackBox scan output
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+```
+
+**Notes:**
+- An open port completes the handshake (`SYN` → `SYN/ACK` → `ACK`), whereas a closed port responds directly with `RST/ACK`.
+- Because `-sT` completes a full TCP connection, target services and application logs record the connection—making it louder than a half-open SYN scan (`-sS`).
 
 ### Task 7: Host Discovery Using TCP & UDP (`-PS`, `-PA`, `-PU`)
 > Which TCP ping scan still sends the packet type it is named after when run from an unprivileged account?  
