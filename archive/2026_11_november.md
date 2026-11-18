@@ -15,7 +15,9 @@
 
 
 
-
+# November 18, 2026
+* Completed **Nmap Basic Port Scans (Port Ranges, Timing Templates `-T0`–`-T5`, and Packet Rate Controls)** on TryHackMe. Appended to [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-basic-port-scans--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 16, 2026
 * Reached **52% progress** in **Nmap Basic Port Scans** on TryHackMe (completed Tasks 1–4 covering TCP/UDP port states, TCP control flags, and full-handshake TCP Connect scans `-sT` against `10.49.148.60` and `10.49.178.207`)[cite: 3]. Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-basic-port-scans--tryhackme-writeup).

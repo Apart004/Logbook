@@ -14,7 +14,29 @@
 
 
 
+### Task 7: Fine-Tuning Scope & Performance (Port Ranges, Timing & Packet Rates)
+> What is the option to scan all the TCP ports between 5000 and 5500?
 
+To narrow scan scope beyond Nmap's default top 1,000 ports, `-p` accepts comma-separated lists (`-p22,80,443`), inclusive hyphenated ranges (`-p5000-5500`), full-range sweeps (`-p-` for all 65,535 ports), fast mode (`-F` for top 100), or `--top-ports <N>`. Alongside port targeting, timing templates (`-T0` paranoid through `-T5` insane, defaulting to `-T3`) and explicit packet/parallelism caps (`--min-rate`, `--max-rate`, `--min-parallelism`) balance scan speed against IDS evasion and packet loss.
+
+```bash
+nmap -sT -p5000-5500 -T4 10.49.148.60
+```
+
+```text
+# Replace with any open ports discovered in the 5000-5500 range
+Not shown: 500 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+```
+
+**Answer:** `-p5000-5500`
+
+---
+
+### Key Takeaways / Hardening
+- Use `-p-` when hunting non-standard services (like custom APIs or reverse shells) that sit outside Nmap's default top 1,000 port list, and pair `-T4` with `--min-rate` in labs/CTFs while sticking to `-T1` or `--max-rate` in stealth engagements to avoid IDS thresholds and packet drops.
+- **Hardening:** Restrict unnecessary high-numbered ports at the host firewall and configure IDS/IPS rate-based alerting to flag rapid sequential port probes.
 
 ## Nmap Basic Port Scans — TryHackMe Writeup
 **Date:** November 16, 2026 | **Path:** SOC Level 1 / Jr Penetration Tester | **Category:** Network Security / Active Recon
