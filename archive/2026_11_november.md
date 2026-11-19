@@ -13,7 +13,9 @@
 
 
 
-
+# November 19, 2026
+* Reached **35% progress** in **Content Discovery** on TryHackMe (completed Tasks 1–3 covering manual discovery via common files like `robots.txt`/`sitemap.xml`, HTTP response headers, and framework stack fingerprinting against `10.49.151.97`). Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#content-discovery--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 18, 2026
 * Completed **Nmap Basic Port Scans (Port Ranges, Timing Templates `-T0`–`-T5`, and Packet Rate Controls)** on TryHackMe. Appended to [`tracks/tryhackme.md`](../tracks/tryhackme.md#nmap-basic-port-scans--tryhackme-writeup).

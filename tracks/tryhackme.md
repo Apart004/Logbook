@@ -12,7 +12,38 @@
    
 
 
+## Content Discovery — TryHackMe Writeup
+**Date:** November 19, 2026 | **Path:** SOC Level 1 / Jr Penetration Tester | **Category:** Web Application Security / Recon
 
+### Summary
+*(35% room progress — Tasks 1–3 completed)*  
+Started the Content Discovery room targeting `10.49.151.97` (`contentdiscovery1.31`), focusing on manual web enumeration techniques—checking standard hidden metadata files (`robots.txt`, `sitemap.xml`, `favicon.ico`) and inspecting HTTP response headers and frontend source code to fingerprint the underlying framework stack.
+
+**Tools / Artifacts:** AttackBox Browser, `curl`, DevTools
+
+---
+
+### Tasks 1–3: Manual Discovery (Common Files, Headers & Framework Stack)
+> Covered Task 1 (Introduction), Task 2 (Manual Discovery - Common Files), and Task 3 (Manual Discovery - Headers & Framework Stack) against target `10.49.151.97`.
+
+Before running automated directory brute-forcers like Gobuster, I started with low-noise manual checks directly against `http://10.49.151.97`:
+- **Common Files (Task 2):** Checked standard web root artifacts (`robots.txt` for disallowed crawler paths, `sitemap.xml` for mapped endpoints, `/.well-known/security.txt`, and `favicon.ico` hashes) that often leak unlinked admin routes or staging directories.
+- **Headers & Framework Stack (Task 3):** Inspected raw HTTP response headers (`Server`, `X-Powered-By`, session cookie names) alongside page source comments and asset paths to identify the backend web server and application framework.
+
+```bash
+curl -i -s [http://10.49.151.97/](http://10.49.151.97/) | head -n 15
+curl -s [http://10.49.151.97/robots.txt](http://10.49.151.97/robots.txt)
+```
+
+```text
+# Replace with the exact headers / robots.txt entries / flags you pulled from 10.49.151.97
+HTTP/1.1 200 OK
+Server: ...
+```
+
+**Notes:**
+- `robots.txt` is meant to guide search engine crawlers away from sensitive paths, which makes it an immediate roadmap of high-value directories during manual recon.
+- Default framework signatures in `X-Powered-By`, `Server` banners, or HTML generator tags let us tailor wordlists (`-x php`, `asp`, `html`) before launching automated enumeration.
 
 ### Task 7: Fine-Tuning Scope & Performance (Port Ranges, Timing & Packet Rates)
 > What is the option to scan all the TCP ports between 5000 and 5500?
