@@ -11,7 +11,9 @@
 
 
 
-
+# November 20, 2026
+* Continued **Content Discovery** on TryHackMe (completed OSINT Discovery covering Wayback Machine snapshots, GitHub commit history leaks, and public Amazon S3 bucket enumeration). Appended to [`tracks/tryhackme.md`](../tracks/tryhackme.md#content-discovery--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 19, 2026
 * Reached **35% progress** in **Content Discovery** on TryHackMe (completed Tasks 1–3 covering manual discovery via common files like `robots.txt`/`sitemap.xml`, HTTP response headers, and framework stack fingerprinting against `10.49.151.97`). Logged in [`tracks/tryhackme.md`](../tracks/tryhackme.md#content-discovery--tryhackme-writeup).

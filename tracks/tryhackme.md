@@ -10,7 +10,16 @@
 
 
    
+### OSINT Discovery: Wayback Machine, GitHub & S3 Buckets
+> What is the website address for the Wayback Machine?  
+> What URL format do Amazon S3 buckets end in? (Answer starts with a .)
 
+After checking manual on-target files, I covered passive OSINT content discovery sources that uncover hidden endpoints without sending brute-force traffic to the web server:
+- **Wayback Machine (`https://web.archive.org/`):** Queries historical snapshots of a domain to recover deprecated login portals, removed pages, or legacy API routes that still exist on the backend.
+- **GitHub Commit History:** Searches public repositories by company name or domain—inspecting commit diffs rather than just `HEAD`, since developers often delete leaked `.env` files or API keys in later commits while leaving them exposed in Git history.
+- **Amazon S3 Buckets (`.s3.amazonaws.com`):** Checks predictable bucket naming patterns (`{company}-assets`, `{company}-backup`, `{company}-www`, `{company}-dev`) and page source references (`https://{name}.s3.amazonaws.com`) for misconfigured public read permissions.
+
+**Answers:** `https://web.archive.org/` | `.s3.amazonaws.com`
 
 ## Content Discovery — TryHackMe Writeup
 **Date:** November 19, 2026 | **Path:** SOC Level 1 / Jr Penetration Tester | **Category:** Web Application Security / Recon
