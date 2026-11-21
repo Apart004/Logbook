@@ -9,7 +9,9 @@
 
 
 
-
+# November 21, 2026
+* Completed **Content Discovery (Subdomain & Virtual Host Enumeration via `gobuster dns` and `gobuster vhost`)** on TryHackMe, configuring local `dnsmasq`/`/etc/hosts` resolution and filtering baseline response sizes with `--exclude-length`. Appended to [`tracks/tryhackme.md`](../tracks/tryhackme.md#content-discovery--tryhackme-writeup).
+* Note ongoing/paused tracks: Manual Wazuh SOC Lab rebuild ongoing; SentinelX, GATE CSE, Codelivly SOC Path, and LeetCode tracks on hold.
 
 # November 20, 2026
 * Continued **Content Discovery** on TryHackMe (completed OSINT Discovery covering Wayback Machine snapshots, GitHub commit history leaks, and public Amazon S3 bucket enumeration). Appended to [`tracks/tryhackme.md`](../tracks/tryhackme.md#content-discovery--tryhackme-writeup).

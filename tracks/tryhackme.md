@@ -8,7 +8,34 @@
 
 
 
+### Subdomain & Virtual Host Enumeration (`gobuster dns` & `gobuster vhost`)
+> Apart from `dns` and `-w`, which shorthand flag is required for `dns` mode?  
+> How many virtual hosts on `acmeitsupport.thm` respond with status code 200?
 
+To expand the web attack surface beyond the root domain, I practiced both DNS-level subdomain brute-forcing and HTTP `Host` header virtual host discovery:
+- **Environment Setup:** Pointed `/etc/resolv-dnsmasq` to `MACHINE_IP` (restarting `dnsmasq`) and mapped `MACHINE_IP example.thm` / `acmeitsupport.thm` in `/etc/hosts` so local DNS resolution worked on the AttackBox.
+- **`dns` Mode:** Requires `-d` (target domain) and `-w` (wordlist), with `--wildcard` to force enumeration when wildcard DNS records are configured.
+- **`vhost` Mode:** Cycles wordlist candidates into the HTTP `Host:` header against `http://MACHINE_IP` using `--domain`, `--append-domain`, and `--exclude-length 250-320` to filter out default error response sizes and isolate valid `200 OK` virtual hosts.
+
+```bash
+gobuster dns -d example.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --wildcard
+gobuster vhost -u "http://MACHINE_IP" --domain acmeitsupport.thm -w /usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --append-domain --exclude-length 250-320
+```
+
+```text
+Found: shop.example.thm
+Found: academy.example.thm
+Found: primary.example.thm
+```
+
+**Answers:** `-d` | `1`
+
+---
+
+### Key Takeaways / Hardening
+- Subdomains resolve via DNS records (`gobuster dns`), whereas virtual hosts live on the same IP and are routed purely by the web server inspecting the HTTP `Host:` header (`gobuster vhost`).
+- Filtering out repetitive baseline response lengths (`--exclude-length`) is essential in `vhost` mode so default catch-all virtual hosts don't flood the output with false positives.
+- **Hardening:** Remove stale DNS records for decommissioned subdomains, avoid exposing internal staging vhosts on public-facing web listeners, and configure a default catch-all virtual host that drops unmatched `Host` headers.
    
 ### OSINT Discovery: Wayback Machine, GitHub & S3 Buckets
 > What is the website address for the Wayback Machine?  
